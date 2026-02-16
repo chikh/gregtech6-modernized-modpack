@@ -1,0 +1,108 @@
+{
+  "questIDHigh:4": 3923903138907244608,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 16
+    }
+  },
+  "questIDLow:4": -5271262950098949280,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.toolHeadPickaxeGem",
+        "Count:3": 1,
+        "Damage:2": 8321,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Gem Tipped Tools",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "In GregTech 6.17.03 Greg added gem tipped tools.  These tools are made with Iron/Steel Raw Tool heads and 2 Flawed Gems.  Most of the jem tools are not specifically usefull but there are some that are.  Three of them are mentioned in this quest.  The tools use the gems for durability instead of the iron.  Once the gems are used up, you can regem the tool.\n\nDiamond Tipped Pickaxe gives you the ability to mine Level 3 rocks and ores.  Amber tipped pickaxes allow you to have Silk Touch on ores and Jade tipped tools gives you Looting III/Fortune III.\n§a\nTo complete the quest craft;\n1 Diamond Tipped Pickaxe Head\n- OR -\n1 Amber Tipped Pickaxe Head\n- OR -\n1 Jade Tipped Pickaxe Head"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.toolHeadPickaxeGem",
+          "Count:3": 1,
+          "Damage:2": 8300,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.toolHeadPickaxeGem",
+          "Count:3": 1,
+          "Damage:2": 8310,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.toolHeadPickaxeGem",
+          "Count:3": 1,
+          "Damage:2": 8321,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 170592303950023971,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 23
+    }
+  },
+  "questIDLow:4": -7194494397498225904,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 22010,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "I\u0027m Melting (A Early Game Smelter)",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "In version 6.17.03 Greg added an early game smelter called a Melter.  This machine works similar to the smelter except it lis limited to furnace level materials such as Copper, Tin, Lead, and Calcite.  This machine requires an iron/steel casing, ceramic crucible, steel fluid pipes, double copper places, and some bricks.  You only need a a burning box capable for 16 to 64 HU.\n§b\nPro Tip:  Once you get stainless steel, you can make a Mixer and have the automatic output of the Melter gp into the input of the mixer.  Next place a ceramic mold next to the automatic output of the Mixer.  Next place a hopper under the mold and the output of the hopper into a chest.  This will make a alloy furnace to make low temperature alloys such as Broze and Brass.\n§a\nTo complete the quest craft:\n1 Melter"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 22010,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

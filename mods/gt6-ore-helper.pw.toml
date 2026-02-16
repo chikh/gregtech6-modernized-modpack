@@ -1,0 +1,13 @@
+name = "GT6 Ore Helper"
+filename = "GT6OreHelper-1.7.10-0.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "03969d201c47c6bae33b173ae7ec0b85413a56ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3307351
+project-id = 371656

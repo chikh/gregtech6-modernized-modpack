@@ -2,11 +2,1695 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "12a32030e80ac6295a608ace5756689059868100e3e206d78427608f3bea8619"
+hash = "ca44d97a4d71110285286cc595135ee2ae4c48d4769f572608096f99e74c163b"
 
 [[files]]
 file = "README.md"
-hash = "e7283aa68542b8beecb0465ec25c34dd6c4b4a7c0ba072f5a87d4246f9210e66"
+hash = "62c0ff9e681d747f309d029b53573d116eab92ddac070e33544eb658cb454196"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==.json"
+hash = "a66866d3d723b38b70ba4a43a601a2bba62fe169a528117041464de8cc471853"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Circuits-AAAAAAAAAAAAAAAAAAAABQ==.json"
+hash = "1edb2374df893d3a70f7fe970cdf09d1f00513abb182f7257099d8e6f4574948"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==.json"
+hash = "a78d5594020fb3c131f2c6152000498f5dd9a619e708e86acd5e474a80fe77f3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/GoingNuclear-o7ew_J75S3qsZRJfzoKfBw==.json"
+hash = "0735871152d10a7825278969c15b547bad93a67c1e7eaf649a40ad7cbc2bf62d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Info-AAAAAAAAAAAAAAAAAAAAAA==.json"
+hash = "b4db7e8c8f3e01d2ddc9ff3b689c7dfc15ab1f584f8a3fd1fd6dc85f10faec85"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/MachineAge-AAAAAAAAAAAAAAAAAAAABA==.json"
+hash = "dc103e3645ee10b60bff64afd9802a0ff55609cedd17d22c0f98fd34aecad23e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==.json"
+hash = "161ac0261240bf782b53e280d372ae841d7f87584523e88a25f541504c23951f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==.json"
+hash = "96b6adc1b3f4947b808f08f9e206b71e2bb00be2aa2198f6b934d5f416f38709"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==.json"
+hash = "bd240d3d5bf109c4a34916511524262dcc6f7bc1a551d55cfdaed2c8af41e7c4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==.json"
+hash = "4254f77f88276c26dea02ec26b69221780a36a95f67b946dd21218c1e4b5e77a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==.json"
+hash = "063c6e4d2fe41e5b457c55820de784946180c05a32f895ceeb5f2c3686495241"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==.json"
+hash = "91cba10d1ab802bf3dad650ddfb9f0e9543f541956d6a1f521693679f516a647"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==.json"
+hash = "9dd96a558bc3e377415eec2f480cc2111ef69775ce3b26109904558a75d305fb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==.json"
+hash = "b4d082e907d598922954acdafa75f497dfffb94b1ce8d5bfa88a50e4c4b5bd63"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Utility-AAAAAAAAAAAAAAAAAAAABw==.json"
+hash = "69a8c9fa3696bfcfca310f2d0905d945b0c7ecce52547b2e093585b0bc88b55c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLinesOrder.txt"
+hash = "bf101f28d86de12e57eb4d7a6111f4bcc28334e7641a51a078b2d5532685356b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestSettings.json"
+hash = "1d0332ff0f4803874345c4751093385a98608777cd2b0e7fd810bceef2227c27"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/AluminumFinally-AAAAAAAAAAAAAAAAAAAA5g==.json"
+hash = "e1a06a12b0a2e464924470e5fc7a3e833cdc4bac9b73d4f43553ebd5b6be03a2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/Autoclave-AAAAAAAAAAAAAAAAAAABHQ==.json"
+hash = "771c74c497c9b62a1953569107d5d5aef2bb878808bb9856a6df73d075c1ae19"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/CoverItBlank-AAAAAAAAAAAAAAAAAAAA5w==.json"
+hash = "101f4c1526a52da1d5fec9ac9a4e510514b21f3326f34b5b3b597601fe66b335"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/DINEAMOE-AAAAAAAAAAAAAAAAAAAAXg==.json"
+hash = "105086e45e6af8c73ae1cfc19c4ee5189996bce5bed10a715c8f69b67b648196"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/Electrolyzer-AAAAAAAAAAAAAAAAAAAAXw==.json"
+hash = "1f49b0942d041f6fe667e7704bd8d400f81073b0a9ae54cefe8d45121abef8e0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/FluidFilter-AAAAAAAAAAAAAAAAAAAA6Q==.json"
+hash = "8816aad111fbd101768ce9b069002ba8a24a9bf51691eab9790df5aea7a7067a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/GalvanizeMySteel-AAAAAAAAAAAAAAAAAAAAXQ==.json"
+hash = "9dba364979a65727be04383e028423f0dbe90cacf500c2c5ac168071556e852e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/HeatProtectionSu-AAAAAAAAAAAAAAAAAAABAA==.json"
+hash = "0b73fc00a22662571fa2539ab77759fcd60f8bccd350631b48ecf5798e4548c3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/Hexafluorosilici-AAAAAAAAAAAAAAAAAAAA4w==.json"
+hash = "5b96792bb56e081fdadc9b34fd004909cc91c5df584d9f8471e2fb0747462a0c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/HydrogenFluoride-AAAAAAAAAAAAAAAAAAAA4g==.json"
+hash = "f26cf112232dd26f3a7f0394ed998eabf69a18cf0fac520a3459142eb3390ab9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/InitialBauxitePr-AAAAAAAAAAAAAAAAAAABHg==.json"
+hash = "5c9f50c215c03bad44e3c0c3fed85a8fd08bd4c9dc6e7a7542cf62d6d2b25e47"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/ItemFilter-AAAAAAAAAAAAAAAAAAAA6A==.json"
+hash = "2d65037e99073c63d3a684ab42244a1fd11471859f032b3e69f676c824cc57d9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/ItemandFluidComb-AAAAAAAAAAAAAAAAAAABIg==.json"
+hash = "687b0654d17ff67bc140951ad3939aef965e79aa66a8d41bb549b8272c35cb6d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/LetsGetMagnetic-AAAAAAAAAAAAAAAAAAAAYA==.json"
+hash = "c41ea84f345648f60896a5e6517504b2d71087f26c836c08c12b97a7a9d3a859"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/MVElectrolyzer-AAAAAAAAAAAAAAAAAAAA7A==.json"
+hash = "35f65f45e698c8b5ad894490c2f0a75585e91699f47bfe84c757ce4f18078396"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/MagneticSeparato-AAAAAAAAAAAAAAAAAAAAYQ==.json"
+hash = "fa95e514a2e1df2aa1684b40d0bceac8ebb763129fa032736d483551ebaceb8e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/MediumVoltageMVD-AAAAAAAAAAAAAAAAAAAA6w==.json"
+hash = "7846a711d7eaa20084e698e2ef735d0d120188248dfc3e5d160f1eff58b2bd1b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/MoltenAluminumFl-AAAAAAAAAAAAAAAAAAAA5A==.json"
+hash = "d0183bf8adb2299ec3c5be092e03cf44a588b5407fcf719732ef71fa4e0dd47b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/MoltenCryolite-AAAAAAAAAAAAAAAAAAAA5Q==.json"
+hash = "247920837a4a5e5e6707dcdca95497d8986827bbb2b3a5c12a984737b44e36c0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/MultipleFluidsFi-AAAAAAAAAAAAAAAAAAABIA==.json"
+hash = "791754279d5f2383f832ca2ad4ee9d426325f5e304932abcdf8ecf4a0610e3c6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/MultipleItemsFil-AAAAAAAAAAAAAAAAAAABHw==.json"
+hash = "4b48f0379b6974ca28f27814ade80081971d9aa3d0db92dd1a11f2c15d59a773"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/OreDictionaryFil-AAAAAAAAAAAAAAAAAAABIQ==.json"
+hash = "135137e6c18095bcbf3fc3065fcbfd001bacfdf6ed44e3ecfc37fa4c9808ce12"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/PolarizedNation-AAAAAAAAAAAAAAAAAAAAYg==.json"
+hash = "37df07fc649d598803a63d56a6cb0c05dcd8e472a26cf8af2a5ce0f5d650b3a8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/RedstoneCovers-lqf8EqnmSrqP-WradsQeiQ==.json"
+hash = "68de2e507ac46dc25c86a2c1e35119df9fd806a572a1d290e0cbacd566b17c36"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/SodiumHydroxide-AAAAAAAAAAAAAAAAAAAA6g==.json"
+hash = "d19d6a7f31d2ee18a083f0bbfa994ed14488657a2ab1609080880ee2b04aa576"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/Whattolookfor-AAAAAAAAAAAAAAAAAAAA4Q==.json"
+hash = "a341a91477d8b42ad6b9e177ba77d5f02ee91b7a5bc73a2b14fe2e93efda09e6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/AdvancedCircuitP-5tpMQtktTz2jCv-pXDEvCQ==.json"
+hash = "f63549db829636b53059d38a816104cdcd1da283d06f307ba412264ae222e411"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/AdvancedCircuitP-QFIyAfr9TUaj1NINFoSRxQ==.json"
+hash = "0a2196d0714d39e7bc564b96e7aa98d7542112502092e58526aef1e1383b6672"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/AdvancedCircuits-KqItrIAhS6eTxzov0lUDMg==.json"
+hash = "f7820aa34e143395e5b7c89effc2c10c9ec311f178a0209a3ef773037dbe9f06"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/ArgonorHeliumIt-AAAAAAAAAAAAAAAAAAABKg==.json"
+hash = "94be09adfc78b2383730661ea22e280dd324454ee1a4b341f1b24a56d8f714e0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/AutomaticMachine-YGm6UeUkTKCr4c5n4bF3rQ==.json"
+hash = "151b0706ebce077563148453a2e922efe7ee3a27b0eae6798c708d5873da53fa"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/BasicCircuitPart-AAAAAAAAAAAAAAAAAAABKw==.json"
+hash = "c644781667cac13a7ba2044442a1c43ccb7d7a3f9577ab6df98e1f589bfbc1cc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/CircuitAssemble-AAAAAAAAAAAAAAAAAAABLA==.json"
+hash = "05796637b1527e849440bd10b44baaf5897b2dcdce0a89adfb2e810866e82862"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/CircuitPlate-AAAAAAAAAAAAAAAAAAABJA==.json"
+hash = "fd35aa567bb5c592097a0d015bcacd51d886ce049dc2eb6cb2126bd01be50130"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/CircuitWiring-AAAAAAAAAAAAAAAAAAABJQ==.json"
+hash = "1cf3918c7c59860972ff109cd7b2aa84e42f6fdb391a7a6a29e2b3dd8fedd9bb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/CircuitsGoodToGo-j-EJBmwRR6mMuNtR_oxkWw==.json"
+hash = "8b4da349c8820d1782f43fc23bd1fd9e7b6651b2a98cf0baebd7846ebcb8fa4f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/CrystallisationC-AAAAAAAAAAAAAAAAAAABKA==.json"
+hash = "4915919c2a625826728a882d8a38fdefd9f26014d7f9ca67f534ac1a84e31968"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/DetectPossibleMa-dQnktE7GTTWJ0Oe7R-_0aA==.json"
+hash = "7692b774d8e1c31f5863869bc1231bd1c9a34a94c11b7563b9671df7ef5fd1cd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/FlipMyBic-G6CvIPruSgugTIndVYsHSg==.json"
+hash = "6bd450628baef7e7ade92957fe194eef62e8221ac5f640717bc8ceade8e33bdf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/GoldCircuitWirin-t1mVaJRhSZSfcaJD87WH9A==.json"
+hash = "1f424e738db0da4deeb2dab8f6aae36b6d89c3b20e9cd7a80f48fdadea81b71f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/GoodCircuitBoard-B3iDuHVwTI-md2UntoKGgw==.json"
+hash = "6850f53770bd3e7c7c0d00c517f248cf3600193d5fccb124e64b9c41703efd39"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/GoodTier2Circuit-5T1F6RdHS7SRAn5k2kUMhQ==.json"
+hash = "3f6bc816514c2c04f4c3d8388fc3253a154d11d138cd1b33b42ec7178f67ea41"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/ItsTimetoCanIt-GXpBEalXQQWsdG2KjWJJWw==.json"
+hash = "62475d3dd4dc695dcd71f2da38beb1f629d2eac3769d53ff678e5e96447c704f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/LaserEngraver-AAAAAAAAAAAAAAAAAAABJg==.json"
+hash = "0eb88eeb506ae1885bc27decf45ff197592cf72e2120ccd5c270dd936e3be5cc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/PressYourLuck-AAAAAAAAAAAAAAAAAAABIw==.json"
+hash = "c3d738645bf8b91a276fd4e97751432918eed90350d2dc54b107da9e7b77be3e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/PressYourWiring-AAAAAAAAAAAAAAAAAAABJw==.json"
+hash = "d5376346de16539c714aac691648dfc28942b1019fdbd768169dd047cbe76965"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/RedstoneMachineS-bAxl6_uuSoS1jOqoPNs8wQ==.json"
+hash = "84932e412d4668ce31fbf4c66637341f35624704486cdb6d87553b1f88b1582c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/SignalumFineWiri-7uMVIGC8TTq7gGFRLJAC8w==.json"
+hash = "d4a67be9c8d877c8b22b07b46a8cfcaa91b2eb05b8ad7c8b33242244e7cda230"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/Solder-3IDOu5QiQPSTF2dKg6JwxQ==.json"
+hash = "6ca5f4b176c6717061441c15614dd58789a8c43f9dd0ac8d56d62dc3172d98e0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/SolderItinaBath-AAAAAAAAAAAAAAAAAAABLQ==.json"
+hash = "19d1fbc7aa32cf68cfb4030bc44c7ac2ef73df662111141aa443452bf6064b99"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/ToDetectPossible-dQnktE7GTTWJ0Oe7R-_0aA==.json"
+hash = "4abaa2dc69a8975bbb4e77e9ea9eea1ff5135863f2590e09b23599693267f63a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/AGreatCrucibleTa-AAAAAAAAAAAAAAAAAAAALA==.json"
+hash = "e60f2110c89cea7febd242bf02189422b905cf971dc52d8b218c4f842d6b6d4d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/ColumbiteMysteri-AAAAAAAAAAAAAAAAAAAA7Q==.json"
+hash = "48b72616bc7fb3c035b0b114c14c98925456dc93ee1d29e07f508b40d645c34d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/CrystalizedTanta-AAAAAAAAAAAAAAAAAAAA8Q==.json"
+hash = "5b7b1176843b2fe6c4330a24a6c4d2b9f0c9b12fa1a78497bb45caede06060b8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/ExtruderHighHeat-gTImxGpLRh-2WdEqNACOWA==.json"
+hash = "c0afee73b865f18681b8ff745ec3a76209b9018ba391721458c2ed31b258a805"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/ExtruderPlatesHi-LrQJNhbKTwiq1PGQO3nZyw==.json"
+hash = "8cf22f0cb3e37861acde47de9e5100aabcf055cf6d3ef4f32a06817fee59f275"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/LiquidMetal-AAAAAAAAAAAAAAAAAAAAMA==.json"
+hash = "f27526163bd58a6ba080eb3dd3e802d76b0313af3100cfe32f28782a3e7e3cf3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/NextstepCrucible-AAAAAAAAAAAAAAAAAAAAKw==.json"
+hash = "2360e7302640a5f912a712741038c619c069ac1415e19359093b7f5f575e2edb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/NextstepCrucible-AAAAAAAAAAAAAAAAAAAALw==.json"
+hash = "5b2d2b23bd9f06f24bec210a4c9bdfcd830622624dee0b0709205e6b8ecd7e4b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/Niobium-AAAAAAAAAAAAAAAAAAAA7g==.json"
+hash = "4265bee4dc2f70ce4001eecea4498632e68509d9349c43f96d9b778318d01e50"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/Tantalite-AAAAAAAAAAAAAAAAAAAA7w==.json"
+hash = "1b2fec30d141a26a12692c51b930446fd9f71695ab9b8ce28b5e71d89eee6498"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/TantalumPentoxid-AAAAAAAAAAAAAAAAAAAA8A==.json"
+hash = "33c1403b27600cc93287ef786d0c96fbc6f11ca3c939e18b340898a78f4c017e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/Tier2Extruder-gTImxGpLRh-2WdEqNACOWA==.json"
+hash = "43235f773c5df6c89210b14f0c5ec75825c2792b59604e340d6dc0f135e9bc60"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/Tungsten-AAAAAAAAAAAAAAAAAAAAKQ==.json"
+hash = "2c8365386ea46c955337f6044626efc95f91908a8aa24325f45348f70798fc43"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/TungstenCarbide-hjhdoODMRbOgElEUU6j3ng==.json"
+hash = "922077cdd58991f96a9c85e32b43fdd5962138937f40ba5d5ca36a074c0a4b9d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/TungstenOreProce-AAAAAAAAAAAAAAAAAAAA3Q==.json"
+hash = "2549e95cefe0aa81f21d5feae375df50b636d29de04bc061f63818f9eefd0466"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/UpgradeyourCruci-AAAAAAAAAAAAAAAAAAAAKg==.json"
+hash = "3ae948109711906e43a8c9bf512160f65e0af607a6e334810739c43973d373dd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/UpgradeyourCruci-AAAAAAAAAAAAAAAAAAAALg==.json"
+hash = "e1d7452cd1a5c43b1db40c0c34573b90fc88d69f9e39f53f3d2a822b3f05e56f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Info-AAAAAAAAAAAAAAAAAAAAAA==/NEITips-AAAAAAAAAAAAAAAAAAAAPA==.json"
+hash = "55b24b0f512b91e41f5892719dcd60434e3f8b7ffbb8eb512e6b08c068d523c0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Info-AAAAAAAAAAAAAAAAAAAAAA==/Tips-AAAAAAAAAAAAAAAAAAAABA==.json"
+hash = "a4eda4a840472797b8cb6ef47bc0c24d70ddbb1199ce21586ac23a4479cf3d16"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Info-AAAAAAAAAAAAAAAAAAAAAA==/Tools-AAAAAAAAAAAAAAAAAAAABQ==.json"
+hash = "c50b969012e34696be173d6225a9f2332998741a9fc332f6764200da4abdf1e5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/EngineMachinesCo-AAAAAAAAAAAAAAAAAAAASg==.json"
+hash = "8086b4d94c368d901fb4195296fc23554f7caf1d25d4f34753823dc48fa10e66"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/FormingontheRail-AAAAAAAAAAAAAAAAAAAAVQ==.json"
+hash = "8b5d83f9bb76acc508a9216104bc376a2b4cfeb0a4031738af3e61175cdd974b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/GasBurningBoxes-AAAAAAAAAAAAAAAAAAAA1w==.json"
+hash = "ee1a0ae21442e9fc2025532be4929e36341a32978849d387e4dedf2692c3f126"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/IsThisaClusterFk-AAAAAAAAAAAAAAAAAAAATw==.json"
+hash = "2fdbca4ce4920056e87c3e6f53ce94fda6d5eedddbfb2cc355f2e043a7151855"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/KeepthemRolling-AAAAAAAAAAAAAAAAAAAATg==.json"
+hash = "0512625b85d19242e19493a52b3dd21b8d3d21ff38fc62a4df55cc9f196b5d9a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/LathemeOne-AAAAAAAAAAAAAAAAAAAATA==.json"
+hash = "8989aa1dff410ee945c3c1634d19f444ec7413aa04fc8d78779878ef0826d220"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/LiquidBuriningBo-AAAAAAAAAAAAAAAAAAAA1g==.json"
+hash = "44a8c7495ea52f8466e730b70aceb6820004b7392803f8ea0422da23bbbc0d36"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/LoomingontheHori-AAAAAAAAAAAAAAAAAAAAVA==.json"
+hash = "4bebf96754f04217f9afa2c85988740fbb833e85680d0dae8131a28e87721442"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/MyFriendBender-AAAAAAAAAAAAAAAAAAAATQ==.json"
+hash = "69a935437f7afb75a63d34b8cd16a1cf66f77c67b6a10e510094889d1be6f3c2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/OntheCuttingEdge-AAAAAAAAAAAAAAAAAAAASw==.json"
+hash = "fa492927e04c0ffd123d2d7484ee9ebf3c2c96b248d5b2c9e0d39c99ad17942a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/SharpenYourMind-cFn0COKzQtmt_76EfbT-Pg==.json"
+hash = "9b20b78050f35554d23ed23d9469dcd711a4aaadaf15a772118d8c626146924f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/SqueezingHugs-AAAAAAAAAAAAAAAAAAAAUw==.json"
+hash = "9f7e138c15c678f08e060d0840c6b10de079b1b67898d3b2d4999284fe3dfda0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/StrongSteamBoile-AAAAAAAAAAAAAAAAAAABAQ==.json"
+hash = "f2394c6cadcec071f10199b0401534988aa21339a8bcda088db7bbca1d06201a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/TheDeBarkisWorse-AAAAAAAAAAAAAAAAAAAAUQ==.json"
+hash = "8d4f0e5354fd79d9c12352193c59c158d7a592d246d8b0f93a7da3c3a579b6d9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/TurbineMachinesC-AAAAAAAAAAAAAAAAAAAASQ==.json"
+hash = "b981838f98248df39c5c42a96ce66b96c7be62acfe32b889f9705f609ed1bd33"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/UnderCompressor-AAAAAAAAAAAAAAAAAAAAUg==.json"
+hash = "6aa6970be25fd19e26c3b90881e24d5ad14fe564eebbe6f59beb93dee3b5fb26"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/WireMilling-AAAAAAAAAAAAAAAAAAAAUA==.json"
+hash = "0b36bb910900d255888b903dedc76b531f5ab858502860416e12e40a5317f89e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/BurnerMixer-AAAAAAAAAAAAAAAAAAAAPg==.json"
+hash = "fff0b2801e0c238052aa4bf46137cf07438f3e3817317c2e97719f7808f2ab8b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/ButaneorPropane-AAAAAAAAAAAAAAAAAAAANg==.json"
+hash = "7805cfa451514057927b6ac8ff90b87ab7cdb03b5f491b8769307d5a557eb0c7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/CatalyiticCracki-AAAAAAAAAAAAAAAAAAABLw==.json"
+hash = "f64f1854dd3cc559fc5051cebc7d67fa1eb13e443b3daa7457e2ec4d08d1b0a0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/EthyleneorPropyl-AAAAAAAAAAAAAAAAAAABLg==.json"
+hash = "38d43971b091964e17e540ac760087881beb9c03cf9b17297e621d3a71b73c2d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/NeedanOilChange-AAAAAAAAAAAAAAAAAAAANQ==.json"
+hash = "23e489e280630c519afe0be920b1dcede24e66778f75700975ba540a1ebab456"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/Plastic-AAAAAAAAAAAAAAAAAAAAMw==.json"
+hash = "c8796e0247c4497594217a7761031bb276f05c9bd02265a3ab9ae7b353ce2759"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/Refinement-AAAAAAAAAAAAAAAAAAAANA==.json"
+hash = "c78785e367eb1a85a3ec5dd63a0c78dbff75da05e1507e5a562d1d06b126461b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/SteamCracking-AAAAAAAAAAAAAAAAAAAANw==.json"
+hash = "86292fd1675c1b00530ff8008350410e1834e17e2da50136f5c3e6e5a56a6a6a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/Titanium-LOqnk_5QS2yBjh72pVpQuA==.json"
+hash = "e9810d2db887d8a784daca4e4be8c0c52fec82f411058189c2a7ccbf9fd158a2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/TitaniumTetrachl-AAAAAAAAAAAAAAAAAAAAOA==.json"
+hash = "f7b7525646428dd4c287098776f04f69301efc182e09147454deda7e922517bd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Almandine-qzbFwZxTRb295HsDkviBAg==.json"
+hash = "ec0330682c6a092bb7b8a7f62754e2145f5e206991acc36aeeb6504ffdd68a9e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Andradite--r0qRjX3Q0CltHwjU6FUhA==.json"
+hash = "3afa233c0864eaa29c8b18695c7fcfd1b28eefbc2c6f24fe16508cdeb967d109"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/AnthraciteCoal-7KT_3ieBTlWS1NnRIdCbVQ==.json"
+hash = "6a8d73984c910dbe304b42fd05656a1fdcd1dda8b786d1196c381f6cf6962d76"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Arsenopyrite-e35VnSxORyKIvkSY_UfCOQ==.json"
+hash = "2c4bd843b80a88fce379e0d867f3cf6dcc4e31c0df5471dad579e1dfe168acf1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Azurite-b8v_E3PTSHW9sFFK3T6Fyg==.json"
+hash = "a7ea01508495a17cc1947efe5a62629691c99d76c57e4aa89987f2d4bb0ff5d3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Bastnasite-9ytRnirKQz6b7ODFoqTDcA==.json"
+hash = "052bdc0ca31ab852fe0c602c24441daba518b93417ae68c70dc47e22eb783cfa"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Bauxite---G--908QxqABTY-1MoAZQ==.json"
+hash = "0a1db80d7e82d972e664726dde39720cf717fdbf784cc1475e3161e712b31729"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Bromargyrite-OxfFlkWbQ8y32oPvMihO2g==.json"
+hash = "eb424bf851703949caab5e826e284c2f241b1f1e7e7612df3f2eb6d6795efe77"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/BrownLimonite-CW2uIjHdTCCvSHiQ4pYjYQ==.json"
+hash = "611d8ea8de04d793a2fb474acca6cf6240a3a33d2253a0d52d35ba1bb9605158"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Cassiterite-0CZqJvRlR-2hpZ1dvluVGA==.json"
+hash = "3bbeed6b5c504df76c1afdae4456d3c935cd3eaf5c0a411012e8e33d84e14e98"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Chalcopyrite-IN7Jv9qGSEmihc1Up_RXAg==.json"
+hash = "720834572a0f6ed6b908037cd187c5b7442bbd0a0445a7bedd00152f226f6513"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Cinnabar-_oMsTh-SToKiiQ6uxFuTSQ==.json"
+hash = "54ff6a0027758c20f460c9211959ba4b6101fe9d03915149391fcb09cca669c8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Cobaltite-k-CX3w5TSAeRbq8D3lQGAg==.json"
+hash = "a652aaf32b8fecec532d0c0f88b70390ebc88775aadc77273200fff92ce031d0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Diamonds-BYorCRqPQDuawtkRB1n6fg==.json"
+hash = "4f928223797df0e97356477b5e077340225dbe32a101bc6143404d5aba06686c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Ferberite-8uzKs8kqTGeodcZbDnHIjA==.json"
+hash = "23a5e0f1640d5a08fe248325cc1a4001b61b79483de6465d916d8d45c8246939"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Galena-gSY38Z7RRbirKrQbbsynig==.json"
+hash = "3bb91f8d25d88588a0f93dfa29c8fe7bcad69ed3fe4492e52ca312554ad7cbb2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Garnierite-LwPGkX8MSSiZlzZ960TOZA==.json"
+hash = "b154726deb72dc82fb741c5c5fe0e43e9b95186138a2718c09bfc40e8a1b2040"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Gold-C91qZ3uGTBuil58I4aTjVQ==.json"
+hash = "9510a548019d0b136e31d0a1dc0fa9eff543a34a057a5be09304b0257136a9fa"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Graphite-G5nDRjKZRKCLAoOIQM805g==.json"
+hash = "edb4872b97461cdeb4de4116befbac6cf4361d3488435e53180929087a4f3dc0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Huebnerite-SX_wdaWTTgq3ysmL1WqJ2w==.json"
+hash = "03482100a1f662ec6c40bd2397a422081ed722e6138c0ef1b7b4c44a6de907d0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Kesterite-g0LKJ8V9T3OjSmxbMhyUGQ==.json"
+hash = "d710ca3df080aef8a313da2d3ad90f65e8afabdb5f7bfca2121321f703abeb99"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/LigniteCoal-GG90gb8xQz-o2Ih6k3QCfw==.json"
+hash = "9e44e12a38da07d57ad714170fe5ee961ad5d2f04fbb2c5ed712d3fa2e5df593"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Magnesite-wtO6DtLYS3GC6ZIeQReRzQ==.json"
+hash = "62c184f71c262ff0d13f295b7671335067def4dca45355cee042e74cffb7735e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Malachite-7ftz75hqQ6GWO9mBXf6VNQ==.json"
+hash = "f04a0c96d604965b676c582515df5b496c4d87abb8fe960a330623105d05d0c8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Mollybdnite-IcA49r0zSiaUoLH7PVwveg==.json"
+hash = "78ee25c068ce4a7b111fd31ee02c906ca10e1b2912047595456a533615e5dd81"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Monazite-qHJY-i8XQ9ae_8rIQOxwtA==.json"
+hash = "fca515816cc1fbcdf1445cfc428b1b1b6d2dda4e75b3935053fee00764d758c9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/NativeCopper-S2LrLYN-Sjmadt_4FIh7PQ==.json"
+hash = "9a371dcea673d660ffa656a0a815bac72983f58d69397f40d2db3525a3c52381"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/NativeLead-2Aqb4QbFSee_m5c3s9PPgg==.json"
+hash = "4404ba909b0f80686823939b7b1c1c7dc72c17b2ac9bae73b9b451463d46f87b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/NewQuest-wtO6DtLYS3GC6ZIeQReRzQ==.json"
+hash = "aa5644e6e4839647d94b410d5a40b60d909c599470675b91e5821187bf9dfd10"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/OilShale-Qiv6H_qxTDKskDqCdSFACQ==.json"
+hash = "ad6e9964a61839c6c7bda1e591e4641837895ae05cc6049255b64ad0fe379726"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Pentlandite-WKpJNc6FSH6KYF5ris2MfQ==.json"
+hash = "f31ed89cdccca0b93f966757f4f8142a997c03aff6a1dd7f9dee465ca2c1ed70"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Powellite-v7BgWFArS7a8VRMD7Qk8xw==.json"
+hash = "4f219df141733320ba1561b7747c841dc2e40b0f804db34f389dad3c318623f2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Pyrite-tYHy6W3ARBC-k_mjdP6_NQ==.json"
+hash = "ef2c26946fca3a0bb306ccb7eeba0337828bee836b5545c0f5eff16f8251fb24"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Pyrolusite-0LRQxjMcTvuwcRNxW5FU-g==.json"
+hash = "7d2b2880c4ad3bc35974bc02710ba5ccee54de69128255412012b9f9f2bb83fe"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Redstone-MBJIzt3SQcm0s3kFvgsyNw==.json"
+hash = "c9c8478dfb75838cd44b7e7c34d865328241a4c11d6919ac19966daa7283c3ff"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/RockSalt-F9bVGF8URZilJ-Q282-iSg==.json"
+hash = "60077da230f97b7ab6ffdee6d5ece881a3b008206d35e136a393f1e857d29057"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Salt-8-mMQ6cPTNmB-3LuIrjkBg==.json"
+hash = "8ce5fc53ba24e993d22309c43c0f5d34e003f6952605837bacb476090e942f54"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Scheelite-UkcrGsx5Q42C-Ud6_4_U4Q==.json"
+hash = "2a350ddef85a8bc2c230f05cc74c9abafee13016d7e808584368bcfdc21fc4d7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Sphalerite-7V2qYtj_To6JKHJxxbMf2Q==.json"
+hash = "a138915d8273cd0e94ceec0624759f57616aecd08f7415977f0654d8f55626da"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Stannite-o9NlSqqyR9iF-T5o3yWYtg==.json"
+hash = "c659ea5724bd5f3b64b9f3d0ecd7f7a1c58f6a3488865c12e14d2e2adcdb657c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Stibnite-tRlgc-vwS6WT7kXSmV0v9Q==.json"
+hash = "69cfe5503669222ac0845c64dd09a901a3df6e1d3bf9ba9f23d1347bb8f2ee50"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Tetrahedrite-xCtgQyhTTsyWqDF8U9dk7A==.json"
+hash = "be181e84aa7c412c0a95c79aeed7c3c73471fb72377de60aeafc3f2fed90ae33"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Tungstate-sUZVajh8RWqVVvkgLzOhnQ==.json"
+hash = "5c09265fe5731a214d582dbfdd7b4372df434333fcfa37a01e08bfdd48c2ab04"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Wolframite-9V8tuO_5RYWmq2MMuCmzQg==.json"
+hash = "543a8ba76e87210c79e2adb1fcc8bcadb0d4523c1087781daf1e275d50af803e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/Wulfenite-nkthJAneSG2EM4cQZFw10A==.json"
+hash = "0d1e555b711196fd56eed9b7a9c2d8fdb24b3cb03eb4031e1d7fc71c92cacff3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/YellowLimonite-23dDbth9RhmacVFw6GbqrQ==.json"
+hash = "8f3a2350c56427687643f963119be639929d6796ae43956198ba83a380797ab5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/10NeonNe-AAAAAAAAAAAAAAAAAAAAig==.json"
+hash = "e60abb2b941d24e0bc0529f9f3409f788d12333737348a73533d26209e2e9485"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/11SodiumNa-AAAAAAAAAAAAAAAAAAAAaw==.json"
+hash = "fedd6fd5faa06178b3d3990308fbb3bda808ef10e437d183ee38c4af058e058e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/12MagnesiumMg-AAAAAAAAAAAAAAAAAAAAbA==.json"
+hash = "bdc4f167e8a4413193bdaa38ecf888816021f3d29407433925a4be0fad623f07"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/13AluminumAl-AAAAAAAAAAAAAAAAAAAAeg==.json"
+hash = "b9276ae1f964c1aca7c1373c06d64587dc44112c8c36316d61795697a397d4ba"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/14Silicon-AAAAAAAAAAAAAAAAAAAAfQ==.json"
+hash = "6e2000897d4d1431b596a34bd56902adf70f4573f02c0f58b424387ff690e127"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/15Phosphorus-AAAAAAAAAAAAAAAAAAAAgA==.json"
+hash = "fc7efff784e1ee5e73dbdc7f5911da3a5330473dec5a88acb61be53dab6c0f10"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/16SulfurS-AAAAAAAAAAAAAAAAAAAAgw==.json"
+hash = "ba5de2fa5b497cd8a388c32cec8ca64003427ee4998d8962781bceee2f3e8499"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/17ChlorineCl-AAAAAAAAAAAAAAAAAAAAhg==.json"
+hash = "b028e2d7c05cc0afc5bdaeff18a1450bee0a2cc22d950abe23275e63206949df"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/18ArgonAr-AAAAAAAAAAAAAAAAAAAAiQ==.json"
+hash = "d58896037e6b39ed652050dec82b593e40c2252f0fcfb13f05b6129a6af9965c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/19PotassiumK-AAAAAAAAAAAAAAAAAAAAbQ==.json"
+hash = "415c6b6c1b1ce0170cc77125bc66c8b1e3d07f60a0e11ad743a4ab616da29983"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/1HydrogenH-AAAAAAAAAAAAAAAAAAAAaA==.json"
+hash = "c4c603841e6460990eb1e2181ffb71fbdb63fa229cbc0fd0e41cc70313ecd275"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/20CalciumCa-AAAAAAAAAAAAAAAAAAAAbg==.json"
+hash = "b26db2e47dcc3f8b1812aa65432ed4cc682deaf0f97e6b57e104c3a083a3345b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/21ScandiumSc-AAAAAAAAAAAAAAAAAAAAbw==.json"
+hash = "975ea3017a619ce83f37e1a02fb21c7eeb2ee14bc7f10f2f0d1c3c089693593c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/22TitaniumTi-AAAAAAAAAAAAAAAAAAAAcA==.json"
+hash = "006444e9a3b7c2a49ac19065f6d898cfdc6740bbd34fe3abb71a266896504d53"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/23VanadiumV-AAAAAAAAAAAAAAAAAAAAcQ==.json"
+hash = "f0bcd2d1d1d587a2becba9aeca90952b32273e3d26c646f8959425e35fb32550"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/24ChromiumCr-AAAAAAAAAAAAAAAAAAAAcg==.json"
+hash = "c36b65990a57f634c2241077e9f1552962acd0286bc6283659b983b41b1b7985"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/25ManganeseMn-AAAAAAAAAAAAAAAAAAAAcw==.json"
+hash = "8fd1a34096c3ca4b91b0e9053f8b511af47c751281f7aa061d76af9513487a3b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/26IronFe-AAAAAAAAAAAAAAAAAAAAdA==.json"
+hash = "9145d6488188c2d16a2552622c96f74602ece581ec5492f2776c7fccb8ae9b77"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/27CobaltCo-AAAAAAAAAAAAAAAAAAAAdQ==.json"
+hash = "602b32c1126e1051c2bd3da665b89aada4aa80705d9b906998399d2d195c5d46"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/28NickelNi-AAAAAAAAAAAAAAAAAAAAdg==.json"
+hash = "ca40c62d960a002acc4130e23539bd5ff73e6d34269237b3d0c4cbd6a19f7a88"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/29CopperCu-AAAAAAAAAAAAAAAAAAAAdw==.json"
+hash = "62b26720954b92727e82a280c5075800d27439330562c81fb21ce1b4a7dbd47a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/2HeliumHe-AAAAAAAAAAAAAAAAAAAAiw==.json"
+hash = "977ff57eccccb9adee98832946da98974660f442dc3e94282758770cc6b9aedd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/30ZincZn-AAAAAAAAAAAAAAAAAAAAeA==.json"
+hash = "9e1d70e93e90e8424effbb08020d9f2d68bda09512c7d53c9d3b6de338422a05"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/31GalliumGa-AAAAAAAAAAAAAAAAAAAAeQ==.json"
+hash = "9e45ab12d4311e964f4d74edc0d2302bdcf72fea160d49bfaac61a8922f31fbf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/32GermaniumGe-AAAAAAAAAAAAAAAAAAAAfA==.json"
+hash = "724c0bcc28917eb42ec0037ae28229bbb79946be378e9a595f6b81f3cb1fa77d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/33ArsenicAs-AAAAAAAAAAAAAAAAAAAAfg==.json"
+hash = "4b18baa7dcb2917ceb3ff50b4296f662a2c29467b735baef2c5c2b7aa32bf85a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/34SeleniumSe-AAAAAAAAAAAAAAAAAAAAgg==.json"
+hash = "b18fce12b8a1f48f9dbde677862dbc0bb27619553867fec46ddae0818bc28ce6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/35BromineBr-AAAAAAAAAAAAAAAAAAAAhQ==.json"
+hash = "dd1a4d19df7c955017795154ca1a0f75c694ad8202c707d77ed4f1cbe0e3ee52"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/36KryptonKr-AAAAAAAAAAAAAAAAAAAAiA==.json"
+hash = "16e1b7c7179b397a9e9189bcd3fe5f83ae88ce8fb234f7ac037ee05524d4933d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/37RubidiumRb-AAAAAAAAAAAAAAAAAAAAjA==.json"
+hash = "3cda85ecc86ce72fca6b307420ff3df5e61f961389989467f13b31ada60c78fa"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/38StrontiumSr-AAAAAAAAAAAAAAAAAAAAjQ==.json"
+hash = "c34b5903959e735aff065337082a7d401a21a74a3b864496a9d07bcefd2918cb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/39YttriumY-AAAAAAAAAAAAAAAAAAAAjg==.json"
+hash = "1dbecf98d3347156398ac70c9ee206d8afcaa97259ebb30261aca925fb729dfc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/3LithiumLi-AAAAAAAAAAAAAAAAAAAAaQ==.json"
+hash = "55e688248911f14738972989b61a3506a250fc097ebad65ec0a19d8269165b18"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/40ZirconiumZr-AAAAAAAAAAAAAAAAAAAAjw==.json"
+hash = "227879e9a72cc1231c6eccd4bf3c7520acd0936c040b7c11437f25d8e5c31d7f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/41NiobiumNb-AAAAAAAAAAAAAAAAAAAAkA==.json"
+hash = "f3cf9ecc6532da3350fd478116c6599778f309d298e3f73a9c0fb2ea3096b9b7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/42MolybdenumMo-AAAAAAAAAAAAAAAAAAAAkQ==.json"
+hash = "fce91b243ce106e9412392096d65c46a520cf547163cdc7607d972e62400bdd0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/43TechnetiumTc-AAAAAAAAAAAAAAAAAAAAkg==.json"
+hash = "1b0f321c92fec39d697b4de68d480f80cac03ae4cf80791bd825ef93005325ea"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/44RutheniumRu-AAAAAAAAAAAAAAAAAAAAkw==.json"
+hash = "de5c355f1615a663e33fae2c78f7f1eb82bf9d2b9a858cfd73173fd0654e1c37"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/45RhodiumRh-AAAAAAAAAAAAAAAAAAAAlA==.json"
+hash = "9e5ea03cee6b8a286fadd36d7a9b1fa1c458969f9950efabf64a9095770a0a79"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/46PalladiumPd-AAAAAAAAAAAAAAAAAAAAlQ==.json"
+hash = "00b712c5e78e982a42fb5922ed28cb0c8b726acd1f85e291af05cb89bf1447dc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/47SilverAg-AAAAAAAAAAAAAAAAAAAAlg==.json"
+hash = "dc9d9ad14cb620f8ca4541d371c81f53ece82259abd7afa0b2b92d235130a5e0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/48CadmiumCd-AAAAAAAAAAAAAAAAAAAAlw==.json"
+hash = "a9e57bcaffba200444c95e970078f59db1aa6ab57aad2533ba40adb21ca138e1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/49IndiumIn-AAAAAAAAAAAAAAAAAAAAmA==.json"
+hash = "66ac7fbdd4afb32f449cc5f4a4fa89ac8acda866a3693b0a431902a104ef6738"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/4BerylliumBe-AAAAAAAAAAAAAAAAAAAAag==.json"
+hash = "597120f2e5eb927b0eaee1bb2b75a768a5ebad1662af7c5ba26728c8272ecac0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/50TinSn-AAAAAAAAAAAAAAAAAAAAmQ==.json"
+hash = "68ee6205bee12c0f9e8082018f2359a13122dc168432ad6515ba875c63c225fa"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/51AntimonySb-AAAAAAAAAAAAAAAAAAAAmg==.json"
+hash = "4254143a92eac0046651d2dc6f790525e4f9daa1cf29af29dcfd548824593c5f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/52TelluriumTe-AAAAAAAAAAAAAAAAAAAAmw==.json"
+hash = "003c97fda5d30d4ae6eace51bd80cc3fe08942c1d9384b447b544e311283fd6d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/53IodineI-AAAAAAAAAAAAAAAAAAAAnA==.json"
+hash = "be8a3207d0ee4d9cecf00e2674c86089b8d0407914e6d0f954715a9841449e4c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/54XenonXe-AAAAAAAAAAAAAAAAAAAAnQ==.json"
+hash = "94bf99b0f3f8f0db39a625a3ff454661b019a60c9e19488d103887f9a64a146b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/55CesiumCs-AAAAAAAAAAAAAAAAAAAAng==.json"
+hash = "0cf6d47219961e06960a8032b962ab72682e680596459b40effc93a59d7dee6d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/56BariumBa-AAAAAAAAAAAAAAAAAAAAnw==.json"
+hash = "b63d0d26b9e1fecf8786a10603b005b8634bc1ff2bb8119eccf54d9df5ad456b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/57Lanthanum-AAAAAAAAAAAAAAAAAAAAsw==.json"
+hash = "c9039478c81c3962adf9092e202d6d6318e5e765796e286b07704eee74bb7172"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/58CeriumCe-AAAAAAAAAAAAAAAAAAAAtA==.json"
+hash = "14a12eaa01f89dbbeaa7f34b53d797b872adae0fcdfc5668fa347725639ba874"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/5BoronB-AAAAAAAAAAAAAAAAAAAAew==.json"
+hash = "10b6e89d3c474f5080993d8b80fc6cf2e0e9661d1eb654566f8778b53d30e580"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/60NeodymiumNd-AAAAAAAAAAAAAAAAAAAAtQ==.json"
+hash = "99ae50b9b0a61782bc56e20cfb580e154a83f4e974811011979b392b73823b2e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/6CarbonC-AAAAAAAAAAAAAAAAAAAAfw==.json"
+hash = "7ef5f14fac609ab99aee5fb11bc5365028993deae236f6434d74ab25e6398e7b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/70YtterbiumYb-AAAAAAAAAAAAAAAAAAAAtg==.json"
+hash = "ad62cec8e0899a91df389c0c79e4da2b46029ee5fbb2f71d8c8c771618eb0f73"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/72HafniumHf-AAAAAAAAAAAAAAAAAAAAoA==.json"
+hash = "cf5fedfc90d67b10c616a32ecc677bbf224a3c71795f6f6e14eea452a3263fe3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/73TantalumTa-AAAAAAAAAAAAAAAAAAAAoQ==.json"
+hash = "9a54b234fca277d61da016afde93c08ea360b216d3b06faaac95cc5bc54c8077"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/74TungstenW-AAAAAAAAAAAAAAAAAAAAog==.json"
+hash = "2e9d92ed446e70ae1c02824c3da00f2415be0b4f4839461addc3451a5eb2e9b8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/75RheniumRe-AAAAAAAAAAAAAAAAAAAAow==.json"
+hash = "5f86eb35f061b0f778b5ac0df9573d39995697bd597ab8cf33c88764a8deb2f4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/76OsmiumOs-AAAAAAAAAAAAAAAAAAAApA==.json"
+hash = "e029aa0660682b042bcd6e5805e38eb9da41027ecf7918fb649a143fee03bf42"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/77IridiumIr-AAAAAAAAAAAAAAAAAAAApQ==.json"
+hash = "da9cb7729b98c7d000dcec5af022257bfc07b132d35a77885466140d9fac75eb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/78PlatinumPt-AAAAAAAAAAAAAAAAAAAApg==.json"
+hash = "4ee294d4be680df521a3a9be4a49e9333bc905d46730a1cd16146ac51fc30694"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/79GoldAu-AAAAAAAAAAAAAAAAAAAApw==.json"
+hash = "009dac816f4d7dc2f4c3a89f7fa434a1ad68d77196afcca13bf7546ab03eadba"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/7NitrogenN-AAAAAAAAAAAAAAAAAAAAgQ==.json"
+hash = "e48a0b5a233e32a0b91eeb28dae17deb10371c372b1c6306002622bdfde11bbd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/80MercuryHg-AAAAAAAAAAAAAAAAAAAAqA==.json"
+hash = "3e5a3fcc9886f7385f19f31e2a0a87fc4a1f11d8838842da744bd389a333a25d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/81ThalliumTl-AAAAAAAAAAAAAAAAAAAAqQ==.json"
+hash = "5f2fca6a4585c5b59d85dd3f9b35ca15ed91223c154e4769901ff5cf80d8bc57"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/82LeadPb-AAAAAAAAAAAAAAAAAAAAqg==.json"
+hash = "edaaaf82a29900a14c262143d25bebe08bdd1b439a84ca66b592ce0666193a9c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/83BismuthBi-AAAAAAAAAAAAAAAAAAAAqw==.json"
+hash = "3db70e7e1cc163dd360e076ac1e0b0cca45c007e8222ec69aad8655ebe14a2d5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/84PoloniumPo-AAAAAAAAAAAAAAAAAAAArA==.json"
+hash = "fe784667d2e9fc41cb8fae765436f5d6bae1d22b031e90ef3cc72eabfb6b42d9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/85AstatineAt-AAAAAAAAAAAAAAAAAAAArQ==.json"
+hash = "33fd3351180dbf8c4343ee7bf974a521e5162ccdc6f5015c2814353122ac7ab7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/86RadonRn-AAAAAAAAAAAAAAAAAAAArg==.json"
+hash = "76c122ac22ca87aff97d2702d309c9e600900bab3b66e982df1d66bc1e64d1d5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/87FranciumFr-AAAAAAAAAAAAAAAAAAAArw==.json"
+hash = "ad5ea4ae79bfe56b2f7832a5ccfee57b6d52ed2d1b24352ef6ad832a42c2c203"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/88RadiumRa-AAAAAAAAAAAAAAAAAAAAsA==.json"
+hash = "355dbdd25395e1e81288a5108a33240dc138ca9d411af4a13d20115adda20074"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/89ActiniumAc-AAAAAAAAAAAAAAAAAAAAtw==.json"
+hash = "d06f6fdc69bd4bc958d99c7e6677bd46e55d9ddac16fedab2b404151c53fdeb6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/8OxygenO-AAAAAAAAAAAAAAAAAAAAhA==.json"
+hash = "42ceda2fbbaf3de94437be89ec247169c5c85d6a5de2b946b2820538b9d89c14"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/90ThoriumTh-AAAAAAAAAAAAAAAAAAAAuA==.json"
+hash = "64bd92d215b98f9f39df531dc26caf9305f8f0bf3fb98aa691ea2659064b1b61"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/92UraniumU-AAAAAAAAAAAAAAAAAAAAuQ==.json"
+hash = "b9ff8fcf6e70c088f6551c9312bdacc431da47e5af0179b00c1115bfb3d20b84"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/93NeptuniumNp-AAAAAAAAAAAAAAAAAAAAug==.json"
+hash = "4bfdbc7c886841ba3a89a6618af015e947534691d5cec33301b3779c4881957d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/94PlutoniumPu-AAAAAAAAAAAAAAAAAAAAuw==.json"
+hash = "fff6ee9bbdb26a3e6ba719dfa85bcc77d0083b09f8d3184efa3276865e2926eb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/95AmericiumAm-AAAAAAAAAAAAAAAAAAAAvA==.json"
+hash = "a89ff90cab79d3e9716785a3a9f2a897ab3d510a7ee74ae4ca5e474ffaf9124f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/9FluorineF-AAAAAAAAAAAAAAAAAAAAhw==.json"
+hash = "8dab908f1797ec44711975bf8bd634b047b7b51a81378d8f5691998458481cf8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/AdamantiumAd-AAAAAAAAAAAAAAAAAAAAsQ==.json"
+hash = "34ee0b5451dc78e795cac29175e21b5757722b605ef013df4a62d6be684abe48"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Americium241Am24-AAAAAAAAAAAAAAAAAAAAzw==.json"
+hash = "57e60100f21929ad39a3a191677c56507be2789b96dead4adb8a941b7e7dc168"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Americium242Am24-AAAAAAAAAAAAAAAAAAAA0A==.json"
+hash = "5448df607e571fba9e154e9612b82b8eab0aa448a9a9f1e9c5fb7cbcd49210b1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Beryllium7Be7-AAAAAAAAAAAAAAAAAAAAwA==.json"
+hash = "6e2d84021fca215779492e331c982af382fa4e93326f55f7cf827224227638af"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Beryllium8Be8-AAAAAAAAAAAAAAAAAAAAxQ==.json"
+hash = "75cf2d106e8b7719490f71b89743f5ca1b7e151bffb540c17c515cd22d3aac9d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Boron11B11-AAAAAAAAAAAAAAAAAAAAzg==.json"
+hash = "212c4f8986094a98463d1e309306af7ac085363e0faf9c7775b64b3541601636"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Carbon13C13-AAAAAAAAAAAAAAAAAAAAwg==.json"
+hash = "dc686fe8311ae1cdf4ec377915f24016322e807658e7eb1b657a622d9b44a94a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Carbon14C14-AAAAAAAAAAAAAAAAAAAAww==.json"
+hash = "b0a22d0c9d226f63bf405ca2795209908c293aee8919097273ab6fc3909b3074"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Cobalt60Co60-AAAAAAAAAAAAAAAAAAAAxA==.json"
+hash = "994159587a6731f327c943206c3d38e469439f7900500efa5b56ecd5979524da"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/EnrichedNaquadah-AAAAAAAAAAAAAAAAAAAAxw==.json"
+hash = "b77431aa855796e0f15dc4253ef4b475d4151a052ed7321b53d8575e722346cd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/FarnsismFa-AAAAAAAAAAAAAAAAAAAAsg==.json"
+hash = "275c5fb4bb05005e8454447ffc66fc550a3071baf0cb4f2f2667086e9249c7a3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Gold198Au198-AAAAAAAAAAAAAAAAAAAA0Q==.json"
+hash = "f3fa50ae9109081dee46e1a321542677995bb279b7885942a4d8f04b0730b9aa"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Helium3He3-AAAAAAAAAAAAAAAAAAAAzQ==.json"
+hash = "59c88416af605553ad08049cf6dac2b1f098409f4a73d92831407ac910d51697"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Lithium6Li6-AAAAAAAAAAAAAAAAAAAAwQ==.json"
+hash = "e33738654db0984523434397431c64729781345d38289ac192ba8e442195ee23"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/NaquadahNq-AAAAAAAAAAAAAAAAAAAAvw==.json"
+hash = "9c0147696500b090532e9f3c78a54615a8d9e24602a8c336232e9d3f941b0bf1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Naquadria522Nq52-AAAAAAAAAAAAAAAAAAAAxg==.json"
+hash = "ee6df8cc48410dec30aff17f70ef9132d933cb0a6c1594507adaf291ed825f0f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Plutonium214Pu24-AAAAAAAAAAAAAAAAAAAAyw==.json"
+hash = "5468ca163c9db04e208387c12a73ab3ddff47afe0f1def309b85997876bb0748"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Plutonium239Pu23-AAAAAAAAAAAAAAAAAAAAyg==.json"
+hash = "f2ac7cf1df4ea822c9b7ebd8e06b26afdc908ed11623ce822fcfd042c4b9b4c3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Plutonium243Pu24-AAAAAAAAAAAAAAAAAAAAzA==.json"
+hash = "93cf5035ec2349b43cb348cac0c1a8f1baac318d5162b91823c18c2389b9219f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/TriniumKe-AAAAAAAAAAAAAAAAAAAAvg==.json"
+hash = "9a6944200ccccc7c319986be91ac72107703173345eb8cb13902a4a775b152e6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Uranium233U233-AAAAAAAAAAAAAAAAAAAAyQ==.json"
+hash = "75850ae6d5d11a721274ee7204ddbf239b84fd9b6cc4753aa26ef2ee626afff4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/Uranium235U235-AAAAAAAAAAAAAAAAAAAAyA==.json"
+hash = "f7ea81024fef9880ecddeb2444f04ddec0ba2d0413329f1c1532bc711844e60e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/VibraniumVb-AAAAAAAAAAAAAAAAAAAAvQ==.json"
+hash = "378308e75a20e9478e8fc6aa571192fa5b3d616e09a2cae087f2bf061c6ad5b2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/AlkalineBatterie-kWirBkosR8yctaMHvGBzhg==.json"
+hash = "9d853b75d75c1b584ad5d3044920437459e42b3d22c4e644b062a7993ed5fa02"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/BabyLightMyFire-vZhraIPcSx2vC0RvqjUgkw==.json"
+hash = "3d0884a965123cdb6aa044de81dce249d5b9fded186113e156364e6164345e52"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/GregtechWires-i8BQAb8wQ9-J460rDQSH6Q==.json"
+hash = "d0729187b3503c21370573ca30cb25909f3cc71c0c115e97f8d5ee1fb2a252f2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/LVDynamo-jWYyaScSRSOJpgZ6TBSSlQ==.json"
+hash = "bc3e58dddf9b0cdf45635874306e6cc7ec23239f143d423973e47faeaae4c696"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/Laminator-AAAAAAAAAAAAAAAAAAAAYw==.json"
+hash = "4aaf69efa6d5d6dbda2bda168a75b33534b6013ae5341e90bcb475b5f43a6884"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/LargeBatteryBoxL-zcGlaJtbRm2a-NhuHNYNSQ==.json"
+hash = "f84f2e1c43741061fe028333eb7ea0b69638c73cad2ad0965d537c71d0d35f5e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/LargeLowVoltageB-2PpVHBgXSKKjOWwoEbi28A==.json"
+hash = "7b1da8dd7f436085a2fc33734390a30c1f95a4e3f42d4fd7c97ee97171c98c39"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/LeadAcidBatterie-YD15AzZSSWWyFm-BJ_NI3A==.json"
+hash = "bac059238fcd88b3c558c052e74aa80977c73af664f6e33f43bdcfe1a47fcc62"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/LowVoltageBatter-RYLNqrMXSH6QK1eNFPYrzQ==.json"
+hash = "915d2830f06f1197423435dfa6bf653f4a2e72fa22147b85c43a1957a7bffdc3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/LowVoltageCables-NV70t0iZRb6DfcEJH1w82Q==.json"
+hash = "86069c9e8a8c8827e7179b399b1dc6c6c261be0b436862b6f31ceba5f41f80ae"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/MVDynamo-CgRS1tHNQ-eU0FXH1pxCAg==.json"
+hash = "577a21bd35195c70108040132e28d72b2294aa27457dafdf6bc8efd8dda8ee65"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/MediumVoltageMVB-bjtds6rqQZO1hcuCLEQeww==.json"
+hash = "329afedcecb81e39d521573db47b382ead3c052e1c2b0c26a3c520e2c7196c90"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/MediumVoltageMVC-Lg2slTdDR6KV8cm-X-WOow==.json"
+hash = "dc913337a751a2e584155c4391899e3c5585a10d3d46e1bc6c82979bf7d5993c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/NickelCadmumBatt-Ein6BdtOTLegCxEdETeH-Q==.json"
+hash = "79bccef6f66cf3ae649c4a231742ba43a76d785bb35d0e469a6f9d50b2b19cdd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/TransformerLVMV-7ffTJz1SRTGV0l0fMeG54A==.json"
+hash = "a5f6864686ccbaf64087a5192f5ae91cbd9de9a10b81bad1fcdfaa97a9435148"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/TransformerULVLV-x1YynKX5Q4S7ECL1d8_NAQ==.json"
+hash = "6714085649ebbeaefba0be060bb7064a8998f10933ab36b9d16c005ad82d8230"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/ULVBatteryBoxes-eifLH0lgQc27xRZ6OkA3qg==.json"
+hash = "d1d048e87fe2603e6df4a64f2e0c51cac0897416481b261160ec6ca41daaf31b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/AcidicStorageDru-AAAAAAAAAAAAAAAAAAAA2A==.json"
+hash = "ae5aed575139e2ee76cab219666032e85ee6d725b44f2bc7d3430da9a5b503e8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/AcidicStorageTan-AAAAAAAAAAAAAAAAAAAA2g==.json"
+hash = "38055da81015f51747695c2ef6a48666c4f1566937b52d5d96cad7d575310bdd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/BarometricGasSto-AAAAAAAAAAAAAAAAAAABGw==.json"
+hash = "8553b515bff90e807bcafa7385360886db1a888a63d70fae57b38ac724b5e33d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/BeeCarefulBumble-AAAAAAAAAAAAAAAAAAAA9Q==.json"
+hash = "f18d1ce994f90465d423ebe2a6d3e26ae6acff73e7ae4b38566789fee59e21f0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/BiochemicalGasHa-AAAAAAAAAAAAAAAAAAAA9A==.json"
+hash = "e3d43bd9db8ee8627fe26d64a6b6949160f1887b60b7d7d6c05f8b22db985961"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/CoagulatorforHir-AAAAAAAAAAAAAAAAAAAAMg==.json"
+hash = "85d75f47618b8b91aebc1196dd6090f22f9627f6f87c651efeebae6519c808c4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/DieselEngine-AAAAAAAAAAAAAAAAAAABFQ==.json"
+hash = "8755b512a8546ba876064c8a3c6a030f698cfb6b685d2c63215b94821170c91b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/Ethanol-AAAAAAAAAAAAAAAAAAABKQ==.json"
+hash = "b7a80432877f3255b9928069b7c67999edebb0218ce2527ef701d888e3bd28e6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/HydrocloricAcid-AAAAAAAAAAAAAAAAAAAAKA==.json"
+hash = "5983f51e571e53b0ce600068db072549fedb5265e56fee964fb419ed9f9e4cc2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/ItisTimeforaBath-AAAAAAAAAAAAAAAAAAAA2w==.json"
+hash = "6d5933cc715546b37cecadd586f4f88646292673241627896fbf0bcb7e4f7aae"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/JustDistillIt-AAAAAAAAAAAAAAAAAAABFA==.json"
+hash = "73b418492a8d7e5b422f5fc22995d209ef5ab988c7aefb392d71a1e64701c230"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/KUfromaDieselEng-UtDvaO44SiWIDrQ1-2Rhkg==.json"
+hash = "b38ef0f7c537683e722b72e798ac24d7830164b5557137013af767e2efea3dcd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/LetsLetitFerment-AAAAAAAAAAAAAAAAAAABEw==.json"
+hash = "705778dc2a6b9637d03dcfbb16dc0b7aac9120d358e5760ecfef359c9b4024f9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/MakeSureYouHaveY-AAAAAAAAAAAAAAAAAAAAZA==.json"
+hash = "40ce51c220eac44d6636ceb23116bd10c88ec1cbf227c8ecb13c9c33a1c5a72d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/Mixitup-AAAAAAAAAAAAAAAAAAAAJQ==.json"
+hash = "d6f5a3048e0cc5408021ff841598f24139e2f2aa891352836b9f0ba50a9477e5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/NonupleRubberFlu-AAAAAAAAAAAAAAAAAAAAZw==.json"
+hash = "431f1c0a8317887bd3673da803ce3b68344aae253c109e707222272fdc5301c8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/PassingGas-AAAAAAAAAAAAAAAAAAABGg==.json"
+hash = "f2f747e0b74e60fd09e0b899e1e20e202bb2461a6b6957035904b1f1f77e74de"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/PipesforAcids-AAAAAAAAAAAAAAAAAAAA1A==.json"
+hash = "770185fe761f0ec9602c5da0d14c4fdc5a9e012cdc9d8393ac11e3b1bf97e1ea"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/QuadrippleAcidPi-AAAAAAAAAAAAAAAAAAAA8g==.json"
+hash = "2bede386eee8ad33f003c392f48b13860db72599b84d8cc24e6772f0b0274c3b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/QuadrupleRubberP-AAAAAAAAAAAAAAAAAAAAZg==.json"
+hash = "5e65e10185b1969984770dca0300b3156751da2ffc6cee61c2cb31c82e75a1a2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/Roastit-AAAAAAAAAAAAAAAAAAAAMQ==.json"
+hash = "3157c28f439528ec9d1920eb381e76299ee7feb8bebf1fe7abe400fdc9f783a4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/RubberPipes-AAAAAAAAAAAAAAAAAAAAZQ==.json"
+hash = "0ad5b9503b5acd5a0981f5d5aa027a14cb2bea3f81506f6de37d3d533a0bf294"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/SmallAcidPipes-AAAAAAAAAAAAAAAAAAABFw==.json"
+hash = "ad59bb457252173dc980f1cbe76ec19c9b674e610b660e2f02db08911d3d54c7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/SmallRubberPipes-AAAAAAAAAAAAAAAAAAABEA==.json"
+hash = "4f966dc63824bd973706fe6467a573b72742eb89e1b6809a219cf9c15f1f29e7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/StainlessNonuple-AAAAAAAAAAAAAAAAAAABGA==.json"
+hash = "981ccc5fd8f6a24e5d58494c172f992b96490e6e32785ece02d63e2375193212"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/StainlessSteel-AAAAAAAAAAAAAAAAAAAAJg==.json"
+hash = "e0d183bec054aff87dc4f9bd39e98f3f717063692de2d6741fe3087f58c10a26"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/SulfurTrioxide-AAAAAAAAAAAAAAAAAAAAJw==.json"
+hash = "dc7abdd06cd6c7e953fcc0d0c9b5c7a85a181a25bdef2c8f9d427b0a1fb81519"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/SulfuricAcid-AAAAAAAAAAAAAAAAAAAA2Q==.json"
+hash = "46ab94d1753071dc3bce5605ae08475343e42b03b360efa1e6a86fb60003e664"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/Whattolookfor-AAAAAAAAAAAAAAAAAAAAJA==.json"
+hash = "f06cad13d7b422fcca475615544fc1abf8c88e80ab5029bd5ebfabed656ebafd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ABetterItemBarre-AAAAAAAAAAAAAAAAAAAA1Q==.json"
+hash = "2be417ebe3a628928a0090004f36277158aadcabb8180789dfea8b72bd9a30fd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ABetterTank-AAAAAAAAAAAAAAAAAAAARA==.json"
+hash = "6c844d767ef94bf93f0cd8581efe567703a9dd6f6cde7cefba3dcce4eae271ba"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ABetterWoodenLiq-AAAAAAAAAAAAAAAAAAAAWA==.json"
+hash = "6128bc9db79bc3b351416108d94bc61f50701b01cb0e88193dbd6f428e0ba3ae"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ArsenicBronze-AAAAAAAAAAAAAAAAAAABMQ==.json"
+hash = "2ae6567846433f83650d7999b599841506140aae8a8e624d4abc6d7e48aa3aff"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ArsenicBronzeIte-AAAAAAAAAAAAAAAAAAABMw==.json"
+hash = "829d7059c21d198a63d0f735b13351987a6914cb5a6ec9d6ee342583f6902225"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ArsenicCopper-AAAAAAAAAAAAAAAAAAABMA==.json"
+hash = "df0d91e87f8b13bf71e5e967cd41e0cb28cd7db968c37ec5e808fe4b8c014221"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ArsenicCopperIte-AAAAAAAAAAAAAAAAAAABMg==.json"
+hash = "cbc20a5d603c34e4814877260129e7290e9d9e9358d6e46bc98e983d60f7f175"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/AutomaticSifting-AAAAAAAAAAAAAAAAAAAAGQ==.json"
+hash = "5c52c5bcde9e82ce2fd85ca9e955fa6c4027f013072bf5839c311d96e720c6ec"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/BoilingPoint-AAAAAAAAAAAAAAAAAAAAEw==.json"
+hash = "90a60642d87b61cc2a367d373f2cd73e170a22394b121521d5f3e3c6bc9f4cbd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/DistilledWateran-AAAAAAAAAAAAAAAAAAAAFQ==.json"
+hash = "5f042dcdc94566f80df6af9009a9f343c42054558727353f9379e02b3755afed"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/DustBuster-AAAAAAAAAAAAAAAAAAABBQ==.json"
+hash = "37fa76fb89a7ed772098756b9406cbf0356fa36e03164cc56792cd33206952bb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/EvenBetterTank-AAAAAAAAAAAAAAAAAAAAOQ==.json"
+hash = "583024da125856e5d0736b9ab18b42f8340e224a4431f25a5319ae7db0315e88"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/IPreferCokePleas-AAAAAAAAAAAAAAAAAAAACg==.json"
+hash = "5c9008423d5537fae39c8936bd81aadef4b726d31971329ac1069d3cddc8cd31"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/IamIronMan-AAAAAAAAAAAAAAAAAAAAEA==.json"
+hash = "ac9140ef5c284ae6111be7a3c352dadb31f3868d53da471b66b79af47e5fc7cc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ImMeltingAEarlyG-Al4Qy-5bTSOcKAV2qpSLEA==.json"
+hash = "898ec715199d95988057af74a6156c393827c708fb4eef7645518e0ab13991a9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/InvarForAll-AAAAAAAAAAAAAAAAAAAALQ==.json"
+hash = "e4304428e9eb14578e81cd723667bf940aaeb1f0f6b219f821f53c59234c73eb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ItJustWentDownth-AAAAAAAAAAAAAAAAAAAAFA==.json"
+hash = "e9cf38de36f7f7d9e1dbdad0a124f8df9a93636416656a98a4fd69d44e89f252"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ItemPipes-AAAAAAAAAAAAAAAAAAAAHA==.json"
+hash = "70f1a97f4174a63b2c429f8d1aa03a7d4b7237d2237ee6325591ddbde7481b44"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ItsBettertoSeeYo-AAAAAAAAAAAAAAAAAAAASA==.json"
+hash = "c0c9137dc519aff40ab9b665580a6e36f614f59c3f0083c9538f43999b4e2fb9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/JustLeftoftheCen-AAAAAAAAAAAAAAAAAAAA3g==.json"
+hash = "ebc020d717136aa70fe94874a6330c76e808d795a73953438bf2d785784420c9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/LowHeatExtruderS-AAAAAAAAAAAAAAAAAAAAVw==.json"
+hash = "34c891da03a11d67512f8e68ac0d4834a722ffb83e0302fd640b321eace573ac"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/MachinesinGregte-AAAAAAAAAAAAAAAAAAAAIg==.json"
+hash = "83435cddfeefa7c32e9c8eefadd7eebd2b1a17f24b65c48ed5edd6207977b9db"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ManualSifting-AAAAAAAAAAAAAAAAAAAAIA==.json"
+hash = "0d91dc384d76b22ae5bfbe35e4a0c8abb2e41b246ce7b7f19c1ce77d190eef4d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/Mortar-AAAAAAAAAAAAAAAAAAABCg==.json"
+hash = "173ab9d8bc3d217e81b2f11c29c821df1b639dd2a4e49b7a9b4cd69ef464740f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/MyShinyBrassIngo-AAAAAAAAAAAAAAAAAAAABg==.json"
+hash = "36057ab0b30fd749edcefa0bfab034ebfae691dca13d99b7aa5a3c12a2129f84"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/NosetotheGrindst-AAAAAAAAAAAAAAAAAAAAOg==.json"
+hash = "f7c185d21e7ebb7cb3746d3c01c80d33510ae67fd5cadabf49a5e8fbdd9adae2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/OreDoubling-AAAAAAAAAAAAAAAAAAAAGA==.json"
+hash = "592dcea72b05173312b88c7206b3c64b2b9653818636eda4bfd9685ca406ae56"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/OreWashingII-AAAAAAAAAAAAAAAAAAAAGg==.json"
+hash = "d034f0831f55061b1e47969521cad1b66197bc36c4988edc699e756e095f87aa"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/OreWashingbyHand-AAAAAAAAAAAAAAAAAAAAHQ==.json"
+hash = "1b60a07c326e7db65e1c751df7c0d97e6f6580465f10da57e582ad1d4a094bba"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/Oven-AAAAAAAAAAAAAAAAAAAAPQ==.json"
+hash = "81a44be5c0d4f07ec39ed556b378ff02be404b72809bfa2d1ab93f945eb208f4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/PipeDream-AAAAAAAAAAAAAAAAAAAAEg==.json"
+hash = "85b8ededd06ab05183130d91594424b98e66096304ef7772a6d4b74f8bbeb55b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/Powerexplained-AAAAAAAAAAAAAAAAAAAAIQ==.json"
+hash = "3a6049572430c03ab5507e8ca5e44daa67859049e8007eca9df5bed30bd329e5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/Recycling-AAAAAAAAAAAAAAAAAAAAGw==.json"
+hash = "38634fd136975cc139e9175666a72e5abbe8b2bdee2fd8c37c3eb402548c1a25"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/RubberTrees-AAAAAAAAAAAAAAAAAAAADQ==.json"
+hash = "215f4a8f0a23471753e64558c40ba8ab129a880e28e6977b4abd0354414436fb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/ShelfStorage-AAAAAAAAAAAAAAAAAAABFg==.json"
+hash = "1008916e40f7d749840b68f35e82868b1015d22dbcb80dfeba52d55c88edc3b2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/SteelSeries-AAAAAAAAAAAAAAAAAAAAFw==.json"
+hash = "ce40588cb0c8ffbf86a59d6c84405393c053c23e9d1de8dc39628c90f3231905"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/SticktoIt-_YxG8UzHTKSTKq-4YggS0Q==.json"
+hash = "29d819c96d7f8454f1fc73359916646f8e90297d4f8d120d3e11519754a7433d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/TankPipeExtender-AAAAAAAAAAAAAAAAAAABHA==.json"
+hash = "ac21b827f391c65b3fafe028a830049599c0b51fb7428c0137212c0f5ba5fd35"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/TheBeatofaDiffer-AAAAAAAAAAAAAAAAAAAAWQ==.json"
+hash = "57dd18f878e296a99fb92fe18e0b8a89df9b624763235ec32d681d31010e1ceb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/TheEngineThatCan-AAAAAAAAAAAAAAAAAAAAEQ==.json"
+hash = "1ebc3c8996f3934b3d9ee92e6606a2087ef5777c69439b0df0d54c1f4e8e71a4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/TheLowHeatExtrud-AAAAAAAAAAAAAAAAAAAAVg==.json"
+hash = "25b349641fe658d4566d4bff85c7ee18de53c1d505c126619c0f21af55cf9bd5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/TrickorTreatyour-AAAAAAAAAAAAAAAAAAAARw==.json"
+hash = "de74b4c96388d8f1413b9846122f6f565342171b6d6c0115642c25578e6f227f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/Turbine-AAAAAAAAAAAAAAAAAAAAFg==.json"
+hash = "4c7cd03a6d2f92c8074f80c7186a832332ee59d62a6169492c8664c62b2731c7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/WellThatisaStick-AAAAAAAAAAAAAAAAAAAAWg==.json"
+hash = "975ccccc984efb96a081e4b1e17a18c17fd60ce30971685fb729ec3981b8a0ee"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/Whattolookfor-AAAAAAAAAAAAAAAAAAAADg==.json"
+hash = "5b118bb37808826edd2625907410ed51a890adb42a2de2a5f2466bad22183ff5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/YouGotMeOveraBar-AAAAAAAAAAAAAAAAAAAADA==.json"
+hash = "81951fe2b9253b48a24f0c0b7eb7aa01fbf4d114616fca4392272a20b8f8a860"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/ABetterBurningBo-AAAAAAAAAAAAAAAAAAABBA==.json"
+hash = "9876a933a95601248fbb14b46e0d0e4537d2dcfc342db654e29d325ebd7eaebe"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/ACMEAnvils-AAAAAAAAAAAAAAAAAAAA-Q==.json"
+hash = "46fda4fe535bd7f24c302c601680a04f3acceffb3b743abb01e459739ebef7d7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/Abettercraftingt-AAAAAAAAAAAAAAAAAAAACw==.json"
+hash = "3e646b833585c5720a3e6c0dcdc60e00b31ea7ff179bba1c734c0b7a76e19610"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/AdditionalTools-AAAAAAAAAAAAAAAAAAAAQA==.json"
+hash = "46f74c9ff7dac94a95526c3984682cf04995f1ab0738a579a19f311a90caaacf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/ArrowtotheKnee-AAAAAAAAAAAAAAAAAAABDA==.json"
+hash = "5848ca52c6e6379abe35f14f984481a1e4f978cbeac8647e4c6b339e041564d8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/AutomatingMolds-AAAAAAAAAAAAAAAAAAAAIw==.json"
+hash = "bde4f9d30d8b43f0abbcfafac8fc60cd42a421e6fe1b796568b569a7fd91679c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/BrickBurningBox-AAAAAAAAAAAAAAAAAAAARQ==.json"
+hash = "497863fc7cbd5827194cfb07662ddb8a50e2acebb376804b1b0929dabd2950bd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/BronzeorBust-AAAAAAAAAAAAAAAAAAAAWw==.json"
+hash = "3f7c1742f4e789f5ca2a0ce682d8f2e223e4f351c3d70b384ce254f4c2f5ca25"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/BronzeorLeadBurn-AAAAAAAAAAAAAAAAAAAARg==.json"
+hash = "7d9520780c9e81805340411f4a41e3ea366ea478cfbebeaac85d26fad4ac4242"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/CompartmentDrawe-AAAAAAAAAAAAAAAAAAAA3A==.json"
+hash = "f81bbdf3880186ee4b4544c6d2444c99d4386526ae8fe4ea6a169b354afd22b6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/Crucible-AAAAAAAAAAAAAAAAAAAAAg==.json"
+hash = "f69659a6a830d6905b19b333146db9a3dade489ab5ad98502fdb9802ebee44d8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/EarlyAutomationS-AAAAAAAAAAAAAAAAAAABDQ==.json"
+hash = "9c003be73d320a8afa0cc496c0ad9a6c927471536f2b6f08141c267401155d54"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/EarlyTools-AAAAAAAAAAAAAAAAAAAACQ==.json"
+hash = "0eb3a9977c4eb12b18d11fec02fbbe4dbef53b1e72efe4bdd4a4d34ed1866ca1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/EarlyWeapons-AAAAAAAAAAAAAAAAAAAAQQ==.json"
+hash = "516300b01e174a1857e450fbba02cb3023de5820c8fd6bb615d0b485cfbd5a29"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/FastFood-AAAAAAAAAAAAAAAAAAAAPw==.json"
+hash = "adbe2c6b1eed6b0cd40081f856354153fdb84172b9400d65b1a578ed578b78bd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/Furnace-AAAAAAAAAAAAAAAAAAAAAQ==.json"
+hash = "59576a06990a78e56a07cdac3b56badb20761dde7903c8bc98d5add4e0583508"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/Hammeranvilfilea-AAAAAAAAAAAAAAAAAAAAAA==.json"
+hash = "d2608d57ebb955fefafedf65ef5d7f46cf685bd2caf29578e80273dd7b86d91f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/Measuring-AAAAAAAAAAAAAAAAAAAAHg==.json"
+hash = "93710e0997e9ff252e2e9bda5e26db374a11b033592099b05b2a2541890fafbb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/MixingBowlandbro-AAAAAAAAAAAAAAAAAAAACA==.json"
+hash = "4ea46810597ec54390bb61ad0b4ef35bcb0b5b571b4d73c386f385a7cb4e3d13"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/Molds-AAAAAAAAAAAAAAAAAAAAOw==.json"
+hash = "f689e9c6f698b084a79d486eddbe91e3f577ad3043b4d22b58fc02b45536dba8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/OMercuryWhereAre-AAAAAAAAAAAAAAAAAAAAQg==.json"
+hash = "5e5f32f5912fb228d0cdc17830d9c072e79175b3819c2a9f93bc1255945e3a5d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/ReadoutstoGo-AAAAAAAAAAAAAAAAAAAAHw==.json"
+hash = "eacbe32b70ced986633a327a8c02391ef4ece039a9a54999bf5e38543244d97b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/RedAlloy-AAAAAAAAAAAAAAAAAAABAw==.json"
+hash = "aad04261c853d303f54112ee2da61eafba169da4dcb2ee8e18d876ab72c717a7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/StopHammerTime-AAAAAAAAAAAAAAAAAAAA-A==.json"
+hash = "ba3d85f6eae690e147f206f9c77dccd19177b9371e5457e25ef73eccdcf696fe"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/StorageWars-AAAAAAAAAAAAAAAAAAAAQw==.json"
+hash = "fbb70f968160255672bc64119917148fb912c998a50a9310c450a55831292f75"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/TheBucketChallen-AAAAAAAAAAAAAAAAAAAABw==.json"
+hash = "06e5ec09701eb9bf0f243b83db78832c0fdeb8e00d4f1dd5f5e8038ed51154a0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/TinAlloy-AAAAAAAAAAAAAAAAAAABAg==.json"
+hash = "843425a31bb7048b6912a587f7e2e8f8a8e011f9a3582abf313408db5331040a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/ToolTimeforMetal-AAAAAAAAAAAAAAAAAAAAXA==.json"
+hash = "484baff3ebc538765762c94b6d84a4723f9ec6456b7a4644fc225b441e334601"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/WeightOMeter-AAAAAAAAAAAAAAAAAAABDg==.json"
+hash = "e1d1834b4553d7ac44caed6e2a30960134633f7adbd860b0998ff6ef3b2e3c40"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/Whattolookfor-AAAAAAAAAAAAAAAAAAAAAw==.json"
+hash = "bbfcc05cc1bdfc2503567fbd9240d79207fe0c337c2e2da238c1ebe38959896a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/ABetterItemPipe-AAAAAAAAAAAAAAAAAAABBg==.json"
+hash = "93c0d13ce1c8c15a2d88ae388e373f1f74a95df4d11b7f136d50cac49335efc8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/BatteryAlloy-I8W1vUVGTQ6-X_Y4JMRq0A==.json"
+hash = "d20c561d9213d346aa7eacd6ad52d30805359a133cc1b413410b18f64257de75"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/BlackBronze-AAAAAAAAAAAAAAAAAAAA-w==.json"
+hash = "034339ce63a7ff5264f11af3f091729653ced6d2a6fc8ca7ca60d6be22cf3f52"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/BlackSteel-AAAAAAAAAAAAAAAAAAAA_A==.json"
+hash = "2e5ba0372c29061fcfbe4bb3190662a5d04b015d345ebd6a8041b283c6f3d80c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/CobaltBrass-2Kj4KvzvRBe3kme13WCJKg==.json"
+hash = "704c565213717cbfab643bde4ffa53124a8d225db095e5cc049a6ab8f52ad96d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/Electrum-AAAAAAAAAAAAAAAAAAAA-g==.json"
+hash = "d4b3e953d441209488f66bd3bb329733c2ff6445b6594109e92ded1250a68c5a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/RedSteel-AAAAAAAAAAAAAAAAAAAA_g==.json"
+hash = "8585424b0f97fb8e4c1e1b9910b786d40cd25aa464f19a989a61279eac8840c8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/RoseGold-AAAAAAAAAAAAAAAAAAAA_Q==.json"
+hash = "05361a1fdf96d5b3246f9cdf9346f3df16212effb59e9f77e1ee63ef67ebaaf4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/TitaniumGold-JNP2d4yzRniXIjaabxTW8w==.json"
+hash = "31b45e290f377af5709ccbdae4f6899cc985d628c1df7e53fe6f6fbc47fdf93e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/Ultimet-AAAAAAAAAAAAAAAAAAABBw==.json"
+hash = "bfbd17c4ce8853383195ec0f73bc7faa00123a25f3c777c3ebef7a5e292b687b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/UltimetHopper-AAAAAAAAAAAAAAAAAAABCQ==.json"
+hash = "5fc22cb81f4fd7cf9758c5f3e1a40939f7ef4b2868c43073dd1246119d5210a8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/UltimetPipes-AAAAAAAAAAAAAAAAAAABCA==.json"
+hash = "20fac6b04af4f2db14865921072416bc7990cfdd93dbc1d80e0e850ab9729ee1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/ConstructionPick-AAAAAAAAAAAAAAAAAAAA_w==.json"
+hash = "0560caa4f429600c2d4d1be439b46019bfef933e65b9fda783eadff652006083"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/Doesitmeasureup-AAAAAAAAAAAAAAAAAAAA4A==.json"
+hash = "2421c15e58a710334ba3177f0ba9d9d63e7d1a628c6b30ac16c01371da6690fd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/FlintandTender-PFCX_cCaSVKjF_tzqhDuUw==.json"
+hash = "39b3a1b9481d70831cca370771e9d16d935a6df26887a9ea55f5b6a7421034d2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/FluidizedBurning-2kkJu0HBTk21cl6wLIgKOQ==.json"
+hash = "e4c07d1420db88b1c2b1d61360e21b38b3115c8267df263d62f107f9a9d5d76f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/FortuneandLootEf-AAAAAAAAAAAAAAAAAAABCw==.json"
+hash = "ebd9aebe2d08fc76c43cfa11b663d3f6285bd69f6ac1192654904f867837aa5a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/GemTippedTools-NnSBHXebSEC22LZGdayrYA==.json"
+hash = "11b96000c734f48d0dc65013459de5307e76c1dbdf6351405d1cfdbc52bdc7dd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/GregsNoNonSense-AAAAAAAAAAAAAAAAAAABEg==.json"
+hash = "7fc4cc3bf6d0aaedfa2825b8665e94ac8cb3af518e896e127c8d0cecd5070aa9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/IWantMyHopper-AAAAAAAAAAAAAAAAAAAADw==.json"
+hash = "21c4a57ae5d6a16a7be8525bc36d2f9cff801598aac9d07d4391299aba67ab30"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/ItGoesBOOMStick-AAAAAAAAAAAAAAAAAAABEQ==.json"
+hash = "dbe0a3cdcc2c59fbc9c49b08849cc967fb39e5bb216d80d36befc13db4e5fd4a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/LightMyFireMatch-AAAAAAAAAAAAAAAAAAAA8w==.json"
+hash = "b05d0213e5377b35d4ff6fe0dc659e910bc26e7947d4a996d105a2167871e618"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/LockerRoom-AAAAAAAAAAAAAAAAAAAA9g==.json"
+hash = "f80f38389351215c3bdf6f4952fa63dc054b5e8aa5d4bad3370408e0123f503f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/MassStorage-AAAAAAAAAAAAAAAAAAABGQ==.json"
+hash = "5e8058597cc1ae82197a991c3fc9fb51ac0095a7d475d3d0caa66955a04f9ab2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/MiniatureNetherP-AAAAAAAAAAAAAAAAAAAA9w==.json"
+hash = "f34e2c8d80a3913feef16932212dc3c1ebbb465a7cc0c4358141b8bc1bb4c7f5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/NonSpawningDirt-AAAAAAAAAAAAAAAAAAAA3w==.json"
+hash = "dbc0fe1b9371be5e6696fc382bc48534a0a739c785ad2cff214a932593bfe31f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/TrashTalkin-AAAAAAAAAAAAAAAAAAAA0g==.json"
+hash = "f89bfcfb75c7d8c52ca40c34798ef52869fa763e228c1a2eae0e2d2557508f5e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/WhatdoIdowithall-AAAAAAAAAAAAAAAAAAABDw==.json"
+hash = "a46518386fc5a7dc5db776a80c0b3c28121d630a58e96b43a04c3451e2392a95"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Utility-AAAAAAAAAAAAAAAAAAAABw==/WrapItUpIllTakeI-AAAAAAAAAAAAAAAAAAAA0w==.json"
+hash = "7e1c68c2e6fd9fe6da2d3843189be173aaa0da83a1021eee5724aa56670412a5"
+
+[[files]]
+file = "config/betterquesting/questbook.cfg"
+hash = "48f8b415e5e4ad80e1fb6868e6bd3e3200b80f7d232d6f90efc7e17cc6b3482e"
+
+[[files]]
+file = "config/betterquesting/resources/gt6bde/textures/gui/BearsDen.jpg"
+hash = "69dacac86e55845c7adea0d43ba870d0f6a236d4f945d831a7522337e1ed4d21"
+
+[[files]]
+file = "config/betterquesting/resources/gt6bde/textures/gui/default_title.png"
+hash = "ec34c4527e3941032b8393e82c5bb0d39ce6dfdb4523e27a04da98c69f5a6005"
 
 [[files]]
 file = "mods/angelica.pw.toml"
@@ -24,6 +1708,21 @@ hash = "c57697806ba7ff5d4b88011e20cabdbb476a58a1b544cb759032292be4992cba"
 metafile = true
 
 [[files]]
+file = "mods/bearcore.pw.toml"
+hash = "fa3c8d63389c090367c298f22a0aa0251727d69ded08a59a29369af37eba463a"
+metafile = true
+
+[[files]]
+file = "mods/better-questing-standard-expansion.pw.toml"
+hash = "c77b2be2fc09d5bc2739d14144e89a2b9deeb813c6a3ac00d5aa462b050cd2f2"
+metafile = true
+
+[[files]]
+file = "mods/better-questing.pw.toml"
+hash = "3673d86b434b902fc51d7c8eaf05d3bebb2676c8bfe5918ae7b9ce7d94b9cb3f"
+metafile = true
+
+[[files]]
 file = "mods/betterfps.pw.toml"
 hash = "1d7be9acf687897e75921e34c3236d3a78364d140c13b6c9ac4c4293635a6ebc"
 metafile = true
@@ -31,6 +1730,16 @@ metafile = true
 [[files]]
 file = "mods/betterstorage.pw.toml"
 hash = "63ae5d5d12b50615daa6ad2d2fb92d0999b82c8fd4f23f1e7c945fe6e5b359ff"
+metafile = true
+
+[[files]]
+file = "mods/carpenters-blocks.pw.toml"
+hash = "a06f7789e0fd9aef2378f6000af1832e95407a0c854b30ba67d74d53a8146b8e"
+metafile = true
+
+[[files]]
+file = "mods/chisel.pw.toml"
+hash = "e05e261e4b7eae159f1deff4b9b436bcdfab8ee9f875d6dcf7f44764c136ea09"
 metafile = true
 
 [[files]]
@@ -46,6 +1755,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "2d8979b5daa642fbc61126aa3dd68387e6e8cbaef875a8aa9d9a470b7f8fe698"
+metafile = true
+
+[[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
+hash = "3631e5c2a6d8d2444b42ab529527c0abe7d2dc44ed68a955ced6760b76402e2e"
 metafile = true
 
 [[files]]
@@ -66,6 +1780,11 @@ metafile = true
 [[files]]
 file = "mods/gregtech6.pw.toml"
 hash = "6a6c8d861f148cda4492ec2df4fc40975ce0a4c0902d947f27a867715a557d7e"
+metafile = true
+
+[[files]]
+file = "mods/gt6-ore-helper.pw.toml"
+hash = "e996958054737da83fa3ba3cd62bb22f8745cc8aa3ee2165d7cfa9fead17c03a"
 metafile = true
 
 [[files]]

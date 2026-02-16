@@ -1,0 +1,13 @@
+name = "Better Questing"
+filename = "BetterQuesting-3.0.328.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "641e310c136aa1c3d49d72835f24fa32fa71bcb8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2950244
+project-id = 238856

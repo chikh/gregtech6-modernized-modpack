@@ -1,0 +1,13 @@
+name = "BearCore"
+filename = "BearCore-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "958fdda99c0a048fec91436e74e5e3e9a0f5aee8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2610718
+project-id = 301958

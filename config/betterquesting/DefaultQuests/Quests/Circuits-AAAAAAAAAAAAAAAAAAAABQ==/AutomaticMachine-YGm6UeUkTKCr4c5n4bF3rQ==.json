@@ -1,0 +1,74 @@
+{
+  "questIDHigh:4": 6947288761095179424,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 301
+    }
+  },
+  "questIDLow:4": -6061336677900519507,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multiitem.technological",
+        "Count:3": 1,
+        "Damage:2": 1003,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Automatic Machine Switch",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Greg has a cover that automatically starts and stops a machine.  You can right-click the front of the machine to put this cover on.  This cover is good for your machines that are connected directly to an adjacent generator such as the part making machines like the wiremill, roll bender, buzz saw, and for mixers and other such machines.\n\nTo craft one you need a Blank Cover, a Tier 1 Circuit a Tin Cable and a Lever\n§a\nTo ocmplete this quest craft:\n1 Automatic Machine Switch"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.technological",
+          "Count:3": 1,
+          "Damage:2": 1003,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2005,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.food",
+          "Count:3": 1,
+          "Damage:2": 2003,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
