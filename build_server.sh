@@ -20,15 +20,16 @@ cp -r config "$DIST_DIR/"
 cp java9args.txt "$DIST_DIR/"
 cp pack.toml "$DIST_DIR/"
 cp index.toml "$DIST_DIR/"
-cp -r mods "$DIST_DIR/" # Copy metadata files so installer can read them
+cp -r mods "$DIST_DIR/"
 
 echo "### Downloading packwiz-installer-bootstrap..."
+# Download to the project root (parent of current gt6-modpack dir)
 curl -L "$BOOTSTRAP_URL" -o ../packwiz-installer-bootstrap.jar
 
 echo "### Downloading all mod JARs (Server-side)..."
 cd "$DIST_DIR"
-# Run the installer. It will download JARs into the mods/ folder
-java -jar ../../packwiz-installer-bootstrap.jar --side server -no-gui "pack.toml"
+# The bootstrap jar is in the parent of this directory (server-dist/..)
+java -jar ../packwiz-installer-bootstrap.jar --side server -no-gui "pack.toml"
 
 echo "### Cleaning up metadata from server-dist..."
 rm pack.toml index.toml
