@@ -50,3 +50,8 @@ Any AI assisting with this project MUST update this file whenever:
 3.  **Core versions change**: If Minecraft or Forge versions are updated in `pack.toml`.
 4.  **Maintenance procedures change**: If the workflow or tools (e.g., location of `packwiz`) are updated.
 5.  **Project structure changes**: If new directories or critical files are introduced.
+
+**Mandatory Cross-Check**: 
+Before adding or updating ANY mod or configuration, always cross-check with the **Official GregTech 6 Requirements & Compatibility Page**:
+`https://gregtech.overminddl1.com/downloads/gregtech_1.7.10/index.html`
+Ensure all IC2 build requirements, mod forks (GTNH versions preferred), and mandatory config tweaks (e.g., FastCraft, ForgeMultipart) are strictly adhered to.
