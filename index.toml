@@ -2149,3 +2149,8 @@ metafile = true
 file = "mods/waila.pw.toml"
 hash = "1ce389a8d9488dd7d37490c1498d10412b7430b18cc0faa28f47afc9cf896b57"
 metafile = true
+
+[[files]]
+file = "mods/worldborder-forge.pw.toml"
+hash = "1c292a528bceb436dd184e0bb9d5f18c598989e4498a9c16ea4ad4c0a7ad1375"
+metafile = true
