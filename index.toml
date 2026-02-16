@@ -10,7 +10,7 @@ hash = "bb4ae179a0d0c6f3b1c0ecd991c5b71ddcaa6192a8302e1f85c2dfdb25c90049"
 
 [[files]]
 file = "build_server.sh"
-hash = "6a56be2db96fb179f464512bf8eaafe3e1ccde27f1ffa74fe46c719a010be9bb"
+hash = "a6aa0f120778ff16fca794cd87d9d9a5003ac5c7c00c34cb440264a6140cfe58"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"

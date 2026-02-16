@@ -32,7 +32,7 @@ echo "### Cleaning up metadata and unnecessary files from server-dist..."
 rm pack.toml index.toml
 find mods -name "*.pw.toml" -delete
 # Remove build scripts and other repo-only files from the bundle
-rm build_server.sh AI_CONTEXT.md
+rm -rf build_server.sh AI_CONTEXT.md .git
 cd -
 
 echo "### Downloading lwjgl3ify-forgePatches..."
