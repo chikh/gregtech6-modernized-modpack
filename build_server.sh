@@ -15,25 +15,24 @@ mkdir -p "$DIST_DIR"
 echo "### Refreshing packwiz index..."
 "$PACKWIZ_BINARY" refresh
 
-echo "### Preparing server-dist folder..."
-cp -r config "$DIST_DIR/"
-cp java9args.txt "$DIST_DIR/"
-cp pack.toml "$DIST_DIR/"
-cp index.toml "$DIST_DIR/"
-cp -r mods "$DIST_DIR/"
+echo "### Preparing server-dist folder (copying all tracked files)..."
+# Copy everything to ensure packwiz-installer finds all local files listed in index.toml
+cp -r . "$DIST_DIR/"
 
 echo "### Downloading packwiz-installer-bootstrap..."
-# Download to the project root (parent of current gt6-modpack dir)
 curl -L "$BOOTSTRAP_URL" -o ../packwiz-installer-bootstrap.jar
 
 echo "### Downloading all mod JARs (Server-side)..."
 cd "$DIST_DIR"
-# The bootstrap jar is in the parent of this directory (server-dist/..)
+# Run the installer. It will download JARs into the mods/ folder
 java -jar ../packwiz-installer-bootstrap.jar --side server -no-gui "pack.toml"
 
-echo "### Cleaning up metadata from server-dist..."
+echo "### Cleaning up metadata and unnecessary files from server-dist..."
+# Remove packwiz metadata
 rm pack.toml index.toml
 find mods -name "*.pw.toml" -delete
+# Remove build scripts and other repo-only files from the bundle
+rm build_server.sh AI_CONTEXT.md
 cd -
 
 echo "### Downloading lwjgl3ify-forgePatches..."
