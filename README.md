@@ -88,6 +88,27 @@ To get the best performance and compatibility with modern Java:
 - The instance will automatically include **LWJGL3ify** and **ArchaicFix**, which are pre-configured to handle the 1.7.10 compatibility on Java 25.
 - If you encounter rendering issues, ensure **Angelica** is enabled in the mods list.
 
+## Server-Side Setup & Artifacts
+
+### 1. Creating a Server-Side Artifact
+To create a version of the modpack containing only server-appropriate mods (excluding client-only mods like Angelica, JourneyMap, etc.):
+1.  Open a terminal in the modpack directory.
+2.  Run the following command:
+    ```bash
+    packwiz curseforge export --side server -o server-pack.zip
+    ```
+3.  The resulting `server-pack.zip` will contain the metadata and configurations for server-side use.
+
+### 2. Using ChunkPregenerator (Server Optimization)
+This mod is included to prevent lag during exploration by generating world chunks in advance.
+- **Start Pregeneration**: To generate a square area of 100 chunks radius centered at (0,0):
+  ```bash
+  /pregen gen startradius square 0 0 100
+  ```
+- **Stop Pregeneration**: `/pregen stop`
+- **Check Progress**: `/pregen showqueue`
+- **Help**: `/pregen help`
+
 ## Maintenance
 
 ## Installation (Client)

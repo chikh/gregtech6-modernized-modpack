@@ -28,7 +28,8 @@ Required to bypass module encapsulation and for optimal GC performance:
 - **Adding Mods**: Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
 - **Updating**: Use `packwiz update --all` or `packwiz update [mod-name]`.
 - **Refreshing Index**: Always run `packwiz refresh` after manual changes to metadata files.
-- **Exporting**: Use `packwiz curseforge export` to generate a CurseForge-compatible `.zip` for launchers.
+- **Exporting (Client)**: Use `packwiz curseforge export` to generate a CurseForge-compatible `.zip` for launchers.
+- **Exporting (Server)**: Use `packwiz curseforge export --side server -o server-pack.zip` to create a server-appropriate artifact.
 
 ## Directory Structure
 - `pack.toml`: Main project configuration.
