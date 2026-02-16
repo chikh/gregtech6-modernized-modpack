@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "3c2c8289bd8ece79a56986404bd3baabfd1b9044d455836eea2391446e9a4e64"
+hash = "419341dd3de80f1a856641bb2815f3321b37b7370c85172e9f872f1e02b40c69"
 
 [[files]]
 file = "README.md"
