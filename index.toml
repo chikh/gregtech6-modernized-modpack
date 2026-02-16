@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "89657432c7b2db60c43027022761273bab222e944adaefbed1936e2bee8c39e1"
+hash = "9fffb08d0078b69409e13201ff474a90ed16169de7c1dbb5ff6af8c4880b2b89"
 
 [[files]]
 file = "README.md"
-hash = "d570c227779c0a230ad0ce1ff5c963d07f641fa751fa68da8dc5370d6d8565a0"
+hash = "a85e700c2991cb2e486f2d28414dd1355082dc4ff064684d9e057de8a771f835"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -1981,6 +1981,10 @@ file = "config/soulforest/soulmain.cfg"
 hash = "c480560fcb47fd7b984e516d7e88f70945b38a91a0a20198a5be9d69934b0dd2"
 
 [[files]]
+file = "java9args.txt"
+hash = "33df3374f98600e1346cf1ea5ac29382f80a414a5af0302bc0f7d4c231a5a1d7"
+
+[[files]]
 file = "mods/angelica.pw.toml"
 hash = "d1e02ec961d4d77fb5ce6459fe771887d8b5a09fcc0d5f7c1f2b10315831ab15"
 metafile = true
@@ -2154,3 +2158,11 @@ metafile = true
 file = "mods/worldborder-forge.pw.toml"
 hash = "335dac55e43365c53fa36468ce2323fa295b129743ed9064a6ee48e709df80fc"
 metafile = true
+
+[[files]]
+file = "start.bat"
+hash = "6672077e2622a6b2a6ef13b8792f00b831c4f4d5380b27a67eda5efbced18d8f"
+
+[[files]]
+file = "start.sh"
+hash = "664957344a433e0c980aeaf9818877233d902931e9684fe2f01889ca0e88e466"
