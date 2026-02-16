@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "419341dd3de80f1a856641bb2815f3321b37b7370c85172e9f872f1e02b40c69"
+hash = "16dd8c7edee2361889894632867273dace501c3974425be39b283c631cb95d9c"
 
 [[files]]
 file = "README.md"
-hash = "9bf085ce870636f4be3df1ed7c899356e496b38b0550559e6d00683e8ce57073"
+hash = "8fab2f2eeff6f63e1676485170e206cd0a3a77ef93bf62fbc3e64d6d496b9220"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==.json"
@@ -1825,6 +1825,11 @@ metafile = true
 [[files]]
 file = "mods/notenoughitems-gtnh.pw.toml"
 hash = "e60e11843042294eb79968d180fd92ee0e178471cffd50d6f5c189310988bd33"
+metafile = true
+
+[[files]]
+file = "mods/pams-harvestcraft.pw.toml"
+hash = "5cd824f1d1a4bfd2a90504eeed416bdb68fd55bbcd93e137ff1c651794d95943"
 metafile = true
 
 [[files]]
