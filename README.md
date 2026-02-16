@@ -96,27 +96,24 @@ To run a GregTech 6 server on modern Java, follow these mandatory steps:
 - **Forge 1.7.10 Server**: Install a standard Forge 10.13.4.1614 server.
 - **Java 17, 21, or 25**: Ensure your server environment uses a modern JDK.
 
-### 2. Artifact Preparation
+### 2. Artifact Preparation & Startup
 1.  **Export the server mods**:
     ```bash
-    packwiz curseforge export --side server -o server-mods.zip
+    packwiz curseforge export --side server -o server-pack.zip
     ```
-    Extract this into your server's root directory.
-2.  **Download Forge Patches**: 
-    Download [lwjgl3ify-3.0.11-forgePatches.jar](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar) and place it in your server's root folder (next to `forge-1.7.10-10.13.4.1614-universal.jar`).
+2.  **Setup Server Folder**:
+    - Extract `server-pack.zip` into your server's root directory.
+    - **Note**: The `java9args.txt`, `start.sh`, and `start.bat` are already included in the root.
+3.  **Download Forge Patches**: 
+    Download [lwjgl3ify-3.0.11-forgePatches.jar](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar) and place it in the same folder.
     - **Rename it** to `lwjgl3ify-forgePatches.jar`.
 
-### 3. Java Arguments Configuration
-Create a file named `java9args.txt` in your server's root directory and paste the following content (one single line):
-```text
--Dfile.encoding=UTF-8 -Djava.system.class.loader=com.gtnewhorizons.retrofuturabootstrap.RfbSystemClassLoader --enable-native-access ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.net.spi=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.nio.channels=ALL-UNNAMED --add-opens java.base/java.nio.charset=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.time.chrono=ALL-UNNAMED --add-opens java.base/java.time.format=ALL-UNNAMED --add-opens java.base/java.time.temporal=ALL-UNNAMED --add-opens java.base/java.time.zone=ALL-UNNAMED --add-opens java.base/java.time=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.util.jar=ALL-UNNAMED --add-opens java.base/java.util.zip=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.desktop/com.sun.imageio.plugins.png=ALL-UNNAMED --add-opens java.desktop/sun.awt.image=ALL-UNNAMED --add-opens java.desktop/sun.awt=ALL-UNNAMED --add-opens java.desktop/sun.lwawt.macosx=ALL-UNNAMED --add-opens java.sql.rowset/javax.sql.rowset.serial=ALL-UNNAMED --add-opens jdk.dynalink/jdk.dynalink.beans=ALL-UNNAMED --add-opens jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED,java.naming
-```
+### 3. Launching the Server
+Simply run the included script for your platform:
+- **Linux/macOS**: `./start.sh`
+- **Windows**: `start.bat`
 
-### 4. Launching the Server
-Use the following command to start your server (adjust RAM as needed):
-```bash
-java -Xmx6G -Xms6G @java9args.txt -jar lwjgl3ify-forgePatches.jar nogui
-```
+(You can adjust RAM allocation by editing these files).
 
 ## Server-Side Optimization & Tools
 This mod is included to prevent lag during exploration by generating world chunks in advance.

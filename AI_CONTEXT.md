@@ -48,8 +48,8 @@ For full Java 25 compatibility on 1.7.10, the following setup is mandatory:
 ## Mandatory Server Setup (Java 17-25)
 1. **Forge Patches**: Download [lwjgl3ify-3.0.11-forgePatches.jar](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar) and rename to `lwjgl3ify-forgePatches.jar`.
 2. **Launch Wrapper**: Use `lwjgl3ify-forgePatches.jar` as the entry point instead of the standard Forge jar.
-3. **Java Args**: Load from `java9args.txt` using the `@java9args.txt` syntax.
-4. **Content**: Ensure `java9args.txt` contains the RFB system class loader and all mandatory `--add-opens` flags.
+3. **Startup Scripts**: `start.sh` (Linux) and `start.bat` (Windows) are included in the pack and pre-configured to use `java9args.txt`.
+4. **Java Args**: `java9args.txt` is included in the root and contains the mandatory `--add-opens` flags.
 
 ## Developer Notes
 - GregTech 6 is hosted externally; updates must be checked manually at `https://gregtech.overminddl1.com/1.7.10/`.
