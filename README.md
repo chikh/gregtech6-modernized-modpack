@@ -110,7 +110,7 @@ This mod is included to prevent lag during exploration by generating world chunk
 - **Help**: `/pregen help`
 
 ### 3. Managing World Borders (WorldBorder-Forge)
-Since Minecraft 1.7.10 does not have a built-in `/worldborder` command, this pack includes **WorldBorder-Forge**.
+Since Minecraft 1.7.10 does not have a built-in `/worldborder` command, this pack includes **WorldBorder-Forge** (configured for server-side only).
 - **Set a Square Border**: To set a 2000-block radius border centered at (0,0):
   ```bash
   /wb set 2000 2000 0 0

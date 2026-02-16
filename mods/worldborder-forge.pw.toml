@@ -1,6 +1,6 @@
 name = "WorldBorder-Forge"
 filename = "WorldBorder-Forge-1.0.2.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

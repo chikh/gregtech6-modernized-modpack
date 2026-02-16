@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "805b215a078c7257694cfb4dd124f93d73c38f491e1ba40656cdca20657258d1"
+hash = "89657432c7b2db60c43027022761273bab222e944adaefbed1936e2bee8c39e1"
 
 [[files]]
 file = "README.md"
-hash = "a0ef15492f9efb45970acac609c4096864e99c14bc78a479dc5308196bfd31f1"
+hash = "d570c227779c0a230ad0ce1ff5c963d07f641fa751fa68da8dc5370d6d8565a0"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -2152,5 +2152,5 @@ metafile = true
 
 [[files]]
 file = "mods/worldborder-forge.pw.toml"
-hash = "1c292a528bceb436dd184e0bb9d5f18c598989e4498a9c16ea4ad4c0a7ad1375"
+hash = "335dac55e43365c53fa36468ce2323fa295b129743ed9064a6ee48e709df80fc"
 metafile = true
