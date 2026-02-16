@@ -32,6 +32,7 @@
 ## Developer Notes
 - GregTech 6 is hosted externally; updates must be checked manually at `https://gregtech.overminddl1.com/1.7.10/`.
 - Packwiz allows for easy Git integration for version control of the modpack metadata.
+- **Recommended Setup**: Prism Launcher + Java 25 + LWJGL3ify (included) + Generational ZGC.
 
 ## AI Maintenance & Updates
 Any AI assisting with this project MUST update this file whenever:

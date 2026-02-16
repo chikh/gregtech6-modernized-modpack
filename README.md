@@ -16,14 +16,33 @@ This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed 
 - **JourneyMap**: Full-featured map and minimap.
 - **QoL Mods**: Inventory Tweaks, Mouse Tweaks, Controlling, AppleCore, NEI Addons.
 
-## Java Version & Performance
-This pack is optimized for **Java 17, 21, or 25**. 
-- To run on modern Java, it is highly recommended to use the **CleanroomMC** loader (a drop-in replacement for Forge 1.7.10) or standard Forge with the included **LWJGL3ify**.
-- Use ZGC (Generational) on Java 21+ for the best experience: `-XX:+UseZGC -XX:+ZGenerational`.
-To update mods or add new ones:
-1. Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
-2. Run `packwiz refresh` to update the index.
-3. Export the pack using `packwiz curseforge export` (for a CurseForge-compatible zip) or just share the files for use with the `packwiz-installer`.
+## Installation & Setup (Prism Launcher + Java 25)
+
+To get the best performance and compatibility with modern Java:
+
+### 1. Requirements
+- **Prism Launcher**: A modern, open-source Minecraft launcher.
+- **Java 25**: Download and install a recent build of OpenJDK 25.
+- **Modpack Files**: The `pack.toml` and associated files from this repository.
+
+### 2. Creating the Instance
+1.  **Export the pack**: Run `packwiz curseforge export` in the project directory to create a `.zip` file.
+2.  **Import to Prism**: Drag and drop the generated `.zip` into Prism Launcher or use **Add Instance** -> **Import from zip**.
+
+### 3. Configuring Java 25
+1.  **Select Instance**: Right-click the instance and select **Edit**.
+2.  **Settings**: Go to **Settings** -> **Java**.
+3.  **Java Runtime**: Enable the checkbox for **Java Runtime** and click **Auto-detect** (or manually browse) to select your **Java 25** binary.
+4.  **JVM Arguments**: Add the following to **JVM Arguments** for optimal performance:
+    ```bash
+    -XX:+UseZGC -XX:+ZGenerational -XX:+UnlockExperimentalVMOptions
+    ```
+
+### 4. Running
+- The instance will automatically include **LWJGL3ify** and **ArchaicFix**, which are pre-configured to handle the 1.7.10 compatibility on Java 25.
+- If you encounter rendering issues, ensure **Angelica** is enabled in the mods list.
+
+## Maintenance
 
 ## Installation (Client)
 1. Install Minecraft 1.7.10 with Forge 10.13.4.1614.
