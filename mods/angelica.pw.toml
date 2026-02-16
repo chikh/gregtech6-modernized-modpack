@@ -1,0 +1,13 @@
+name = "Angelica"
+filename = "angelica-2.0.0-alpha21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XN5jnYB4/versions/H1Muxxog/angelica-2.0.0-alpha21.jar"
+hash-format = "sha512"
+hash = "66e4b6aeae2c8b9ce83e1d592db3ffc4335a520728edfb138748408cc4883de129305afa07950aa82c65355be4c88926ac02d29e1c6c23246c550b87a4f9d0fb"
+
+[update]
+[update.modrinth]
+mod-id = "XN5jnYB4"
+version = "H1Muxxog"

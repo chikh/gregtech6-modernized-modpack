@@ -1,0 +1,8 @@
+name = "FalsePatternLib"
+filename = "falsepatternlib-mc1.7.10-1.10.7.jar"
+side = "both"
+
+[download]
+url = "https://github.com/FalsePattern/FalsePatternLib/releases/download/1.10.7/falsepatternlib-mc1.7.10-1.10.7.jar"
+hash-format = "sha256"
+hash = "9974a5b303b66e49faff0f04ef32fd377e7044632f591ee69bc1488de0f6ae69"

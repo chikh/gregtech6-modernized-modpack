@@ -2,15 +2,25 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "410c845bb5064363086b24aae614490907e74be31c7ccc950cfb76eaf6a04821"
+hash = "e01044d82bcb99fb0503c49f8851f6ffa6dec6cb5646a1314690bd01c38be80b"
 
 [[files]]
 file = "README.md"
-hash = "fd9b10c61d44dc964249fd20fd9a8264479344eb26dffdd92a26fcdf85ede97b"
+hash = "9150a2ab84ffff5fdd2d4655f3327d2e2defef5d8fb801ccf8ab1fa1f76e0bf3"
+
+[[files]]
+file = "mods/angelica.pw.toml"
+hash = "d1e02ec961d4d77fb5ce6459fe771887d8b5a09fcc0d5f7c1f2b10315831ab15"
+metafile = true
 
 [[files]]
 file = "mods/applecore.pw.toml"
 hash = "a5836f08783eccabdf1f9fb42b5270b2cdd23dd8c1effba2ad6748da2b706f2d"
+metafile = true
+
+[[files]]
+file = "mods/archaicfix.pw.toml"
+hash = "c57697806ba7ff5d4b88011e20cabdbb476a58a1b544cb759032292be4992cba"
 metafile = true
 
 [[files]]
@@ -34,6 +44,11 @@ hash = "2d8979b5daa642fbc61126aa3dd68387e6e8cbaef875a8aa9d9a470b7f8fe698"
 metafile = true
 
 [[files]]
+file = "mods/falsepatternlib.pw.toml"
+hash = "7a6ccd80f18cbd674eb72014b8725e651c0961f2e742f5549692e05b311af1eb"
+metafile = true
+
+[[files]]
 file = "mods/fastcraft.pw.toml"
 hash = "422af561be79850d7b301261b133bfc8ddcf7eab4c9d2e3934ded3f6fa72bf58"
 metafile = true
@@ -41,6 +56,11 @@ metafile = true
 [[files]]
 file = "mods/gregtech6.pw.toml"
 hash = "6a6c8d861f148cda4492ec2df4fc40975ce0a4c0902d947f27a867715a557d7e"
+metafile = true
+
+[[files]]
+file = "mods/gtnhlib.pw.toml"
+hash = "a9c82a62c3b80a00b631b415f90e18d73c5c77b8047eff96c10842ff99707ee0"
 metafile = true
 
 [[files]]
@@ -71,6 +91,11 @@ metafile = true
 [[files]]
 file = "mods/notenoughitems-gtnh.pw.toml"
 hash = "e60e11843042294eb79968d180fd92ee0e178471cffd50d6f5c189310988bd33"
+metafile = true
+
+[[files]]
+file = "mods/unimixins.pw.toml"
+hash = "cb026f337dbf7777e573233edca713a96eca54f3b7bab0d3207368b524ff6d2f"
 metafile = true
 
 [[files]]
