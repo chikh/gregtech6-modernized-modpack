@@ -46,7 +46,7 @@ For full Java 25 compatibility on 1.7.10, the following setup is mandatory:
 4. **Mods**: Ensure `lwjgl3ify.jar`, `archaicfix.jar`, `hodgepodge.jar`, `angelica.jar`, and `unimixins.jar` are present in `mods/`.
 
 ## Mandatory Server Setup (Docker/Custom)
-1. **Build Artifact**: Run `./build_server.sh` to create a `server-bundle.zip` containing all actual mod JARs and `java9args.txt`.
+1. **Build Artifact**: Run `./build_server.sh` inside the modpack folder to create a `server-bundle.zip` (located in the parent directory) containing all actual mod JARs and `java9args.txt`.
 2. **Docker TYPE**: Use `TYPE=CUSTOM` in `itzg/minecraft-server`.
 3. **Launch Entry**: Set `CUSTOM_SERVER=lwjgl3ify-forgePatches.jar`.
 4. **Java Args**: Load all mandatory flags (module access + Generational ZGC) via `JVM_OPTS: "@java9args.txt ..."`.

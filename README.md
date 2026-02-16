@@ -94,7 +94,7 @@ To host the server using the `itzg/minecraft-server` image with `TYPE=CUSTOM`, y
 
 ### 1. Building the Server Bundle
 Because `TYPE=CUSTOM` requires actual JAR files (not just metadata), use the provided `build_server.sh` script to assemble the pack:
-1.  Run the build script:
+1.  Run the build script from the modpack directory:
     ```bash
     ./build_server.sh
     ```

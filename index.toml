@@ -2,11 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "8d427271aeba510d50c99eb726fa4348b0a302704914a92da4d86d7b1cf7b31d"
+hash = "e42890d722d85e5d8bae16d4a2b0b3f28f50c7e6a4c1e597e0fa6ba84580652b"
 
 [[files]]
 file = "README.md"
-hash = "4b536b119784229def4604176a364cf844e4a55f54485254f46e56050f2335d8"
+hash = "bb4ae179a0d0c6f3b1c0ecd991c5b71ddcaa6192a8302e1f85c2dfdb25c90049"
+
+[[files]]
+file = "build_server.sh"
+hash = "ceb3d51c9e32672aa1e63dd2526255a0a140e352489b0787f9a3411d6289688d"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
