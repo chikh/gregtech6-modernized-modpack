@@ -105,11 +105,11 @@ Because `TYPE=CUSTOM` requires actual JAR files (not just metadata), use the pro
 
 ### 2. Deploying with Docker
 1.  Extract `server-bundle.zip` into your mapped volume folder (e.g., `./data`).
-2.  **Mandatory**: You must also place the base `forge-1.7.10-10.13.4.1614-universal.jar` and the Minecraft 1.7.10 server JAR in the root of the volume, as `TYPE=CUSTOM` does not automatically download them.
+2.  **Mandatory**: You must also place the base `forge-1.7.10-10.13.4.1614-universal.jar` and the Minecraft 1.7.10 server JAR in the root of the volume.
 3.  Use the provided `docker-compose.yml` which is configured with:
     - `TYPE: "CUSTOM"`
     - `CUSTOM_SERVER: "lwjgl3ify-forgePatches.jar"`
-    - All necessary `--add-opens` flags in `JVM_XX_OPTS`.
+    - `JVM_OPTS: "@java9args.txt ..."` which loads all mandatory module access and Generational ZGC flags from the included file.
 
 ## Server-Side Setup (Java 17-25)
 

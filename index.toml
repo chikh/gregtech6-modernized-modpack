@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "a3db57e3f72057ea7f1cf49d76aef00930b68c65c5c45acc6e32b550105b225b"
+hash = "8d427271aeba510d50c99eb726fa4348b0a302704914a92da4d86d7b1cf7b31d"
 
 [[files]]
 file = "README.md"
-hash = "e74e1745a8f7f8ac3d2e072985c9eb73ba8db9f0127db0e325054b2fd820b2f0"
+hash = "4b536b119784229def4604176a364cf844e4a55f54485254f46e56050f2335d8"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -1982,11 +1982,11 @@ hash = "c480560fcb47fd7b984e516d7e88f70945b38a91a0a20198a5be9d69934b0dd2"
 
 [[files]]
 file = "docker-compose.yml"
-hash = "3138b53a7e623110b0d0b1222ee77c2e8ff476692a9a40ebeec33a25fb877fe7"
+hash = "46c206cb193f64dd683c968ffbb0664d5b2bbed1ebb6e5b234a76f9b61fe1e46"
 
 [[files]]
 file = "java9args.txt"
-hash = "33df3374f98600e1346cf1ea5ac29382f80a414a5af0302bc0f7d4c231a5a1d7"
+hash = "326355ec35d65450cc52e6884de1144b90fcd659c99fae1d56db2a1b2970f07d"
 
 [[files]]
 file = "mods/angelica.pw.toml"
