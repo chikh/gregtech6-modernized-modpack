@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "5ba039d17795ebd9799e0f7e3e501abe915491ac01878e8400a74105730c3417"
+hash = "12a32030e80ac6295a608ace5756689059868100e3e206d78427608f3bea8619"
 
 [[files]]
 file = "README.md"
-hash = "5d7d0501a642fff6395610bbcc5cc7b3c796f00a5061540fc921ec61b9374bba"
+hash = "e7283aa68542b8beecb0465ec25c34dd6c4b4a7c0ba072f5a87d4246f9210e66"
 
 [[files]]
 file = "mods/angelica.pw.toml"
@@ -51,6 +51,11 @@ metafile = true
 [[files]]
 file = "mods/fastcraft.pw.toml"
 hash = "422af561be79850d7b301261b133bfc8ddcf7eab4c9d2e3934ded3f6fa72bf58"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "d451fd8fe5310103844d248fe6826636bb1ac4cbcd62b2bb2f49c18e5f02489b"
 metafile = true
 
 [[files]]

@@ -15,6 +15,7 @@ This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed 
 - **NEI (GTNH Fork)**: Recipe and item browser with JEI-style tabs and modern features.
 - **Waila & Waila Harvestability**: Tooltips and block information.
 - **JourneyMap**: Full-featured map and minimap.
+- **GraveStone Mod**: Essential mod that creates a grave on death to safely store your items.
 - **QoL Mods**: Inventory Tweaks, Mouse Tweaks, Controlling, AppleCore, NEI Addons.
 
 ## Installation & Setup (Prism Launcher + Java 25)
