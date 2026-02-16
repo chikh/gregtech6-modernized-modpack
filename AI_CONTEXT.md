@@ -45,11 +45,11 @@ For full Java 25 compatibility on 1.7.10, the following setup is mandatory:
 3. **Java**: Use Java 25 with the recommended JVM flags below.
 4. **Mods**: Ensure `lwjgl3ify.jar`, `archaicfix.jar`, `hodgepodge.jar`, `angelica.jar`, and `unimixins.jar` are present in `mods/`.
 
-## Mandatory Server Setup (Java 17-25)
-1. **Forge Patches**: Download [lwjgl3ify-3.0.11-forgePatches.jar](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar) and rename to `lwjgl3ify-forgePatches.jar`.
-2. **Launch Wrapper**: Use `lwjgl3ify-forgePatches.jar` as the entry point instead of the standard Forge jar.
-3. **Startup Scripts**: `start.sh` (Linux) and `start.bat` (Windows) are included in the pack and pre-configured to use `java9args.txt`.
-4. **Java Args**: `java9args.txt` is included in the root and contains the mandatory `--add-opens` flags.
+## Mandatory Server Setup (Docker/Custom)
+1. **Build Artifact**: Run `./build_server.sh` to create a `server-bundle.zip` containing all actual mod JARs.
+2. **Docker TYPE**: Use `TYPE=CUSTOM` in `itzg/minecraft-server`.
+3. **Launch Entry**: Set `CUSTOM_SERVER=lwjgl3ify-forgePatches.jar`.
+4. **Java Args**: Load RFB and mandatory module flags via `JVM_XX_OPTS`.
 
 ## Developer Notes
 - GregTech 6 is hosted externally; updates must be checked manually at `https://gregtech.overminddl1.com/1.7.10/`.

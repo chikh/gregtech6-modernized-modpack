@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "c8aa929c65b7c54288303ed654bdb9282972fca924f0411b1c2d4b0140ed9475"
+hash = "a3db57e3f72057ea7f1cf49d76aef00930b68c65c5c45acc6e32b550105b225b"
 
 [[files]]
 file = "README.md"
-hash = "8784f21b453fbe91bb9b5fd914e1553c42b7c73c93809de979905c5ae413387c"
+hash = "e74e1745a8f7f8ac3d2e072985c9eb73ba8db9f0127db0e325054b2fd820b2f0"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -1982,7 +1982,7 @@ hash = "c480560fcb47fd7b984e516d7e88f70945b38a91a0a20198a5be9d69934b0dd2"
 
 [[files]]
 file = "docker-compose.yml"
-hash = "77443ce3c8934c8ed3f7f3d5f32d3388ab3ac860ded2187d5208f9be4f61668f"
+hash = "3138b53a7e623110b0d0b1222ee77c2e8ff476692a9a40ebeec33a25fb877fe7"
 
 [[files]]
 file = "java9args.txt"

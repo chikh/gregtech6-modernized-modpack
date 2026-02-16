@@ -90,23 +90,26 @@ To get the best performance and compatibility with modern Java:
 
 ## Docker Setup (itzg/minecraft-server)
 
-If you plan to host the server using the `itzg/minecraft-server` Docker image with `TYPE=AUTO_CURSEFORGE`, you must configure it to handle the modern Java requirements for 1.7.10.
+To host the server using the `itzg/minecraft-server` image with `TYPE=CUSTOM`, you must provide a full bundle containing all mod JARs and the patched launcher.
 
-### 1. Requirements
-- A `docker-compose.yml` file (template provided in the repo).
-- Your exported `server-pack.zip` (hosted online or mapped as a volume).
+### 1. Building the Server Bundle
+Because `TYPE=CUSTOM` requires actual JAR files (not just metadata), use the provided `build_server.sh` script to assemble the pack:
+1.  Run the build script:
+    ```bash
+    ./build_server.sh
+    ```
+2.  This will create a `server-bundle.zip` containing:
+    - All server-side mod JARs.
+    - Configuration files.
+    - `java9args.txt` and startup patches.
 
-### 2. Mandatory Environment Variables
-Because 1.7.10 on Java 25 requires specific JVM flags and a patched loader, your Docker configuration must include:
-
-- **JVM_XX_OPTS**: Must contain the long list of `--add-opens` and the RFB System Class Loader setting. (See the included `docker-compose.yml`).
-- **JVM_OPTS**: Use `-XX:+UseZGC -XX:+ZGenerational` for optimal performance.
-- **FORGE_INSTALLER_URL**: If `AUTO_CURSEFORGE` doesn't pick up the patches, you may need to manually place `lwjgl3ify-forgePatches.jar` in the volume and set it as the startup JAR.
-
-### 3. Quick Start (Docker)
-1.  Export your pack: `packwiz curseforge export --side server -o server-pack.zip`.
-2.  Use the provided `docker-compose.yml`.
-3.  Ensure the `lwjgl3ify-forgePatches.jar` is available in your server data directory.
+### 2. Deploying with Docker
+1.  Extract `server-bundle.zip` into your mapped volume folder (e.g., `./data`).
+2.  **Mandatory**: You must also place the base `forge-1.7.10-10.13.4.1614-universal.jar` and the Minecraft 1.7.10 server JAR in the root of the volume, as `TYPE=CUSTOM` does not automatically download them.
+3.  Use the provided `docker-compose.yml` which is configured with:
+    - `TYPE: "CUSTOM"`
+    - `CUSTOM_SERVER: "lwjgl3ify-forgePatches.jar"`
+    - All necessary `--add-opens` flags in `JVM_XX_OPTS`.
 
 ## Server-Side Setup (Java 17-25)
 

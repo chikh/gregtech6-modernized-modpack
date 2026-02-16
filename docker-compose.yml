@@ -1,25 +1,25 @@
 services:
   mc:
-    image: itzg/minecraft-server:latest # Currently uses Java 25
+    image: itzg/minecraft-server:latest
     container_name: gt6-server
     ports:
       - "25565:25565"
     environment:
       EULA: "TRUE"
+      TYPE: "CUSTOM"
       VERSION: "1.7.10"
-      TYPE: "AUTO_CURSEFORGE"
-      # CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/YOUR_PACK_URL" # Point to your exported zip if hosted
+      
+      # The entry point jar for lwjgl3ify
+      CUSTOM_SERVER: "lwjgl3ify-forgePatches.jar"
       
       # Mandatory for Java 17-25 support on 1.7.10
-      # We use JVM_XX_OPTS to pass the --add-opens and --enable-native-access flags
+      # Load arguments from the included file
+      # Note: We still pass them via JVM_XX_OPTS to ensure they are picked up correctly by the container's startup script
       JVM_XX_OPTS: "-Djava.system.class.loader=com.gtnewhorizons.retrofuturabootstrap.RfbSystemClassLoader --enable-native-access ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.net.spi=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.nio.channels=ALL-UNNAMED --add-opens java.base/java.nio.charset=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.time.chrono=ALL-UNNAMED --add-opens java.base/java.time.format=ALL-UNNAMED --add-opens java.base/java.time.temporal=ALL-UNNAMED --add-opens java.base/java.time.zone=ALL-UNNAMED --add-opens java.base/java.time=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.util.jar=ALL-UNNAMED --add-opens java.base/java.util.zip=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.desktop/com.sun.imageio.plugins.png=ALL-UNNAMED --add-opens java.desktop/sun.awt.image=ALL-UNNAMED --add-opens java.desktop/sun.awt=ALL-UNNAMED --add-opens java.desktop/sun.lwawt.macosx=ALL-UNNAMED --add-opens java.sql.rowset/javax.sql.rowset.serial=ALL-UNNAMED --add-opens jdk.dynalink/jdk.dynalink.beans=ALL-UNNAMED --add-opens jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED,java.naming"
       
       # Generational ZGC for low latency
-      JVM_OPTS: "-Xmx6G -Xms6G -XX:+UseZGC -XX:+ZGenerational"
+      JVM_OPTS: "-Xmx6G -Xms6G -XX:+UseZGC -XX:+ZGenerational -XX:+UnlockExperimentalVMOptions"
       
-      # Use the lwjgl3ify-forgePatches.jar as the startup jar
-      # This needs to be in the root of the volume
-      # GENERIC_PACK: "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar"
     volumes:
       - ./data:/data
     restart: unless-stopped
