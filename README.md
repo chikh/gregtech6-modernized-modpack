@@ -29,6 +29,11 @@ To get the best performance and compatibility with modern Java:
 ### 2. Creating the Instance
 1.  **Export the pack**: Run `packwiz curseforge export` in the project directory to create a `.zip` file.
 2.  **Import to Prism**: Drag and drop the generated `.zip` into Prism Launcher or use **Add Instance** -> **Import from zip**.
+3.  **LWJGL 3 Patch (Mandatory)**: 
+    - Download [lwjgl3ify-3.0.11-multimc.zip](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-multimc.zip).
+    - Right-click the instance in Prism and select **Folder**.
+    - Extract the contents of the zip into this folder (where `mmc-pack.json` is located).
+    - **Overwrite** the existing `mmc-pack.json` when prompted. This correctly configures the instance to use LWJGL 3 and the modern Java wrapper.
 
 ### 3. Configuring Java 25 & LWJGL 3
 1.  **Select Instance**: Right-click the instance and select **Edit**.

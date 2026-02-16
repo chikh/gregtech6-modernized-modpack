@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "1290390ef4b5af8e60e1cefa0ab73f33e2e098eea3cf9418fa9ec5a6d20b2259"
+hash = "5ba039d17795ebd9799e0f7e3e501abe915491ac01878e8400a74105730c3417"
 
 [[files]]
 file = "README.md"
-hash = "d9180461cb86d1377b4f787cb607db760e6b0cf652339afacd38b09d401459ea"
+hash = "5d7d0501a642fff6395610bbcc5cc7b3c796f00a5061540fc921ec61b9374bba"
 
 [[files]]
 file = "mods/angelica.pw.toml"

@@ -40,6 +40,7 @@ Required to bypass module encapsulation and for optimal GC performance:
 - GregTech 6 is hosted externally; updates must be checked manually at `https://gregtech.overminddl1.com/1.7.10/`.
 - Packwiz allows for easy Git integration for version control of the modpack metadata.
 - **Recommended Setup**: Prism Launcher + Java 25 + LWJGL3ify (included) + Generational ZGC.
+- **Mandatory LWJGL 3 Patch**: Download [lwjgl3ify-3.0.11-multimc.zip](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-multimc.zip) and extract it to the instance folder (overwrite `mmc-pack.json`) to correctly enable LWJGL 3 on 1.7.10.
 
 ## AI Maintenance & Updates
 Any AI assisting with this project MUST update this file whenever:
