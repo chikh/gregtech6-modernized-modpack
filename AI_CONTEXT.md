@@ -10,9 +10,10 @@
 ## Mod List & Sources
 - **GregTech 6**: Added via URL (https://gregtech.overminddl1.com/1.7.10/6.17.06/gregtech_1.7.10-6.17.06.jar)
 - **IndustrialCraft 2 Experimental**: CurseForge (industrialcraft-2)
+- **NEI Fork (GTNH)**: NotEnoughItems-GTNH (includes JEI-style tabs, high performance, and bookmarks).
+- **NEI Dependencies (GTNH)**: CodeChickenCore Unofficial, CodeChickenLib Unofficial.
 - **Performance**: FastCraft, BetterFps
-- **QoL**: NotEnoughItems (NEI), Waila, Waila Harvestability, JourneyMap, Mouse Tweaks, Inventory Tweaks, Controlling, AppleCore, NEI Addons.
-- **Dependencies**: CodeChickenCore (automatically handled by packwiz for NEI).
+- **QoL**: Waila, Waila Harvestability, JourneyMap, Mouse Tweaks, Inventory Tweaks, Controlling, AppleCore, NEI Addons.
 
 ## Maintenance Procedures
 - **Adding Mods**: Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
@@ -30,3 +31,11 @@
 ## Developer Notes
 - GregTech 6 is hosted externally; updates must be checked manually at `https://gregtech.overminddl1.com/1.7.10/`.
 - Packwiz allows for easy Git integration for version control of the modpack metadata.
+
+## AI Maintenance & Updates
+Any AI assisting with this project MUST update this file whenever:
+1.  **New mods are added**: Update the "Mod List & Sources" section.
+2.  **Mod versions are updated**: Specifically for manually-added URLs like GregTech 6.
+3.  **Core versions change**: If Minecraft or Forge versions are updated in `pack.toml`.
+4.  **Maintenance procedures change**: If the workflow or tools (e.g., location of `packwiz`) are updated.
+5.  **Project structure changes**: If new directories or critical files are introduced.

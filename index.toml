@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "AI_CONTEXT.md"
+hash = "410c845bb5064363086b24aae614490907e74be31c7ccc950cfb76eaf6a04821"
+
+[[files]]
 file = "README.md"
 hash = "fd9b10c61d44dc964249fd20fd9a8264479344eb26dffdd92a26fcdf85ede97b"
 
@@ -15,8 +19,13 @@ hash = "1d7be9acf687897e75921e34c3236d3a78364d140c13b6c9ac4c4293635a6ebc"
 metafile = true
 
 [[files]]
-file = "mods/codechickencore.pw.toml"
-hash = "877e37dd1a4313b52e1d40d74fe9abc89658f8cf172263b0f33d0feb15db89b6"
+file = "mods/codechickencore-unofficial.pw.toml"
+hash = "9fb0370845230010306576f5963d80899c2b46514bcb9b7ec4eed8ecc7924394"
+metafile = true
+
+[[files]]
+file = "mods/codechickenlib-unofficial.pw.toml"
+hash = "f68c436801bb4cca5c0fb8a172badea975d5c98d969affa1ea2d7ffa8c8d71de"
 metafile = true
 
 [[files]]
@@ -60,8 +69,8 @@ hash = "1f1b9809a0e8a144ea2428a67144256fbc9816f4a29a1878b4720558952ad391"
 metafile = true
 
 [[files]]
-file = "mods/notenoughitems.pw.toml"
-hash = "920d279a70b25cad68c4f1c1992f8d4562e2d648402e2f9df013d078d62eae71"
+file = "mods/notenoughitems-gtnh.pw.toml"
+hash = "e60e11843042294eb79968d180fd92ee0e178471cffd50d6f5c189310988bd33"
 metafile = true
 
 [[files]]
