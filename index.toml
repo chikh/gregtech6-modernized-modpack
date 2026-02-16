@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "16dd8c7edee2361889894632867273dace501c3974425be39b283c631cb95d9c"
+hash = "805b215a078c7257694cfb4dd124f93d73c38f491e1ba40656cdca20657258d1"
 
 [[files]]
 file = "README.md"
-hash = "8fab2f2eeff6f63e1676485170e206cd0a3a77ef93bf62fbc3e64d6d496b9220"
+hash = "a0ef15492f9efb45970acac609c4096864e99c14bc78a479dc5308196bfd31f1"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -2016,6 +2016,11 @@ hash = "63ae5d5d12b50615daa6ad2d2fb92d0999b82c8fd4f23f1e7c945fe6e5b359ff"
 metafile = true
 
 [[files]]
+file = "mods/carbon-config.pw.toml"
+hash = "f2158c5052d1c5f7f09f252df251600a0dce6617a2c8aae226476fd5313c4d40"
+metafile = true
+
+[[files]]
 file = "mods/carpenters-blocks.pw.toml"
 hash = "a06f7789e0fd9aef2378f6000af1832e95407a0c854b30ba67d74d53a8146b8e"
 metafile = true
@@ -2023,6 +2028,11 @@ metafile = true
 [[files]]
 file = "mods/chisel.pw.toml"
 hash = "e05e261e4b7eae159f1deff4b9b436bcdfab8ee9f875d6dcf7f44764c136ea09"
+metafile = true
+
+[[files]]
+file = "mods/chunkpregenerator.pw.toml"
+hash = "dfeaee028f8f733fc9143014330d770f1d691125dcdc6dfa557e8a2ac96aedfe"
 metafile = true
 
 [[files]]
