@@ -12,8 +12,8 @@
 - **IndustrialCraft 2 Experimental**: CurseForge (industrialcraft-2)
 - **NEI Fork (GTNH)**: NotEnoughItems-GTNH (includes JEI-style tabs, high performance, and bookmarks).
 - **NEI Dependencies (GTNH)**: CodeChickenCore Unofficial, CodeChickenLib Unofficial.
-- **Performance**: Angelica (Sodium port), ArchaicFix, FastCraft, BetterFps.
-- **Modern Java Compatibility**: FalsePatternLib, GTNH Lib, UniMixins. (Optimized for Java 17/21).
+- **Performance**: Angelica (Sodium port), ArchaicFix, LWJGL3ify, FastCraft, BetterFps.
+- **Modern Java Compatibility**: FalsePatternLib, GTNH Lib, UniMixins. (Optimized for Java 17, 21, and 25).
 - **QoL**: Waila, Waila Harvestability, JourneyMap, Mouse Tweaks, Inventory Tweaks, Controlling, AppleCore, NEI Addons.
 
 ## Maintenance Procedures

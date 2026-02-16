@@ -8,6 +8,7 @@ This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed 
 - **Performance & Modern Java**:
     - **Angelica**: Backport of Sodium/Iris (HUGE performance boost, works best on Java 17+).
     - **ArchaicFix**: Essential fixes for modern Java and 1.7.10 stability.
+    - **LWJGL3ify**: Replaces the ancient LWJGL2 with LWJGL3, enabling support for **Java 17, 21, and 25**.
     - **FalsePatternLib**: Required library for modern performance patches.
     - **FastCraft & BetterFps**: Legacy performance optimizations.
 - **NEI (GTNH Fork)**: Recipe and item browser with JEI-style tabs and modern features.
@@ -16,10 +17,9 @@ This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed 
 - **QoL Mods**: Inventory Tweaks, Mouse Tweaks, Controlling, AppleCore, NEI Addons.
 
 ## Java Version & Performance
-This pack is optimized for **Java 17 or Java 21**. 
-- To run on modern Java, it is highly recommended to use the **CleanroomMC** loader (a drop-in replacement for Forge 1.7.10).
-- If using standard Forge, you may need a "Java 9+ Compatibility" mod.
-- Use ZGC (Generational) on Java 21 for the best experience: `-XX:+UseZGC -XX:+ZGenerational`.
+This pack is optimized for **Java 17, 21, or 25**. 
+- To run on modern Java, it is highly recommended to use the **CleanroomMC** loader (a drop-in replacement for Forge 1.7.10) or standard Forge with the included **LWJGL3ify**.
+- Use ZGC (Generational) on Java 21+ for the best experience: `-XX:+UseZGC -XX:+ZGenerational`.
 To update mods or add new ones:
 1. Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
 2. Run `packwiz refresh` to update the index.

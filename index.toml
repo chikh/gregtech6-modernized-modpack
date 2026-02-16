@@ -79,6 +79,11 @@ hash = "b9d8d5fe7ffcae44789420fc91cf07c291d12b4d1a4cb111792bfc24c3c5c5ac"
 metafile = true
 
 [[files]]
+file = "mods/lwjgl3ify.pw.toml"
+hash = "64d7b169e27f2c3da333d60a1afc96cae9cc4fc821aca9248016f8c0a6904166"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "c849632fd2348967eb369eaecd93f65de371cd9110650f828f995a4929166ae3"
 metafile = true
