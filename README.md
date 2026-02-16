@@ -8,6 +8,7 @@ This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed 
 - **Performance & Modern Java**:
     - **Angelica**: Backport of Sodium/Iris (HUGE performance boost, works best on Java 17+).
     - **ArchaicFix**: Essential fixes for modern Java and 1.7.10 stability.
+    - **Hodgepodge**: Required compatibility patches for various mods on Java 17+.
     - **LWJGL3ify**: Replaces the ancient LWJGL2 with LWJGL3, enabling support for **Java 17, 21, and 25**.
     - **FalsePatternLib**: Required library for modern performance patches.
     - **FastCraft & BetterFps**: Legacy performance optimizations.
@@ -29,12 +30,43 @@ To get the best performance and compatibility with modern Java:
 1.  **Export the pack**: Run `packwiz curseforge export` in the project directory to create a `.zip` file.
 2.  **Import to Prism**: Drag and drop the generated `.zip` into Prism Launcher or use **Add Instance** -> **Import from zip**.
 
-### 3. Configuring Java 25
+### 3. Configuring Java 25 & LWJGL 3
 1.  **Select Instance**: Right-click the instance and select **Edit**.
-2.  **Settings**: Go to **Settings** -> **Java**.
+2.  **Version**: In the **Version** tab, ensure you see **LWJGL 3** (manually add it via **Add** -> **LWJGL 3** if it's still showing LWJGL 2, though LWJGL3ify 3.0+ attempts to handle this).
+3.  **Settings**: Go to **Settings** -> **Java**.
 3.  **Java Runtime**: Enable the checkbox for **Java Runtime** and click **Auto-detect** (or manually browse) to select your **Java 25** binary.
-4.  **JVM Arguments**: Add the following to **JVM Arguments** for optimal performance:
+4.  **JVM Arguments**: Add the following mandatory flags to **JVM Arguments** to allow the game to access internal components on modern Java, and to enable optimal performance:
     ```bash
+    --add-opens java.base/java.io=ALL-UNNAMED
+    --add-opens java.base/java.lang=ALL-UNNAMED
+    --add-opens java.base/java.lang.reflect=ALL-UNNAMED
+    --add-opens java.base/java.net=ALL-UNNAMED
+    --add-opens java.base/java.nio=ALL-UNNAMED
+    --add-opens java.base/java.security=ALL-UNNAMED
+    --add-opens java.base/java.text=ALL-UNNAMED
+    --add-opens java.base/java.util=ALL-UNNAMED
+    --add-opens java.base/java.util.concurrent=ALL-UNNAMED
+    --add-opens java.base/java.util.zip=ALL-UNNAMED
+    --add-opens java.base/sun.nio.ch=ALL-UNNAMED
+    --add-opens java.base/sun.security.action=ALL-UNNAMED
+    --add-opens java.base/sun.security.util=ALL-UNNAMED
+    --add-opens java.desktop/java.awt=ALL-UNNAMED
+    --add-opens java.desktop/java.awt.color=ALL-UNNAMED
+    --add-opens java.desktop/java.awt.desktop=ALL-UNNAMED
+    --add-opens java.desktop/java.awt.dnd=ALL-UNNAMED
+    --add-opens java.desktop/java.awt.event=ALL-UNNAMED
+    --add-opens java.desktop/java.awt.font=ALL-UNNAMED
+    --add-opens java.desktop/java.awt.geom=ALL-UNNAMED
+    --add-opens java.desktop/java.awt.im=ALL-UNNAMED
+    --add-opens java.desktop/java.awt.image=ALL-UNNAMED
+    --add-opens java.desktop/java.awt.image.renderable=ALL-UNNAMED
+    --add-opens java.desktop/java.awt.print=ALL-UNNAMED
+    --add-opens java.desktop/sun.awt.image=ALL-UNNAMED
+    --add-opens java.desktop/sun.awt=ALL-UNNAMED
+    --add-opens java.desktop/sun.font=ALL-UNNAMED
+    --add-opens java.desktop/sun.print=ALL-UNNAMED
+    --add-opens java.naming/javax.naming=ALL-UNNAMED
+    --enable-native-access=ALL-UNNAMED
     -XX:+UseZGC -XX:+ZGenerational -XX:+UnlockExperimentalVMOptions
     ```
 
