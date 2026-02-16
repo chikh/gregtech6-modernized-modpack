@@ -88,6 +88,26 @@ To get the best performance and compatibility with modern Java:
 - The instance will automatically include **LWJGL3ify** and **ArchaicFix**, which are pre-configured to handle the 1.7.10 compatibility on Java 25.
 - If you encounter rendering issues, ensure **Angelica** is enabled in the mods list.
 
+## Docker Setup (itzg/minecraft-server)
+
+If you plan to host the server using the `itzg/minecraft-server` Docker image with `TYPE=AUTO_CURSEFORGE`, you must configure it to handle the modern Java requirements for 1.7.10.
+
+### 1. Requirements
+- A `docker-compose.yml` file (template provided in the repo).
+- Your exported `server-pack.zip` (hosted online or mapped as a volume).
+
+### 2. Mandatory Environment Variables
+Because 1.7.10 on Java 25 requires specific JVM flags and a patched loader, your Docker configuration must include:
+
+- **JVM_XX_OPTS**: Must contain the long list of `--add-opens` and the RFB System Class Loader setting. (See the included `docker-compose.yml`).
+- **JVM_OPTS**: Use `-XX:+UseZGC -XX:+ZGenerational` for optimal performance.
+- **FORGE_INSTALLER_URL**: If `AUTO_CURSEFORGE` doesn't pick up the patches, you may need to manually place `lwjgl3ify-forgePatches.jar` in the volume and set it as the startup JAR.
+
+### 3. Quick Start (Docker)
+1.  Export your pack: `packwiz curseforge export --side server -o server-pack.zip`.
+2.  Use the provided `docker-compose.yml`.
+3.  Ensure the `lwjgl3ify-forgePatches.jar` is available in your server data directory.
+
 ## Server-Side Setup (Java 17-25)
 
 To run a GregTech 6 server on modern Java, follow these mandatory steps:

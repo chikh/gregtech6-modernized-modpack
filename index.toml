@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "9fffb08d0078b69409e13201ff474a90ed16169de7c1dbb5ff6af8c4880b2b89"
+hash = "c8aa929c65b7c54288303ed654bdb9282972fca924f0411b1c2d4b0140ed9475"
 
 [[files]]
 file = "README.md"
-hash = "a85e700c2991cb2e486f2d28414dd1355082dc4ff064684d9e057de8a771f835"
+hash = "8784f21b453fbe91bb9b5fd914e1553c42b7c73c93809de979905c5ae413387c"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -1979,6 +1979,10 @@ hash = "e8ece634d11f917f28715c31b83e1684d0688dd8b15ee2386531ab9055d5f58d"
 [[files]]
 file = "config/soulforest/soulmain.cfg"
 hash = "c480560fcb47fd7b984e516d7e88f70945b38a91a0a20198a5be9d69934b0dd2"
+
+[[files]]
+file = "docker-compose.yml"
+hash = "77443ce3c8934c8ed3f7f3d5f32d3388ab3ac860ded2187d5208f9be4f61668f"
 
 [[files]]
 file = "java9args.txt"
