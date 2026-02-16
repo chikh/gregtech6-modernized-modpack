@@ -23,6 +23,7 @@ This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed 
 - **Cooking for Blockheads**: Modular kitchen system for managing Pam's Harvestcraft food.
 - **Pam's HarvestCraft**: Adds hundreds of new crops, foods, and the "Gardens" that spawn naturally in the world.
 - **Chisel & Carpenter's Blocks**: The gold standard for 1.7.10 decoration and aesthetics.
+- **ChunkPregenerator**: Efficient pregeneration of world chunks (configured for server-side only) to reduce lag during exploration.
 - **QoL Mods**: Inventory Tweaks, Mouse Tweaks, Controlling, AppleCore, NEI Addons.
 
 ## Installation & Setup (Prism Launcher + Java 25)
