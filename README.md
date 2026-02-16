@@ -17,6 +17,10 @@ This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed 
 - **JourneyMap**: Full-featured map and minimap.
 - **GraveStone Mod**: Essential mod that creates a grave on death to safely store your items.
 - **Better Storage (GTNH Edition)**: Adds immersive, wearable backpacks, reinforced chests, and lockers.
+- **GT6 Ore Helper**: Essential tool for tracking and visualizing GregTech 6 ore veins.
+- **Better Questing + Bear's Den Configs**: Fully configured questbook for GT6 progression.
+- **Cooking for Blockheads**: Modular kitchen system for managing Pam's Harvestcraft food.
+- **Chisel & Carpenter's Blocks**: The gold standard for 1.7.10 decoration and aesthetics.
 - **QoL Mods**: Inventory Tweaks, Mouse Tweaks, Controlling, AppleCore, NEI Addons.
 
 ## Installation & Setup (Prism Launcher + Java 25)
