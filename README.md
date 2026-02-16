@@ -16,6 +16,7 @@ This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed 
 - **Waila & Waila Harvestability**: Tooltips and block information.
 - **JourneyMap**: Full-featured map and minimap.
 - **GraveStone Mod**: Essential mod that creates a grave on death to safely store your items.
+- **Better Storage (GTNH Edition)**: Adds immersive, wearable backpacks, reinforced chests, and lockers.
 - **QoL Mods**: Inventory Tweaks, Mouse Tweaks, Controlling, AppleCore, NEI Addons.
 
 ## Installation & Setup (Prism Launcher + Java 25)

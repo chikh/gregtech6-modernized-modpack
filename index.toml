@@ -29,6 +29,11 @@ hash = "1d7be9acf687897e75921e34c3236d3a78364d140c13b6c9ac4c4293635a6ebc"
 metafile = true
 
 [[files]]
+file = "mods/betterstorage.pw.toml"
+hash = "63ae5d5d12b50615daa6ad2d2fb92d0999b82c8fd4f23f1e7c945fe6e5b359ff"
+metafile = true
+
+[[files]]
 file = "mods/codechickencore-unofficial.pw.toml"
 hash = "9fb0370845230010306576f5963d80899c2b46514bcb9b7ec4eed8ecc7924394"
 metafile = true

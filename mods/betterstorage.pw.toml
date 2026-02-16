@@ -1,0 +1,8 @@
+name = "BetterStorage"
+filename = "betterstorage-0.14.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/BetterStorage/releases/download/0.14.0.0/betterstorage-0.14.0.0.jar"
+hash-format = "sha256"
+hash = "bacb2329d6da2fc14444e4d3962e5e1033f3f7fc1c53eab97366c1407930d21e"
