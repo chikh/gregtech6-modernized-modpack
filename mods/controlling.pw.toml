@@ -1,0 +1,13 @@
+name = "Controlling"
+filename = "Controlling-1.7.10-1.0.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1eef5fbbf40b022529854106be2d3bfd20c990b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5507281
+project-id = 250398

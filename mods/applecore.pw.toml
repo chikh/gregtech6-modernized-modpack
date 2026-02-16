@@ -1,0 +1,13 @@
+name = "AppleCore"
+filename = "AppleCore-mc1.7.10-3.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc44d26fc7ae411b79ebd88a818362aade2171c2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2530879
+project-id = 224472
