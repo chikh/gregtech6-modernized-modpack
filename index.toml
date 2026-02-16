@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "ca44d97a4d71110285286cc595135ee2ae4c48d4769f572608096f99e74c163b"
+hash = "3c2c8289bd8ece79a56986404bd3baabfd1b9044d455836eea2391446e9a4e64"
 
 [[files]]
 file = "README.md"
-hash = "62c0ff9e681d747f309d029b53573d116eab92ddac070e33544eb658cb454196"
+hash = "9bf085ce870636f4be3df1ed7c899356e496b38b0550559e6d00683e8ce57073"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==.json"
@@ -1705,11 +1705,6 @@ metafile = true
 [[files]]
 file = "mods/archaicfix.pw.toml"
 hash = "c57697806ba7ff5d4b88011e20cabdbb476a58a1b544cb759032292be4992cba"
-metafile = true
-
-[[files]]
-file = "mods/bearcore.pw.toml"
-hash = "fa3c8d63389c090367c298f22a0aa0251727d69ded08a59a29369af37eba463a"
 metafile = true
 
 [[files]]
