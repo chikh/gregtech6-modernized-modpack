@@ -43,6 +43,12 @@ Required to bypass module encapsulation and for optimal GC performance:
 - **Recommended Setup**: Prism Launcher + Java 25 + LWJGL3ify (included) + Generational ZGC.
 - **Mandatory LWJGL 3 Patch**: Download [lwjgl3ify-3.0.11-multimc.zip](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-multimc.zip) and extract it to the instance folder (overwrite `mmc-pack.json`) to correctly enable LWJGL 3 on 1.7.10.
 
+## Git Commit Guidelines
+Any AI assisting with this project MUST create git commits after performing significant changes (adding/removing mods, updating configs, updating docs).
+- **Staging**: Always use `git add .` to ensure all metadata and config changes are tracked.
+- **Messages**: Commit messages should be concise and descriptive (e.g., "Add Pam's HarvestCraft and update README").
+- **Atomic Commits**: Prefer smaller, focused commits for distinct tasks (e.g., one commit for a new mod addition, another for config tweaks).
+
 ## AI Maintenance & Updates
 Any AI assisting with this project MUST update this file whenever:
 1.  **New mods are added**: Update the "Mod List & Sources" section.
