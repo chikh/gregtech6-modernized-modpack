@@ -88,18 +88,37 @@ To get the best performance and compatibility with modern Java:
 - The instance will automatically include **LWJGL3ify** and **ArchaicFix**, which are pre-configured to handle the 1.7.10 compatibility on Java 25.
 - If you encounter rendering issues, ensure **Angelica** is enabled in the mods list.
 
-## Server-Side Setup & Artifacts
+## Server-Side Setup (Java 17-25)
 
-### 1. Creating a Server-Side Artifact
-To create a version of the modpack containing only server-appropriate mods (excluding client-only mods like Angelica, JourneyMap, etc.):
-1.  Open a terminal in the modpack directory.
-2.  Run the following command:
+To run a GregTech 6 server on modern Java, follow these mandatory steps:
+
+### 1. Requirements
+- **Forge 1.7.10 Server**: Install a standard Forge 10.13.4.1614 server.
+- **Java 17, 21, or 25**: Ensure your server environment uses a modern JDK.
+
+### 2. Artifact Preparation
+1.  **Export the server mods**:
     ```bash
-    packwiz curseforge export --side server -o server-pack.zip
+    packwiz curseforge export --side server -o server-mods.zip
     ```
-3.  The resulting `server-pack.zip` will contain the metadata and configurations for server-side use.
+    Extract this into your server's root directory.
+2.  **Download Forge Patches**: 
+    Download [lwjgl3ify-3.0.11-forgePatches.jar](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar) and place it in your server's root folder (next to `forge-1.7.10-10.13.4.1614-universal.jar`).
+    - **Rename it** to `lwjgl3ify-forgePatches.jar`.
 
-### 2. Using ChunkPregenerator (Server Optimization)
+### 3. Java Arguments Configuration
+Create a file named `java9args.txt` in your server's root directory and paste the following content (one single line):
+```text
+-Dfile.encoding=UTF-8 -Djava.system.class.loader=com.gtnewhorizons.retrofuturabootstrap.RfbSystemClassLoader --enable-native-access ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.lang.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.net.spi=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.nio.channels=ALL-UNNAMED --add-opens java.base/java.nio.charset=ALL-UNNAMED --add-opens java.base/java.nio.file=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.time.chrono=ALL-UNNAMED --add-opens java.base/java.time.format=ALL-UNNAMED --add-opens java.base/java.time.temporal=ALL-UNNAMED --add-opens java.base/java.time.zone=ALL-UNNAMED --add-opens java.base/java.time=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens java.base/java.util.jar=ALL-UNNAMED --add-opens java.base/java.util.zip=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.base/jdk.internal.misc=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/jdk.internal.reflect=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.desktop/com.sun.imageio.plugins.png=ALL-UNNAMED --add-opens java.desktop/sun.awt.image=ALL-UNNAMED --add-opens java.desktop/sun.awt=ALL-UNNAMED --add-opens java.desktop/sun.lwawt.macosx=ALL-UNNAMED --add-opens java.sql.rowset/javax.sql.rowset.serial=ALL-UNNAMED --add-opens jdk.dynalink/jdk.dynalink.beans=ALL-UNNAMED --add-opens jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED,java.naming
+```
+
+### 4. Launching the Server
+Use the following command to start your server (adjust RAM as needed):
+```bash
+java -Xmx6G -Xms6G @java9args.txt -jar lwjgl3ify-forgePatches.jar nogui
+```
+
+## Server-Side Optimization & Tools
 This mod is included to prevent lag during exploration by generating world chunks in advance.
 - **Start Pregeneration**: To generate a square area of 100 chunks radius centered at (0,0):
   ```bash
