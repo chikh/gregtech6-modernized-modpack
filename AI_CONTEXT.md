@@ -6,6 +6,7 @@
 - **Minecraft Version**: 1.7.10
 - **Modloader**: Forge (10.13.4.1614)
 - **Primary Tool**: `packwiz` (Binary: `~/.aur/packwiz-git/packwiz`)
+- **Core Config**: Includes GregTech 6 "Default Config Pack" to ensure correct worldgen and mod balancing.
 
 ## Mod List & Sources
 - **GregTech 6**: Added via URL (https://gregtech.overminddl1.com/1.7.10/6.17.06/gregtech_1.7.10-6.17.06.jar)

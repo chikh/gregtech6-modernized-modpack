@@ -9,6 +9,126 @@ file = "README.md"
 hash = "8fab2f2eeff6f63e1676485170e206cd0a3a77ef93bf62fbc3e64d6d496b9220"
 
 [[files]]
+file = "config/ActuallyAdditions.cfg"
+hash = "f8a0710eb720f399e0241283b9642fccd9bdc6f3668b3c44da446760597de4be"
+
+[[files]]
+file = "config/AppliedEnergistics2/AppliedEnergistics2.cfg"
+hash = "91291a89006ee02a1950a8c8c24fb1b17972542a6424ef4f38a0a0fd8729750c"
+
+[[files]]
+file = "config/BetterFoliage.cfg"
+hash = "40a268073d25df7d3b10b8ee3e7d34768b083532a5a3507ddfc17c79228ea1dc"
+
+[[files]]
+file = "config/BiblioCraft.cfg"
+hash = "6ea4ecaf00cf3bf02ed6b79a8a9b5a97b430c129ed239dba35f9dd6e046ffa61"
+
+[[files]]
+file = "config/BigReactors/BigReactors.cfg"
+hash = "e918964ba8b3bbaa3a5329f67e760daa958bacbfa2c8f7f71ec31c92b9f89a47"
+
+[[files]]
+file = "config/CodeChickenCore.cfg"
+hash = "66a82860f9c90ceb509559186df0c1fa19ec8c9870092c5639a0ca73d9cd55ee"
+
+[[files]]
+file = "config/Enhanced Biomes/General.cfg"
+hash = "7fa59dfdd0bcd74ab3aa2a61ce0039c2d02cd95a93a0e2cd72761a42614a1dff"
+
+[[files]]
+file = "config/FlaxbeardsSteamPower.cfg"
+hash = "5a8fa5dee860632e913f4802c0a78ebc42374056d35b5dd1ba91e3e0188a2b66"
+
+[[files]]
+file = "config/Galacticraft/core.conf"
+hash = "96d599b2478f480f30f1996fb26500839da9461d9f31847784ad53efecc5a980"
+
+[[files]]
+file = "config/GalaxySpace/core.conf"
+hash = "30ef47a5b1c62362a3b59f1585d7762403f3c80a11f60f95ad6d6173e48f7e63"
+
+[[files]]
+file = "config/HungerOverhaul/HungerOverhaul.cfg"
+hash = "d3ec8a1012a2099bdc2f01f4d64a56ad94385422f7143346ebd1b65fbaf3d8a0"
+
+[[files]]
+file = "config/IC2.cfg"
+hash = "0a8dcd9c742c45714d25c6ffb03ae14d359ee919de72c798cf8e114ef09957f1"
+
+[[files]]
+file = "config/IC2.ini"
+hash = "6b08735752891857d78bc60323c3da5d1b2a71e7fa33732ec211d0675d6060e6"
+
+[[files]]
+file = "config/ImmersiveEngineering.cfg"
+hash = "f6cf1744d64406b7eb17ad29f1ece8c4afa73814243c1df5506c50009c5350ad"
+
+[[files]]
+file = "config/Magneticraft.cfg"
+hash = "46d6542a7bf1e9d9bdc4079d9f4ae4391a842cbb49be5e55fd76323d6d1fcea3"
+
+[[files]]
+file = "config/Mekanism.cfg"
+hash = "72b8ff0ba5ec03c7e513b4e75fde3c52cad26de3dedba47980999801b5f6a6b5"
+
+[[files]]
+file = "config/Netherlicious/Worldgeneration_Configuration.cfg"
+hash = "3a5ec01b122c5698b6945b7ce8a91b1289787815121da98f32777b3c3bb571a6"
+
+[[files]]
+file = "config/NuclearCraft/NCConfig.cfg"
+hash = "4a5645912deddf4c312dd0d3c0cec63311f5fb0d3c7a302132c07509f4b3b0e9"
+
+[[files]]
+file = "config/PneumaticCraft.cfg"
+hash = "90c95666948bede9e2da1b02e3b74a53694b903028e26e0b8cac46406c002187"
+
+[[files]]
+file = "config/ProjectRed.cfg"
+hash = "6eb3bf2e0801b6db648bf6518daab450499c6e6016717d98a83b2c4f3f4c91cd"
+
+[[files]]
+file = "config/Reika/ElectriCraft.cfg"
+hash = "20de309a1b9a1a0b6d50069c11d227dc3fccdf0e5fb56874ecffda1970bf56d2"
+
+[[files]]
+file = "config/Reika/ReactorCraft.cfg"
+hash = "49d0d12ce938ba360e66949e47ec7b2a1ae92f5f93749a7f44c0a5a78b75a39b"
+
+[[files]]
+file = "config/Techguns.cfg"
+hash = "3c07e6bd88c854982b4033062d48eac0395ded4aea82c8ae1ba34b42f9083f18"
+
+[[files]]
+file = "config/Thaumcraft.cfg"
+hash = "30edb578bf508b0900c3e7df8aec480a90a439d8906c2a6c8494174b25ab60be"
+
+[[files]]
+file = "config/TwilightForest.cfg"
+hash = "8d5e48f5a616dbafc8b4a484c088ac02eb5d7a299cfc3a57037cd1e9c635f3da"
+
+[[files]]
+file = "config/UndergroundBiomes.cfg"
+hash = "629efa8fdc14ffbe5c4d5c97da40e04b10316a9672b08fb66c417913fee72374"
+
+[[files]]
+file = "config/aroma1997/Aroma1997Core.cfg"
+hash = "2b8b88f44b5b401ef8a3975e8a2ea1c43446404e94cc14ada43900fc3fbe3c6e"
+
+[[files]]
+file = "config/bbm/atomicscience/DustLootTable.cfg"
+hash = "b01b4c5f67428727506d3ede2612d872ae8eada59b5f8f159514f0f9b8160094"
+
+[[files]]
+file = "config/bbm/atomicscience/Ore.cfg"
+hash = "0db9ccb7b59fb729e5d3c66051d0f0fb9b561cf375e83ab9a17674ec833096d0"
+
+[[files]]
+file = "config/bbm/ve/VoltzEngine.cfg"
+hash = "e77683fedb957e63d18bafee103752b341d72f32b7e03da3c7ae52b9be75639d"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==.json"
 hash = "a66866d3d723b38b70ba4a43a601a2bba62fe169a528117041464de8cc471853"
 
@@ -1693,6 +1813,174 @@ file = "config/betterquesting/resources/gt6bde/textures/gui/default_title.png"
 hash = "ec34c4527e3941032b8393e82c5bb0d39ce6dfdb4523e27a04da98c69f5a6005"
 
 [[files]]
+file = "config/betterstorage.cfg"
+hash = "911e4dbb227263c7cd66b49156e98c2e4c0a740e0c1e45a0298904aaca870107"
+
+[[files]]
+file = "config/bluepower.cfg"
+hash = "79fc21023837993cb6ce5a27e1e8954cc9358b0ad8d255710aa15a2d36a7faca"
+
+[[files]]
+file = "config/buildcraft/main.cfg"
+hash = "f9234944193a178d5287755d76730d422d7e3d556e38fc0fff1f1d23301d1eff"
+
+[[files]]
+file = "config/chisel.cfg"
+hash = "112ef6343ea0a481ea8f97462428c43e04ff86e03029001be8d3e002551db664"
+
+[[files]]
+file = "config/cofh/core/common.cfg"
+hash = "29c1156c60535580f570e020e47571c868117516c9eed0c8b015b4cde6e53cf8"
+
+[[files]]
+file = "config/cofh/thermaldynamics/client.cfg"
+hash = "87625633f0c8fd46198f7ec686df0549324d1d34cf74bcf5466bed7dcaec0e19"
+
+[[files]]
+file = "config/cofh/thermaldynamics/common.cfg"
+hash = "a15b907b93fadb8c1e8ffb02eb738c51bf7e8b45d4801fb23e0aa0c21c2227f1"
+
+[[files]]
+file = "config/cofh/thermalexpansion/client.cfg"
+hash = "ae69af65fe3a55c05fcf75251acf2156d4479a01f179f6127da576bb12d19496"
+
+[[files]]
+file = "config/cofh/thermalexpansion/common.cfg"
+hash = "86a6a6d0d8090b6610d696e651c34ca51826e0f6f33bff831fd0e4d12e31b06f"
+
+[[files]]
+file = "config/cofh/thermalexpansion/florbs.cfg"
+hash = "ecfa0ddb4c677d340dbbd023c3a1a8546a6da0af522d8c1258792865ca77f9f8"
+
+[[files]]
+file = "config/cofh/thermalexpansion/fuels.cfg"
+hash = "bf4153ef9b2046e2593cee1f1770a5299f09ae050ec7c3cbac5fb11f8c2fc99e"
+
+[[files]]
+file = "config/cofh/thermalfoundation/client.cfg"
+hash = "b1658a744507a98b1f1bb29ab226d67e8c35b56a759667241dd2ec695764d56f"
+
+[[files]]
+file = "config/cofh/thermalfoundation/common.cfg"
+hash = "cd07111f01701cdba168c66ff006c9cb9926fb682c7bf8cf765b0037981788b8"
+
+[[files]]
+file = "config/cofh/thermalfoundation/lexicon-whitelist.cfg"
+hash = "6291262586f1b3159af14d87a7a161763cf2e9aab7266cadaaa78974a41d6436"
+
+[[files]]
+file = "config/cofh/world/ThermalFoundation-Ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/cofh/world/Vanilla.json"
+hash = "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+
+[[files]]
+file = "config/coretweaks.cfg"
+hash = "4244fa6aa55dc7fbbd7e9a53e136dad8e8540de68a4ae4c686f5dec62873054e"
+
+[[files]]
+file = "config/enviromine/profiles/Default/Default_Settings.cfg"
+hash = "fc7ffb2e7b20ebe19e3bff343f9cedc161ca5a76bebf8538629b036810416fa8"
+
+[[files]]
+file = "config/enviromine/profiles/default/default_Settings.cfg"
+hash = "fc7ffb2e7b20ebe19e3bff343f9cedc161ca5a76bebf8538629b036810416fa8"
+
+[[files]]
+file = "config/etfuturum.cfg"
+hash = "dfcdb1b7cba46e5ac8eea06714bec8185bbcac09943e865718f1cdcb82efbbc2"
+
+[[files]]
+file = "config/etfuturum/etfuturum.cfg"
+hash = "7ea61603b563bf1fca75ed6c3299cdb656a4d3de3a8a513edc399625b084a5d6"
+
+[[files]]
+file = "config/etfuturum/world.cfg"
+hash = "e34d5788bf53c2095fe71b358f7409f3da711c1a88fc3b7fd46860852634463d"
+
+[[files]]
+file = "config/factorization.cfg"
+hash = "55da2d047ce03a5b835e29d2bcf6138a30ff7ec32bfcca3b37dc590928391270"
+
+[[files]]
+file = "config/fastcraft.ini"
+hash = "26bd1a4ce639dbeda34a94b987ea5fb757379d2ad743349fdf032c2948b3b211"
+
+[[files]]
+file = "config/forestry/backpacks.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/forestry/common.cfg"
+hash = "2751a71cff516a4486b3eb04f0b62d38932ffb931f1f019ee57096a82f700cd7"
+
+[[files]]
+file = "config/forestry/fluids.cfg"
+hash = "e96315bc3343ce38a2462b69abfa21ef5f0f810eba08bdbba90891339e116e4f"
+
+[[files]]
+file = "config/gregtech/QwerTech.cfg"
+hash = "910d8994ac0b8bd2aab862a2e772e85d634bddd90a2f01f733c669b84930bff1"
+
+[[files]]
+file = "config/gregtech/qwertech.cfg"
+hash = "910d8994ac0b8bd2aab862a2e772e85d634bddd90a2f01f733c669b84930bff1"
+
+[[files]]
+file = "config/harvestcraft.cfg"
+hash = "0458c37ed86c559dfbe61d820540031d9356b00fa54f20803057ef1ae89005d8"
+
+[[files]]
+file = "config/hbm.cfg"
+hash = "e6dca04faeaf2d7bd9623f51bddad131ca03be72a0786d974e8d78918648c2f7"
+
+[[files]]
+file = "config/ihl.cfg"
+hash = "70e255830fa2f7994c8b27adb5792c0fb035fb32c72009774aef1f6f67ca9658"
+
+[[files]]
+file = "config/mariculture/world-generation.cfg"
+hash = "b6b2e4e21a626a177f524d3bf6181e4d324045eb3a9b996274f426c6be800114"
+
+[[files]]
+file = "config/mystcraft/core.cfg"
+hash = "73b95750a1064727c943acfdd13a1348c8d22b378d2029b713e4d787b5473d9b"
+
+[[files]]
+file = "config/netheriteplus.cfg"
+hash = "535eab94bf91618e2ec43529250c0d63d0ce421961cfeeb6ea971ba07cf095e4"
+
+[[files]]
+file = "config/netherlicious.cfg"
+hash = "110327feff3dae07161969be327d6559268977144e8af11268ecefaf138c5e9f"
+
+[[files]]
+file = "config/netherlicious/Worldgeneration_Configuration.cfg"
+hash = "3a5ec01b122c5698b6945b7ce8a91b1289787815121da98f32777b3c3bb571a6"
+
+[[files]]
+file = "config/railcraft/blocks.cfg"
+hash = "7c8ab77a16d9e9fb6c212c2a35e7a33bfd2757f3c216678d905821270a21aeb2"
+
+[[files]]
+file = "config/railcraft/railcraft.cfg"
+hash = "12d56e31c6057d83999e09e6cef6d5cbfb0fea51a3b0790e0d469a2f074a67b2"
+
+[[files]]
+file = "config/rftools/dimlets.cfg"
+hash = "fb999c0e101e47183f01903f88151516265fc87bca9b35a6c350930cff31efb5"
+
+[[files]]
+file = "config/sc2/generation.cfg"
+hash = "e8ece634d11f917f28715c31b83e1684d0688dd8b15ee2386531ab9055d5f58d"
+
+[[files]]
+file = "config/soulforest/soulmain.cfg"
+hash = "c480560fcb47fd7b984e516d7e88f70945b38a91a0a20198a5be9d69934b0dd2"
+
+[[files]]
 file = "mods/angelica.pw.toml"
 hash = "d1e02ec961d4d77fb5ce6459fe771887d8b5a09fcc0d5f7c1f2b10315831ab15"
 metafile = true
@@ -1765,6 +2053,11 @@ metafile = true
 [[files]]
 file = "mods/fastcraft.pw.toml"
 hash = "422af561be79850d7b301261b133bfc8ddcf7eab4c9d2e3934ded3f6fa72bf58"
+metafile = true
+
+[[files]]
+file = "mods/forge-multi-part.pw.toml"
+hash = "9681e0415a681994c0e6455828160ac82395fb48c1ccec3a1c5ff92af93c1be4"
 metafile = true
 
 [[files]]
