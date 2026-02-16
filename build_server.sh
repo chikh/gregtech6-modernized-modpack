@@ -9,6 +9,7 @@ DIST_DIR="../server-dist"
 
 echo "### Cleaning up previous build..."
 rm -rf "$DIST_DIR"
+rm -rf ../server-bundle.zip
 mkdir -p "$DIST_DIR"
 
 echo "### Refreshing packwiz index..."
@@ -19,16 +20,19 @@ cp -r config "$DIST_DIR/"
 cp java9args.txt "$DIST_DIR/"
 cp pack.toml "$DIST_DIR/"
 cp index.toml "$DIST_DIR/"
-mkdir -p "$DIST_DIR/mods"
+cp -r mods "$DIST_DIR/" # Copy metadata files so installer can read them
 
 echo "### Downloading packwiz-installer-bootstrap..."
 curl -L "$BOOTSTRAP_URL" -o ../packwiz-installer-bootstrap.jar
 
 echo "### Downloading all mod JARs (Server-side)..."
-# We run the installer inside the dist dir pointing to the pack.toml
 cd "$DIST_DIR"
-java -jar ../packwiz-installer-bootstrap.jar --side server -no-gui "pack.toml"
-rm ../packwiz-installer-bootstrap.jar pack.toml index.toml # Clean up metadata from dist
+# Run the installer. It will download JARs into the mods/ folder
+java -jar ../../packwiz-installer-bootstrap.jar --side server -no-gui "pack.toml"
+
+echo "### Cleaning up metadata from server-dist..."
+rm pack.toml index.toml
+find mods -name "*.pw.toml" -delete
 cd -
 
 echo "### Downloading lwjgl3ify-forgePatches..."
