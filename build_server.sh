@@ -4,7 +4,8 @@ set -e
 # Configuration
 PACKWIZ_BINARY="$HOME/.aur/packwiz-git/packwiz"
 BOOTSTRAP_URL="https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
-FORGE_INSTALLER_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/1.7.10-10.13.4.1614/forge-1.7.10-10.13.4.1614-installer.jar"
+# Note: The Forge 1.7.10 maven path is specifically formatted with the MC version twice
+FORGE_INSTALLER_URL="https://maven.minecraftforge.net/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-installer.jar"
 FORGE_PATCHES_URL="https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar"
 DIST_DIR="../server-dist"
 ZIP_NAME="gt6-modernized-server.zip"
