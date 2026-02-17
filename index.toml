@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "61b7da95a3e7dea5c9a3eaffc44bb69f6bb368c3af6fdb440316dca8df192336"
+hash = "d1bd006a33653f298202d5be0ed2f9c23d202a7c5f59cb9dd3d0bdfa0bba967c"
 
 [[files]]
 file = "README.md"
@@ -2028,18 +2028,13 @@ hash = "c57697806ba7ff5d4b88011e20cabdbb476a58a1b544cb759032292be4992cba"
 metafile = true
 
 [[files]]
-file = "mods/better-questing-standard-expansion.pw.toml"
-hash = "c77b2be2fc09d5bc2739d14144e89a2b9deeb813c6a3ac00d5aa462b050cd2f2"
-metafile = true
-
-[[files]]
-file = "mods/better-questing.pw.toml"
-hash = "3673d86b434b902fc51d7c8eaf05d3bebb2676c8bfe5918ae7b9ce7d94b9cb3f"
-metafile = true
-
-[[files]]
 file = "mods/betterfps.pw.toml"
 hash = "1d7be9acf687897e75921e34c3236d3a78364d140c13b6c9ac4c4293635a6ebc"
+metafile = true
+
+[[files]]
+file = "mods/betterquesting-gtnh.pw.toml"
+hash = "809933e1dc299e09704d9ebafa03a46d9cf6bb73de64c505e65ae5c3b75a9e27"
 metafile = true
 
 [[files]]

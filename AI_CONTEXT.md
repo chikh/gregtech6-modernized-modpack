@@ -22,6 +22,7 @@ Any AI assisting with this project MUST adhere to these principles when suggesti
 - **IndustrialCraft 2 Experimental**: CurseForge (industrialcraft-2)
 - **NEI Fork (GTNH)**: NotEnoughItems-GTNH (includes JEI-style tabs, high performance, and bookmarks).
 - **NEI Dependencies (GTNH)**: CodeChickenCore Unofficial, CodeChickenLib Unofficial.
+- **BetterQuesting (GTNH)**: Added via URL (https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.28-GTNH/BetterQuesting-3.8.28-GTNH.jar).
 - **Performance**: Angelica (Sodium port), ArchaicFix, LWJGL3ify, Hodgepodge, FastCraft, BetterFps.
 - **Modern Java Compatibility**: FalsePatternLib, GTNH Lib, UniMixins. (Optimized for Java 17, 21, and 25).
 
