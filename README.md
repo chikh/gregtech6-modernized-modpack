@@ -4,7 +4,7 @@ This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed 
 
 ## Design Philosophy
 1.  **The "Gregified Vanilla" Experience**: This pack provides a game experience close to vanilla Minecraft, but entirely centered around **GregTech 6**. We prioritize physical systems, manual progression, and an industrial aesthetic. We avoid "magic" solutions and technical bloat.
-2.  **Legacy-Accessible Performance**: Engineered to run smoothly on low-end and old hardware. By utilizing a modernized technical stack (Java 25 + LWJGL 3 + Angelica), we provide modern performance on a legacy version of the game.
+2.  **Legacy-Accessible Performance & Runtime Optimization**: Engineered to run smoothly on low-end and old hardware. This includes both mod-level optimization (Angelica/Sodium) and runtime-level tuning (Java 25, LWJGL 3, and pre-configured Generational ZGC flags). We provide a "batteries-included" experience where the best performance settings are set by default.
 3.  **Bear's Den Inspired**: This modpack is heavily inspired by the **Bear's Den GT6 Survival Season 3** modpack, specifically aiming to provide a modernized and maintainable alternative to its technical and progression-focused gameplay.
 
 ## Contents

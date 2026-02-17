@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "71594967377d0661a214d74fcf99abda768d07b969bfcec1c0d53d2e36a58bf6"
+hash = "30be2f9625a26927c48bd429a622f0e7f7be9cc43ee1b5b93fcb3400f54fb3a2"
 
 [[files]]
 file = "README.md"
-hash = "0d12baacc7035a6a9ec328e80fd11165614018d436c80fd76db6d22667eb11e3"
+hash = "a6b14d9c3212447610a41a52cd44147c1d20fc6a49b5d1c866807c5b5a563b41"
 
 [[files]]
 file = "build_server.sh"
