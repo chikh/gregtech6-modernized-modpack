@@ -149,10 +149,15 @@ Simply run the included script for your platform:
 (You can adjust RAM allocation by editing these files).
 
 ## Server-Side Optimization & Tools
-This mod is included to prevent lag during exploration by generating world chunks in advance.
-- **Start Pregeneration**: To generate a square area of 100 chunks radius centered at (0,0):
+This mod is included to prevent lag during exploration by generating world chunks in advance. The following commands match the configured world borders (Overworld 5000x5000, Nether 624x624):
+
+- **Pregenerate Overworld** (Dim 0):
   ```bash
-  /pregen gen startradius square 0 0 100
+  /pregen gen startradius square 0 0 157 0
+  ```
+- **Pregenerate Nether** (Dim -1):
+  ```bash
+  /pregen gen startradius square 0 0 20 -1
   ```
 - **Stop Pregeneration**: `/pregen stop`
 - **Check Progress**: `/pregen showqueue`
