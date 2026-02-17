@@ -8,8 +8,9 @@ Any AI assisting with this project MUST adhere to these principles when suggesti
 
 ## Project Overview
 - **Name**: GT6: Modernized
-- **Logo**: `logo.png` (Concept 1: High-Ref Ingot)
+- **Logo**: `logo.png` (High-res) and `icon.png` (64x64 for launcher integration).
 - **Logo Generation Prompt (DALL-E/Midjourney)**: "A high-resolution, minimalist 2D logo for a Minecraft modpack named 'GT6: Modernized'. The logo features a sleek, metallic silver wrench silhouette. Centered inside the wrench is a glowing bronze rectangular ingot with sharp edges. The background is a dark navy blue blueprint style with thin, glowing cyan digital circuit lines. Industrial, technical, clean, professional."
+- **Automatic Icon Detection**: `icon.png` is placed in the root so `packwiz cf export` puts it in `overrides/icon.png`. Prism Launcher automatically detects this file in the `minecraft/` folder and sets it as the instance icon.
 - **Version**: 1.0.0
 - **Minecraft Version**: 1.7.10
 - **Modloader**: Forge (10.13.4.1614)

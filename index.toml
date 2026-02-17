@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "21ad2623f92b07b41894785abfe95178231bc981880b99234cbd7a63277b309c"
+hash = "eb3c5cc97ed9c00d96e00b61cfe1f532765195742753b4900532848136934a77"
 
 [[files]]
 file = "README.md"
@@ -1995,6 +1995,10 @@ hash = "c480560fcb47fd7b984e516d7e88f70945b38a91a0a20198a5be9d69934b0dd2"
 [[files]]
 file = "docker-compose.yml"
 hash = "96782a623db6d0f4ce0ff835c3387d6388994da949ff451ff5ee1657267f6534"
+
+[[files]]
+file = "icon.png"
+hash = "96e50a03608a6979ec9f6fb3c2c2623727ef82438dfdf7d5e20845c3688be6e3"
 
 [[files]]
 file = "java9args.txt"
