@@ -153,14 +153,14 @@ This mod is included to prevent lag during exploration by generating world chunk
 
 - **Pregenerate Overworld** (5000x5000):
   ```bash
-  /pregen Generate StartRadius SQUARE 0 0 157 0
+  /pregen start gen radius Overworld SQUARE 0 0 157 0 FAST_CHECK_GEN
   ```
 - **Pregenerate Nether** (624x624):
   ```bash
-  /pregen Generate StartRadius SQUARE 0 0 20 -1
+  /pregen start gen radius Nether SQUARE 0 0 20 -1 FAST_CHECK_GEN
   ```
-- **Stop/Clear Tasks**: `/pregen Delete Clear` or `/pregen Delete Stop`
-- **Check Progress**: `/pregen Track info`
+- **Control Tasks**: `/pregen stop`, `/pregen pause`, `/pregen resume`, or `/pregen clear`
+- **Monitor Progress**: `/pregen info listen`
 - **Help**: `/pregen help`
 
 ### 3. Managing World Borders (Elsewhere Border)

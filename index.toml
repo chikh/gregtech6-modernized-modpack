@@ -6,7 +6,7 @@ hash = "d741f12cca1a753919f2d7808a6d36f864cf009c944eb0bba1a4e2ee6c26707c"
 
 [[files]]
 file = "README.md"
-hash = "3b93a85d71abac27848058407eb6ee2d5262d328fe83636adb635880a7b11b18"
+hash = "b6200e218be18a735c6cdf32ff42160967060478646b6645d5859b24a0d93bd1"
 
 [[files]]
 file = "build_server.sh"
