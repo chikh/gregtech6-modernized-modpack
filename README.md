@@ -32,7 +32,7 @@ This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed 
 - **Chisel & Carpenter's Blocks**: The gold standard for 1.7.10 decoration and aesthetics.
 - **ChunkPregenerator**: Efficient pregeneration of world chunks (configured for server-side only) to reduce lag during exploration.
 - **Morpheus**: Server-side mod that allows skipping the night when a percentage of players sleep (configured for one player).
-- **QoL Mods**: Inventory Tweaks, Mouse Tweaks, Controlling, AppleCore, NEI Addons.
+- **QoL Mods**: Inventory Tweaks, Mouse Tweaks, Controlling, AppleCore, NEI Addons, ServerUtilities (Both sides).
 
 ## Installation & Setup (Prism Launcher + Java 25)
 

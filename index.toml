@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "e8eed7cc1be2a8fa3284a1151ebb2ef65f5d19185ba2b7b5d0f97a98a849d447"
+hash = "61b7da95a3e7dea5c9a3eaffc44bb69f6bb368c3af6fdb440316dca8df192336"
 
 [[files]]
 file = "README.md"
-hash = "d23f2943df3cdd87291e56e431a7c1ea4cfb237df7f984eb4348e55bd649d18c"
+hash = "314ce33a51f5da386c4214d78a16b757b84c3273bd486593085c7b4a5adfce20"
 
 [[files]]
 file = "build_server.sh"
@@ -2179,7 +2179,7 @@ metafile = true
 
 [[files]]
 file = "mods/serverutilities.pw.toml"
-hash = "598780acb52e34e87528f6b2ed72d270d4b113112c81e2f1bdaa13f168ee4033"
+hash = "1425464cd010c336324454dec3e48e4d3093db5758bbc353ea8a464f5afeb7c1"
 metafile = true
 
 [[files]]
