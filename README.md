@@ -1,4 +1,4 @@
-# GT6 Maintainable Modpack
+# GT6: Modernized
 
 This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed using `packwiz`.
 

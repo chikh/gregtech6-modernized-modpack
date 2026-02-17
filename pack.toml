@@ -1,4 +1,4 @@
-name = "GT6 Maintainable Pack"
+name = "GT6: Modernized"
 author = "Agent"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8e0f1b102b582274e95d9c5529324a07fa24db7c0855bb690923b8396feba65a"
+hash = "f1d7d6c69fa5f63aee55256a81364f4924bf8c50edaf38e5dd4998ad90842314"
 
 [versions]
 forge = "10.13.4.1614"

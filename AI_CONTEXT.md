@@ -1,4 +1,4 @@
-# AI Context: GT6 Maintainable Modpack
+# AI Context: GT6: Modernized
 
 ## Design Philosophy (Core Pillars)
 Any AI assisting with this project MUST adhere to these principles when suggesting mods or changes:
@@ -7,7 +7,7 @@ Any AI assisting with this project MUST adhere to these principles when suggesti
 3.  **Bear's Den Inspiration**: The pack is inspired by the **Bear's Den GT6 Survival Season 3** modpack. Aim for a similar "realistic industry" vibe but prioritized for modern Java and ease of maintenance.
 
 ## Project Overview
-- **Name**: GT6 Maintainable Pack
+- **Name**: GT6: Modernized
 - **Version**: 1.0.0
 - **Minecraft Version**: 1.7.10
 - **Modloader**: Forge (10.13.4.1614)
