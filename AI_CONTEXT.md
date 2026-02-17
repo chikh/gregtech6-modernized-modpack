@@ -55,6 +55,10 @@ For full Java 25 compatibility on 1.7.10, the following setup is mandatory:
 3. **Java**: Use Java 25 with the recommended JVM flags below.
 4. **Mods**: Ensure `lwjgl3ify.jar`, `archaicfix.jar`, `hodgepodge.jar`, `angelica.jar`, and `unimixins.jar` are present in `mods/`.
 
+## Hardware Compatibility & Hardware Fixes
+- **Older CPUs (Pre-AVX)**: CPUs like the AMD A6-3400M (2011) will crash with a `SIGILL` in `liblwjgl_spng.so` due to modern instruction usage in the optimized PNG loader. 
+  - **Fix**: In `config/lwjgl3ify.cfg`, set `B:stbiTextureLoading=false` under the `mixin` category to fallback to a compatible loader.
+
 ## Mandatory Server Setup (Docker/Custom)
 1. **Build Artifact**: Run `./build_server.sh` to create `gt6-modernized-server.zip`. If a `../modpacks` directory exists, it will be placed there automatically.
 2. **Docker Config**: Use `TYPE=CUSTOM` with `GENERIC_PACKS` pointing to the zip for automatic extraction into the `/data` volume.

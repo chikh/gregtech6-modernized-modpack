@@ -78,6 +78,12 @@ To get the best performance and compatibility with modern Java:
 - The instance will automatically include **LWJGL3ify** and **ArchaicFix**, which are pre-configured to handle the 1.7.10 compatibility on Java 25.
 - If you encounter rendering issues, ensure **Angelica** is enabled in the mods list.
 
+## Troubleshooting
+
+### Crash on Startup (SIGILL / liblwjgl_spng.so)
+If the game crashes immediately during the loading screen with a `SIGILL` error (Illegal Instruction), it is likely because your CPU is older (pre-2012) and does not support the AVX instructions used by the optimized PNG loader.
+- **Fix**: Open `config/lwjgl3ify.cfg` and set `B:stbiTextureLoading=false`.
+
 ## Docker Setup (itzg/minecraft-server)
 
 To host the server using the `itzg/minecraft-server` image with `TYPE=CUSTOM`, you must provide a full bundle containing all mod JARs and the patched launcher.

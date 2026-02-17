@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "d741f12cca1a753919f2d7808a6d36f864cf009c944eb0bba1a4e2ee6c26707c"
+hash = "e8eed7cc1be2a8fa3284a1151ebb2ef65f5d19185ba2b7b5d0f97a98a849d447"
 
 [[files]]
 file = "README.md"
-hash = "2b6a27dcf5032cc639f0ab47f75b609acbba087ccdef4d24ca7fb5bc8ba7c29c"
+hash = "d23f2943df3cdd87291e56e431a7c1ea4cfb237df7f984eb4348e55bd649d18c"
 
 [[files]]
 file = "build_server.sh"
@@ -1953,6 +1953,10 @@ file = "config/ihl.cfg"
 hash = "70e255830fa2f7994c8b27adb5792c0fb035fb32c72009774aef1f6f67ca9658"
 
 [[files]]
+file = "config/lwjgl3ify.cfg"
+hash = "ccde86789dbf660f34e8c3a8eafbbd5a5c80ec420eef7ebb2fc987e3f8f7613d"
+
+[[files]]
 file = "config/mariculture/world-generation.cfg"
 hash = "b6b2e4e21a626a177f524d3bf6181e4d324045eb3a9b996274f426c6be800114"
 
@@ -2192,6 +2196,10 @@ metafile = true
 file = "mods/waila.pw.toml"
 hash = "e92e390abfdf767e57b53223991680019fd279c64467b70e5a1dd40f41644e1c"
 metafile = true
+
+[[files]]
+file = "report.tar"
+hash = "3f3e6277b2aec33079fb14868d8ddd522120e01e530668a30ea81a64b8c24e83"
 
 [[files]]
 file = "serverutilities/serverutilities.cfg"
