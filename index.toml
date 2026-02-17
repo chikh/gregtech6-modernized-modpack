@@ -1886,7 +1886,7 @@ hash = "4244fa6aa55dc7fbbd7e9a53e136dad8e8540de68a4ae4c686f5dec62873054e"
 
 [[files]]
 file = "config/elsewhereborder.cfg"
-hash = "7d27034dcdfc70b42d6b5f0ea5cf93f9fcc664a901afbf200a25737445b6b429"
+hash = "a3ee4cd695fbbdd125d94ae3d4a54f7ba3f51db84761264a54d639eedf22f976"
 
 [[files]]
 file = "config/enviromine/profiles/Default/Default_Settings.cfg"
