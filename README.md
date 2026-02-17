@@ -154,16 +154,17 @@ This mod is included to prevent lag during exploration by generating world chunk
 - **Help**: `/pregen help`
 
 ### 3. Managing World Borders (Elsewhere Border)
-For stable world border management on 1.7.10, this pack includes **Elsewhere Border** (server-side only).
-- **Set a Square Border**: To set a 1000-block radius border:
-  ```bash
-  /eb set 1000
-  ```
-- **Check Status**: `/eb info`
-- **Help**: `/eb help`
+For stable world border management on 1.7.10, this pack includes **Elsewhere Border** (server-side only). Note that this mod is **configuration-only** and does not have in-game commands.
 
-### 4. Other Admin Tools (ServerUtilities)
-ServerUtilities (GTNH Fork) provides chunk claiming, backups, and player management via the `/admin` command.
+- **To set the border**:
+  1. Open `config/elsewhereborder.cfg` in your server folder.
+  2. Locate the `S:Borders` section.
+  3. Add your dimension and radius in the format `[DimensionID]:[Radius]`.
+     - *Example for a 2000x2000 area in the overworld*: `0:1000`
+  4. Restart the server to apply changes.
+
+### 4. Admin Tools (ServerUtilities)
+ServerUtilities (GTNH Fork) provides `/back`, `/home`, `/backup`, and chunk claiming. It does not handle world borders.
 
 ## Maintenance
 

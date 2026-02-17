@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "4fea17d1ba4d14b836759b064c7795b1291bbd33c651efccff33a5d789459462"
+hash = "8c4c5d355137eaa676ab96a2b30b0b43913e4a82af358d59ec74aee29f5f6c02"
 
 [[files]]
 file = "README.md"
-hash = "c529138a9d2e9627917130dd4862da0eb0558fb23c6392ffd65145da341d7b1f"
+hash = "b59b6bbd3da671cf1df6f806f0294b3657c29795aaac807b4520a1a9c653c92d"
 
 [[files]]
 file = "build_server.sh"
@@ -2008,6 +2008,11 @@ hash = "c57697806ba7ff5d4b88011e20cabdbb476a58a1b544cb759032292be4992cba"
 metafile = true
 
 [[files]]
+file = "mods/bdlib.pw.toml"
+hash = "728e0250bd2342f1bfb3d80fd9bf72b889e7fdc613634fc5166eae5658ad852e"
+metafile = true
+
+[[files]]
 file = "mods/better-questing-standard-expansion.pw.toml"
 hash = "c77b2be2fc09d5bc2739d14144e89a2b9deeb813c6a3ac00d5aa462b050cd2f2"
 metafile = true
@@ -2069,7 +2074,7 @@ metafile = true
 
 [[files]]
 file = "mods/elsewhere-border.pw.toml"
-hash = "09f0c5f2294b2958f516f9ce7809efe8b1ecace134be5c71ae57c999cd7c0989"
+hash = "f5ba9c4f026b2b4c83e1412cd2c78777caf421e6d36fe6056742f33fd6cb92cc"
 metafile = true
 
 [[files]]
