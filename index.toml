@@ -141,63 +141,63 @@ file = "config/betterquesting.cfg"
 hash = "2a2d5330380382c6a8356d88291db8e6a4c4855c1d1b8ac69c39cfc799ec1151"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==/QuestLine.json"
 hash = "a66866d3d723b38b70ba4a43a601a2bba62fe169a528117041464de8cc471853"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/Circuits-AAAAAAAAAAAAAAAAAAAABQ==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/QuestLine.json"
 hash = "1edb2374df893d3a70f7fe970cdf09d1f00513abb182f7257099d8e6f4574948"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/QuestLine.json"
 hash = "a78d5594020fb3c131f2c6152000498f5dd9a619e708e86acd5e474a80fe77f3"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/GoingNuclear-o7ew_J75S3qsZRJfzoKfBw==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/GoingNuclear-o7ew_J75S3qsZRJfzoKfBw==/QuestLine.json"
 hash = "0735871152d10a7825278969c15b547bad93a67c1e7eaf649a40ad7cbc2bf62d"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/Info-AAAAAAAAAAAAAAAAAAAAAA==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/Info-AAAAAAAAAAAAAAAAAAAAAA==/QuestLine.json"
 hash = "b4db7e8c8f3e01d2ddc9ff3b689c7dfc15ab1f584f8a3fd1fd6dc85f10faec85"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/MachineAge-AAAAAAAAAAAAAAAAAAAABA==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/MachineAge-AAAAAAAAAAAAAAAAAAAABA==/QuestLine.json"
 hash = "dc103e3645ee10b60bff64afd9802a0ff55609cedd17d22c0f98fd34aecad23e"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/OilPlasticandTit-AAAAAAAAAAAAAAAAAAAACA==/QuestLine.json"
 hash = "161ac0261240bf782b53e280d372ae841d7f87584523e88a25f541504c23951f"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/QuestLine.json"
 hash = "96b6adc1b3f4947b808f08f9e206b71e2bb00be2aa2198f6b934d5f416f38709"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/PeriodicTableand-AAAAAAAAAAAAAAAAAAAABg==/QuestLine.json"
 hash = "bd240d3d5bf109c4a34916511524262dcc6f7bc1a551d55cfdaed2c8af41e7c4"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/PowerTransportan-kntDcXyXTgyX3j6YucUYhA==/QuestLine.json"
 hash = "4254f77f88276c26dea02ec26b69221780a36a95f67b946dd21218c1e4b5e77a"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/StainlessSteelan-AAAAAAAAAAAAAAAAAAAAAw==/QuestLine.json"
 hash = "063c6e4d2fe41e5b457c55820de784946180c05a32f895ceeb5f2c3686495241"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/SteamAge-AAAAAAAAAAAAAAAAAAAAAg==/QuestLine.json"
 hash = "91cba10d1ab802bf3dad650ddfb9f0e9543f541956d6a1f521693679f516a647"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/StoneAge-AAAAAAAAAAAAAAAAAAAAAQ==/QuestLine.json"
 hash = "9dd96a558bc3e377415eec2f480cc2111ef69775ce3b26109904558a75d305fb"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/UsefulAlloys-AAAAAAAAAAAAAAAAAAAACw==/QuestLine.json"
 hash = "b4d082e907d598922954acdafa75f497dfffb94b1ce8d5bfa88a50e4c4b5bd63"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/Utility-AAAAAAAAAAAAAAAAAAAABw==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/Utility-AAAAAAAAAAAAAAAAAAAABw==/QuestLine.json"
 hash = "69a8c9fa3696bfcfca310f2d0905d945b0c7ecce52547b2e093585b0bc88b55c"
 
 [[files]]
@@ -409,10 +409,6 @@ file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAA
 hash = "19d1fbc7aa32cf68cfb4030bc44c7ac2ef73df662111141aa443452bf6064b99"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/ToDetectPossible-dQnktE7GTTWJ0Oe7R-_0aA==.json"
-hash = "4abaa2dc69a8975bbb4e77e9ea9eea1ff5135863f2590e09b23599693267f63a"
-
-[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/AGreatCrucibleTa-AAAAAAAAAAAAAAAAAAAALA==.json"
 hash = "e60f2110c89cea7febd242bf02189422b905cf971dc52d8b218c4f842d6b6d4d"
 
@@ -455,10 +451,6 @@ hash = "1b2fec30d141a26a12692c51b930446fd9f71695ab9b8ce28b5e71d89eee6498"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/TantalumPentoxid-AAAAAAAAAAAAAAAAAAAA8A==.json"
 hash = "33c1403b27600cc93287ef786d0c96fbc6f11ca3c939e18b340898a78f4c017e"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/Tier2Extruder-gTImxGpLRh-2WdEqNACOWA==.json"
-hash = "43235f773c5df6c89210b14f0c5ec75825c2792b59604e340d6dc0f135e9bc60"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/Tungsten-AAAAAAAAAAAAAAAAAAAAKQ==.json"
@@ -711,10 +703,6 @@ hash = "9a371dcea673d660ffa656a0a815bac72983f58d69397f40d2db3525a3c52381"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/NativeLead-2Aqb4QbFSee_m5c3s9PPgg==.json"
 hash = "4404ba909b0f80686823939b7b1c1c7dc72c17b2ac9bae73b9b451463d46f87b"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/NewQuest-wtO6DtLYS3GC6ZIeQReRzQ==.json"
-hash = "aa5644e6e4839647d94b410d5a40b60d909c599470675b91e5821187bf9dfd10"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/OilShale-Qiv6H_qxTDKskDqCdSFACQ==.json"
