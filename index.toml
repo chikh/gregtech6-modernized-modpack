@@ -409,6 +409,10 @@ file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAA
 hash = "19d1fbc7aa32cf68cfb4030bc44c7ac2ef73df662111141aa443452bf6064b99"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/Circuits-AAAAAAAAAAAAAAAAAAAABQ==/ToDetectPossible-dQnktE7GTTWJ0Oe7R-_0aA==.json"
+hash = "4abaa2dc69a8975bbb4e77e9ea9eea1ff5135863f2590e09b23599693267f63a"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/AGreatCrucibleTa-AAAAAAAAAAAAAAAAAAAALA==.json"
 hash = "e60f2110c89cea7febd242bf02189422b905cf971dc52d8b218c4f842d6b6d4d"
 
@@ -451,6 +455,10 @@ hash = "1b2fec30d141a26a12692c51b930446fd9f71695ab9b8ce28b5e71d89eee6498"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/TantalumPentoxid-AAAAAAAAAAAAAAAAAAAA8A==.json"
 hash = "33c1403b27600cc93287ef786d0c96fbc6f11ca3c939e18b340898a78f4c017e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/Tier2Extruder-gTImxGpLRh-2WdEqNACOWA==.json"
+hash = "43235f773c5df6c89210b14f0c5ec75825c2792b59604e340d6dc0f135e9bc60"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/CruciblesNiobium-AAAAAAAAAAAAAAAAAAAACg==/Tungsten-AAAAAAAAAAAAAAAAAAAAKQ==.json"
@@ -703,6 +711,10 @@ hash = "9a371dcea673d660ffa656a0a815bac72983f58d69397f40d2db3525a3c52381"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/NativeLead-2Aqb4QbFSee_m5c3s9PPgg==.json"
 hash = "4404ba909b0f80686823939b7b1c1c7dc72c17b2ac9bae73b9b451463d46f87b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/NewQuest-wtO6DtLYS3GC6ZIeQReRzQ==.json"
+hash = "aa5644e6e4839647d94b410d5a40b60d909c599470675b91e5821187bf9dfd10"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/OreDeposits-8eSc6WEpRC-R0O3CV1UB7Q==/OilShale-Qiv6H_qxTDKskDqCdSFACQ==.json"
