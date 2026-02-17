@@ -41,6 +41,7 @@ Required to bypass module encapsulation and for optimal GC performance:
 - `pack.toml`: Main project configuration.
 - `index.toml`: Mod file index and hash manifest.
 - `mods/`: Contains `.pw.toml` metadata files for each mod.
+- `serverutilities/`: Contains `serverutilities.cfg` for RTP range and other server management settings.
 - `README.md`: Human-readable overview.
 - `AI_CONTEXT.md`: This file.
 

@@ -18,6 +18,7 @@ echo "### Refreshing packwiz index..."
 echo "### Preparing server-dist folder (copying all tracked files)..."
 # Copy everything to ensure packwiz-installer finds all local files listed in index.toml
 cp -r . "$DIST_DIR/"
+# Note: serverutilities folder is already included by cp -r .
 
 echo "### Downloading packwiz-installer-bootstrap..."
 curl -L "$BOOTSTRAP_URL" -o ../packwiz-installer-bootstrap.jar

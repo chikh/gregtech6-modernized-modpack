@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "8c4c5d355137eaa676ab96a2b30b0b43913e4a82af358d59ec74aee29f5f6c02"
+hash = "435be1c203b997920e4f040aa1d35dc936d764c5dccd508752ac2add260e4fba"
 
 [[files]]
 file = "README.md"
@@ -10,7 +10,7 @@ hash = "b59b6bbd3da671cf1df6f806f0294b3657c29795aaac807b4520a1a9c653c92d"
 
 [[files]]
 file = "build_server.sh"
-hash = "a6aa0f120778ff16fca794cd87d9d9a5003ac5c7c00c34cb440264a6140cfe58"
+hash = "f973446f86f5fd7588d80f835616c63c4949fcb2f36ef12193b0b459e6d17b63"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -1886,7 +1886,7 @@ hash = "4244fa6aa55dc7fbbd7e9a53e136dad8e8540de68a4ae4c686f5dec62873054e"
 
 [[files]]
 file = "config/elsewhereborder.cfg"
-hash = "8e5e7639d6d861475b1900e529f37e450ac07ce9bab8a0776d1c420c4632d782"
+hash = "9d92bf53fbe62da7d3e5ebe48bf5a8f73b8de093d0d43c84dd5ddc18de69bf85"
 
 [[files]]
 file = "config/enviromine/profiles/Default/Default_Settings.cfg"
@@ -2175,6 +2175,10 @@ metafile = true
 file = "mods/waila.pw.toml"
 hash = "e92e390abfdf767e57b53223991680019fd279c64467b70e5a1dd40f41644e1c"
 metafile = true
+
+[[files]]
+file = "serverutilities/serverutilities.cfg"
+hash = "52efc30b9a34e2b36a344722bd51d99fa1fc22408518c1aa7f4c0c8a48fe63c0"
 
 [[files]]
 file = "start.bat"
