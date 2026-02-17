@@ -170,6 +170,19 @@ ServerUtilities (GTNH Fork) provides `/back`, `/home`, `/backup`, and chunk clai
 
 ## Maintenance
 
+### 1. Updating Quest Book
+To update the quest book content from the Bear's Den repository:
+1.  Navigate to the `gt6-modpack/` directory.
+2.  Run the update script:
+    ```bash
+    ./update_quests.sh
+    ```
+3.  Commit the changes to Git.
+
+### 2. Adding/Updating Mods
+- Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
+- Run `packwiz refresh` to update the index.
+
 ## Installation (Client)
 1. Install Minecraft 1.7.10 with Forge 10.13.4.1614.
 2. Use a packwiz-compatible launcher or the `packwiz-installer` bootstrap to download the mods.

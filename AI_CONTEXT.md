@@ -38,6 +38,7 @@ Required to bypass module encapsulation and for optimal GC performance:
 - **Adding Mods**: Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
 - **Updating**: Use `packwiz update --all` or `packwiz update [mod-name]`.
 - **Refreshing Index**: Always run `packwiz refresh` after manual changes to metadata files.
+- **Updating Quest Book**: Run `./update_quests.sh` in the `gt6-modpack/` directory to sync the `DefaultQuests` and `resources` from the official Bear's Den repository.
 - **Exporting (Client)**: Use `packwiz curseforge export` to generate a CurseForge-compatible `.zip` for launchers.
 - **Exporting (Server)**: Use `packwiz curseforge export --side server -o gt6-modernized-server.zip` to create a server-appropriate artifact.
 

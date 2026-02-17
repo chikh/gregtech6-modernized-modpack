@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "d1bd006a33653f298202d5be0ed2f9c23d202a7c5f59cb9dd3d0bdfa0bba967c"
+hash = "942e0e275594151645ca2b07b678d092512fe987f216ac3387b35ab4d433cb59"
 
 [[files]]
 file = "README.md"
-hash = "e9fca4c1f5e1fa912ca01d6f1357685e8b151cd6e8a0a1a569816348ded84ebe"
+hash = "5994572a6d2b77d45d886580512fbd55a39fb0a4116a483d6c279457ad6b437b"
 
 [[files]]
 file = "build_server.sh"
@@ -135,6 +135,10 @@ hash = "0db9ccb7b59fb729e5d3c66051d0f0fb9b561cf375e83ab9a17674ec833096d0"
 [[files]]
 file = "config/bbm/ve/VoltzEngine.cfg"
 hash = "e77683fedb957e63d18bafee103752b341d72f32b7e03da3c7ae52b9be75639d"
+
+[[files]]
+file = "config/betterquesting.cfg"
+hash = "2a2d5330380382c6a8356d88291db8e6a4c4855c1d1b8ac69c39cfc799ec1151"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AluminumandEarly-AAAAAAAAAAAAAAAAAAAACQ==.json"
@@ -2203,3 +2207,7 @@ hash = "6672077e2622a6b2a6ef13b8792f00b831c4f4d5380b27a67eda5efbced18d8f"
 [[files]]
 file = "start.sh"
 hash = "664957344a433e0c980aeaf9818877233d902931e9684fe2f01889ca0e88e466"
+
+[[files]]
+file = "update_quests.sh"
+hash = "d0b8410f4529d88b7c59617956df588e72120a20b72e593729ead113e1ba2e87"
