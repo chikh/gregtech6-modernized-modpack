@@ -35,6 +35,7 @@ Required to bypass module encapsulation and for optimal GC performance:
 - **QoL**: Waila, Waila Harvestability, JourneyMap, GraveStone Mod, Better Storage (GTNH Edition), GT6 Ore Helper, Better Questing (with Bear's Den configs), Cooking for Blockheads, Pam's HarvestCraft, Chisel, Carpenter's Blocks, ChunkPregenerator (Server-side), ServerUtilities (GTNH Fork, Both sides), Elsewhere Border (Server-side), Morpheus (Server-side), Mouse Tweaks, Inventory Tweaks, Controlling, AppleCore, NEI Addons.
 
 ## Maintenance Procedures
+- **Mandatory Reindexing**: After ANY manipulation of files within the modpack (adding/removing mods, updating configs, updating quests), you MUST run `packwiz refresh` to synchronize the index.
 - **Adding Mods**: Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
 - **Updating**: Use `packwiz update --all` or `packwiz update [mod-name]`.
 - **Refreshing Index**: Always run `packwiz refresh` after manual changes to metadata files.
