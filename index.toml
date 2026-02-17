@@ -6,7 +6,7 @@ hash = "61b7da95a3e7dea5c9a3eaffc44bb69f6bb368c3af6fdb440316dca8df192336"
 
 [[files]]
 file = "README.md"
-hash = "314ce33a51f5da386c4214d78a16b757b84c3273bd486593085c7b4a5adfce20"
+hash = "e9fca4c1f5e1fa912ca01d6f1357685e8b151cd6e8a0a1a569816348ded84ebe"
 
 [[files]]
 file = "build_server.sh"
@@ -1954,7 +1954,7 @@ hash = "70e255830fa2f7994c8b27adb5792c0fb035fb32c72009774aef1f6f67ca9658"
 
 [[files]]
 file = "config/lwjgl3ify.cfg"
-hash = "ccde86789dbf660f34e8c3a8eafbbd5a5c80ec420eef7ebb2fc987e3f8f7613d"
+hash = "a4dc1f129a69effb0fa00684167f2885be6db7743e02fb0ee82d8782462c6489"
 
 [[files]]
 file = "config/mariculture/world-generation.cfg"

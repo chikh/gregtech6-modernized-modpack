@@ -81,8 +81,12 @@ To get the best performance and compatibility with modern Java:
 ## Troubleshooting
 
 ### Crash on Startup (SIGILL / liblwjgl_spng.so)
-If the game crashes immediately during the loading screen with a `SIGILL` error (Illegal Instruction), it is likely because your CPU is older (pre-2012) and does not support the AVX instructions used by the optimized PNG loader.
-- **Fix**: Open `config/lwjgl3ify.cfg` and set `B:stbiTextureLoading=false`.
+If the game crashes immediately during the loading screen with a `SIGILL` error (Illegal Instruction), it is because your CPU is older than 2012 and does not support the modern instructions used by the optimized PNG loader.
+- **Fix (Legacy Hardware Mode)**: 
+  1. Open `config/lwjgl3ify.cfg`.
+  2. Set `B:stbiTextureLoading=false`.
+  3. Set `B:stbiTextureStitching=false`.
+  *Note: This will significantly increase loading times but allows the game to run on ancient hardware.*
 
 ## Docker Setup (itzg/minecraft-server)
 
