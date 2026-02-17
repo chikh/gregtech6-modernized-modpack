@@ -1,6 +1,6 @@
 name = "Mouse Tweaks"
 filename = "MouseTweaks-2.4.4-mc1.7.10.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
