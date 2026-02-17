@@ -10,7 +10,7 @@ hash = "2236423117d047dab99d76588ba8f891fb185234ce931db4b7b10f5e935b2f92"
 
 [[files]]
 file = "build_server.sh"
-hash = "8168c6185914959dbf8a213d09b2526ced1972b90126d08bd4870fbceac96ad3"
+hash = "630df406a753bbe62746bed6356505a172ee96e40c54e61b18694d266beb3974"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -1995,10 +1995,6 @@ hash = "c480560fcb47fd7b984e516d7e88f70945b38a91a0a20198a5be9d69934b0dd2"
 [[files]]
 file = "docker-compose.yml"
 hash = "96782a623db6d0f4ce0ff835c3387d6388994da949ff451ff5ee1657267f6534"
-
-[[files]]
-file = "forge-installer.jar"
-hash = "d24c149ffe5485af2a26c479c9e613a1fd2696f599342dba68dd272304cdd5ed"
 
 [[files]]
 file = "icon.png"
