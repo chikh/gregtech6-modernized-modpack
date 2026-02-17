@@ -153,14 +153,17 @@ This mod is included to prevent lag during exploration by generating world chunk
 - **Check Progress**: `/pregen showqueue`
 - **Help**: `/pregen help`
 
-### 3. Managing World Borders (ServerUtilities)
-Since Minecraft 1.7.10 does not have a built-in `/worldborder` command, this pack includes **ServerUtilities** (GTNH Fork), which is fully compatible with RCON and modern Java.
-- **Set a Square Border**: To set a 1000-block radius border centered at (0,0):
+### 3. Managing World Borders (Elsewhere Border)
+For stable world border management on 1.7.10, this pack includes **Elsewhere Border** (server-side only).
+- **Set a Square Border**: To set a 1000-block radius border:
   ```bash
-  /admin worldborder set 1000 0 0
+  /eb set 1000
   ```
-- **Check Status**: `/admin worldborder status`
-- **Other Admin Tools**: ServerUtilities also provides chunk claiming, backups, and player management via the `/admin` command.
+- **Check Status**: `/eb info`
+- **Help**: `/eb help`
+
+### 4. Other Admin Tools (ServerUtilities)
+ServerUtilities (GTNH Fork) provides chunk claiming, backups, and player management via the `/admin` command.
 
 ## Maintenance
 

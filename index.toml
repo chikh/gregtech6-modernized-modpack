@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "1b09a8602c63db96c1c6c2e2ddcfbf65216a2c01e816dbdaf215049f37a9d18a"
+hash = "4fea17d1ba4d14b836759b064c7795b1291bbd33c651efccff33a5d789459462"
 
 [[files]]
 file = "README.md"
-hash = "afbf8c3b58298cdd81295b67334a0ff5622ce340e44447b7966bf991847d50b2"
+hash = "c529138a9d2e9627917130dd4862da0eb0558fb23c6392ffd65145da341d7b1f"
 
 [[files]]
 file = "build_server.sh"
@@ -1990,7 +1990,7 @@ hash = "46c206cb193f64dd683c968ffbb0664d5b2bbed1ebb6e5b234a76f9b61fe1e46"
 
 [[files]]
 file = "java9args.txt"
-hash = "326355ec35d65450cc52e6884de1144b90fcd659c99fae1d56db2a1b2970f07d"
+hash = "f01ca2d909da79cb6dcb7647abb1208d645f86901915c465632c579dd96fc6a8"
 
 [[files]]
 file = "mods/angelica.pw.toml"
@@ -2065,6 +2065,11 @@ metafile = true
 [[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
 hash = "3631e5c2a6d8d2444b42ab529527c0abe7d2dc44ed68a955ced6760b76402e2e"
+metafile = true
+
+[[files]]
+file = "mods/elsewhere-border.pw.toml"
+hash = "09f0c5f2294b2958f516f9ce7809efe8b1ecace134be5c71ae57c999cd7c0989"
 metafile = true
 
 [[files]]

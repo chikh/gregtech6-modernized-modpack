@@ -1,0 +1,13 @@
+name = "Elsewhere Border"
+filename = "ElsewhereBorder-1.7.10-1.0.0-5-universal.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "d95274cfbf7e6aab233b1ac1f0523d06929e7d2f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2248596
+project-id = 232634
