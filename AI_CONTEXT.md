@@ -1,5 +1,10 @@
 # AI Context: GT6 Maintainable Modpack
 
+## Design Philosophy (Core Pillars)
+Any AI assisting with this project MUST adhere to these principles when suggesting mods or changes:
+1.  **Gregified Vanilla**: The pack should feel like "Vanilla + GT6". Suggest mods that enhance the physical, industrial feel of GT6 (like Better Storage). Avoid mods that add "magic" blocks, teleportation, or sci-fi UI elements that clash with GT6's gritty, realistic progression.
+2.  **Low-End Hardware First**: Every mod added must be analyzed for its performance impact. Prioritize performance mods (like Angelica) and avoid mods known for heavy RAM usage or tick-lag unless they are core to GT6.
+
 ## Project Overview
 - **Name**: GT6 Maintainable Pack
 - **Version**: 1.0.0
