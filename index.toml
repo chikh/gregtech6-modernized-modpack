@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "eb3c5cc97ed9c00d96e00b61cfe1f532765195742753b4900532848136934a77"
+hash = "d741f12cca1a753919f2d7808a6d36f864cf009c944eb0bba1a4e2ee6c26707c"
 
 [[files]]
 file = "README.md"
-hash = "e7262ffa954716fa0159dcbe2e4a342d7c515c90aa854366084a4b94caa5a315"
+hash = "3b93a85d71abac27848058407eb6ee2d5262d328fe83636adb635880a7b11b18"
 
 [[files]]
 file = "build_server.sh"
@@ -2195,7 +2195,7 @@ metafile = true
 
 [[files]]
 file = "serverutilities/serverutilities.cfg"
-hash = "fe39deacaf718026aa8b43dfed16d89b7f4c57302ac1b24ab7f8157f2725784f"
+hash = "266d7acff8a4ec2f442337fc0c191e13e25c4215a5ecb404027f41a7f9d64f40"
 
 [[files]]
 file = "start.bat"

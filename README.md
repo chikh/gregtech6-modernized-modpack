@@ -149,19 +149,19 @@ Simply run the included script for your platform:
 (You can adjust RAM allocation by editing these files).
 
 ## Server-Side Optimization & Tools
-This mod is included to prevent lag during exploration by generating world chunks in advance. To avoid conflicts with ServerUtilities, it is recommended to use the `/chunkpregen` alias:
+This mod is included to prevent lag during exploration by generating world chunks in advance. Use the following commands (4.4.x syntax) to match the configured world borders:
 
-- **Pregenerate Overworld** (Dim 0):
+- **Pregenerate Overworld** (5000x5000):
   ```bash
-  /chunkpregen gen startradius square 0 0 157 0
+  /pregen Generate StartRadius SQUARE 0 0 157 0
   ```
-- **Pregenerate Nether** (Dim -1):
+- **Pregenerate Nether** (624x624):
   ```bash
-  /chunkpregen gen startradius square 0 0 20 -1
+  /pregen Generate StartRadius SQUARE 0 0 20 -1
   ```
-- **Stop Pregeneration**: `/chunkpregen stop`
-- **Check Progress**: `/chunkpregen showqueue`
-- **Help**: `/chunkpregen help`
+- **Stop/Clear Tasks**: `/pregen Delete Clear` or `/pregen Delete Stop`
+- **Check Progress**: `/pregen Track info`
+- **Help**: `/pregen help`
 
 ### 3. Managing World Borders (Elsewhere Border)
 For stable world border management on 1.7.10, this pack includes **Elsewhere Border** (server-side only). Note that this mod is **configuration-only** and does not have in-game commands.

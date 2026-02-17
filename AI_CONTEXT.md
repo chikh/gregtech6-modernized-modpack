@@ -74,10 +74,11 @@ Any AI assisting with this project MUST create git commits after performing sign
 ## AI Maintenance & Updates
 Any AI assisting with this project MUST update this file whenever:
 1.  **New mods are added**: Update the "Mod List & Sources" section. ALWAYS verify and set the correct `side` (client, server, or both) in the `pw.toml` file.
-2.  **Mod versions are updated**: Specifically for manually-added URLs like GregTech 6.
-3.  **Core versions change**: If Minecraft or Forge versions are updated in `pack.toml`.
-4.  **Maintenance procedures change**: If the workflow or tools (e.g., location of `packwiz`) are updated.
-5.  **Project structure changes**: If new directories or critical files are introduced.
+2.  **Mod documentation lookup**: When looking up instructions for a particular mod, check the CurseForge or Modrinth page first, then follow "wiki" or GitHub links from there. Always verify against the mod's official GitHub repository or wiki to ensure command syntax and configuration details are accurate for the specific version used.
+3.  **Mod versions are updated**: Specifically for manually-added URLs like GregTech 6.
+4.  **Core versions change**: If Minecraft or Forge versions are updated in `pack.toml`.
+5.  **Maintenance procedures change**: If the workflow or tools (e.g., location of `packwiz`) are updated.
+6.  **Project structure changes**: If new directories or critical files are introduced.
 
 **Mandatory Cross-Check**: 
 Before adding or updating ANY mod or configuration, always cross-check with the **Official GregTech 6 Requirements & Compatibility Page**:
