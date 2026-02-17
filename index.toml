@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "435be1c203b997920e4f040aa1d35dc936d764c5dccd508752ac2add260e4fba"
+hash = "6ccc41452088eae827fe694540f6296bec02584e09ab5c6a3d44ecfcededc918"
 
 [[files]]
 file = "README.md"
-hash = "b59b6bbd3da671cf1df6f806f0294b3657c29795aaac807b4520a1a9c653c92d"
+hash = "1232a71c5fc7c81f4a0baae150211e63f22fba58f0d54a3cdfc989d23c91706c"
 
 [[files]]
 file = "build_server.sh"
@@ -75,6 +75,10 @@ hash = "46d6542a7bf1e9d9bdc4079d9f4ae4391a842cbb49be5e55fd76323d6d1fcea3"
 [[files]]
 file = "config/Mekanism.cfg"
 hash = "72b8ff0ba5ec03c7e513b4e75fde3c52cad26de3dedba47980999801b5f6a6b5"
+
+[[files]]
+file = "config/Morpheus.cfg"
+hash = "529cc1838bbc04c654c5cbc366aaaeb9d4f9dd8d9c07a9c5682254f2d179d3a0"
 
 [[files]]
 file = "config/Netherlicious/Worldgeneration_Configuration.cfg"
@@ -2134,6 +2138,11 @@ metafile = true
 [[files]]
 file = "mods/lwjgl3ify.pw.toml"
 hash = "64d7b169e27f2c3da333d60a1afc96cae9cc4fc821aca9248016f8c0a6904166"
+metafile = true
+
+[[files]]
+file = "mods/morpheus.pw.toml"
+hash = "82c19a386d3d5aa1db070f10cb6e6159fca1e171b1da5213eebc3bc745b1fc21"
 metafile = true
 
 [[files]]
