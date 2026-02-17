@@ -69,7 +69,7 @@ Any AI assisting with this project MUST create git commits after performing sign
 
 ## AI Maintenance & Updates
 Any AI assisting with this project MUST update this file whenever:
-1.  **New mods are added**: Update the "Mod List & Sources" section.
+1.  **New mods are added**: Update the "Mod List & Sources" section. ALWAYS verify and set the correct `side` (client, server, or both) in the `pw.toml` file.
 2.  **Mod versions are updated**: Specifically for manually-added URLs like GregTech 6.
 3.  **Core versions change**: If Minecraft or Forge versions are updated in `pack.toml`.
 4.  **Maintenance procedures change**: If the workflow or tools (e.g., location of `packwiz`) are updated.
