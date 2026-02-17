@@ -9,7 +9,7 @@ DIST_DIR="../server-dist"
 
 echo "### Cleaning up previous build..."
 rm -rf "$DIST_DIR"
-rm -rf ../server-bundle.zip
+rm -rf ../gt6-modernized-server.zip
 mkdir -p "$DIST_DIR"
 
 echo "### Refreshing packwiz index..."
@@ -39,9 +39,9 @@ cd -
 echo "### Downloading lwjgl3ify-forgePatches..."
 curl -L "$FORGE_PATCHES_URL" -o "$DIST_DIR/lwjgl3ify-forgePatches.jar"
 
-echo "### Bundling into server-bundle.zip..."
+echo "### Bundling into gt6-modernized-server.zip..."
 cd "$DIST_DIR"
-zip -r ../server-bundle.zip .
+zip -r ../gt6-modernized-server.zip .
 cd -
 
-echo "### Done! Server bundle is ready in server-bundle.zip (outside modpack folder)"
+echo "### Done! Server bundle is ready in gt6-modernized-server.zip (outside modpack folder)"

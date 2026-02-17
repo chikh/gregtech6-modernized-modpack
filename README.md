@@ -104,13 +104,13 @@ Because `TYPE=CUSTOM` requires actual JAR files (not just metadata), use the pro
     ```bash
     ./build_server.sh
     ```
-2.  This will create a `server-bundle.zip` containing:
+2.  This will create a `gt6-modernized-server.zip` containing:
     - All server-side mod JARs.
     - Configuration files.
     - `java9args.txt` and startup patches.
 
 ### 2. Deploying with Docker
-1.  Extract `server-bundle.zip` into your mapped volume folder (e.g., `./data`).
+1.  Extract `gt6-modernized-server.zip` into your mapped volume folder (e.g., `./data`).
 2.  **Mandatory**: You must also place the base `forge-1.7.10-10.13.4.1614-universal.jar` and the Minecraft 1.7.10 server JAR in the root of the volume.
 3.  Use the provided `docker-compose.yml` which is configured with:
     - `TYPE: "CUSTOM"`
@@ -128,10 +128,10 @@ To run a GregTech 6 server on modern Java, follow these mandatory steps:
 ### 2. Artifact Preparation & Startup
 1.  **Export the server mods**:
     ```bash
-    packwiz curseforge export --side server -o server-pack.zip
+    packwiz curseforge export --side server -o gt6-modernized-server.zip
     ```
 2.  **Setup Server Folder**:
-    - Extract `server-pack.zip` into your server's root directory.
+    - Extract `gt6-modernized-server.zip` into your server's root directory.
     - **Note**: The `java9args.txt`, `start.sh`, and `start.bat` are already included in the root.
 3.  **Download Forge Patches**: 
     Download [lwjgl3ify-3.0.11-forgePatches.jar](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar) and place it in the same folder.

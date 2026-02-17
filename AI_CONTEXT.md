@@ -35,7 +35,7 @@ Required to bypass module encapsulation and for optimal GC performance:
 - **Updating**: Use `packwiz update --all` or `packwiz update [mod-name]`.
 - **Refreshing Index**: Always run `packwiz refresh` after manual changes to metadata files.
 - **Exporting (Client)**: Use `packwiz curseforge export` to generate a CurseForge-compatible `.zip` for launchers.
-- **Exporting (Server)**: Use `packwiz curseforge export --side server -o server-pack.zip` to create a server-appropriate artifact.
+- **Exporting (Server)**: Use `packwiz curseforge export --side server -o gt6-modernized-server.zip` to create a server-appropriate artifact.
 
 ## Directory Structure
 - `pack.toml`: Main project configuration.
@@ -53,7 +53,7 @@ For full Java 25 compatibility on 1.7.10, the following setup is mandatory:
 4. **Mods**: Ensure `lwjgl3ify.jar`, `archaicfix.jar`, `hodgepodge.jar`, `angelica.jar`, and `unimixins.jar` are present in `mods/`.
 
 ## Mandatory Server Setup (Docker/Custom)
-1. **Build Artifact**: Run `./build_server.sh` inside the modpack folder to create a `server-bundle.zip` (located in the parent directory) containing all actual mod JARs and `java9args.txt`.
+1. **Build Artifact**: Run `./build_server.sh` inside the modpack folder to create a `gt6-modernized-server.zip` (located in the parent directory) containing all actual mod JARs and `java9args.txt`.
 2. **Docker TYPE**: Use `TYPE=CUSTOM` in `itzg/minecraft-server`.
 3. **Launch Entry**: Set `CUSTOM_SERVER=lwjgl3ify-forgePatches.jar`.
 4. **Java Args**: Load all mandatory flags (module access + ZGC) via `JVM_OPTS: "@java9args.txt ..."`.
