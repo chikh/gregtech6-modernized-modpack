@@ -60,39 +60,18 @@ To get the best performance and compatibility with modern Java:
 2.  **Version**: In the **Version** tab, ensure you see **LWJGL 3** (manually add it via **Add** -> **LWJGL 3** if it's still showing LWJGL 2, though LWJGL3ify 3.0+ attempts to handle this).
 3.  **Settings**: Go to **Settings** -> **Java**.
 3.  **Java Runtime**: Enable the checkbox for **Java Runtime** and click **Auto-detect** (or manually browse) to select your **Java 25** binary.
-4.  **JVM Arguments**: Add the following mandatory flags to **JVM Arguments** to allow the game to access internal components on modern Java, and to enable optimal performance:
+4.  **JVM Arguments**: Add the following mandatory flags to **JVM Arguments** based on your allocated RAM:
+
+    #### **Option A: Low-RAM Setup (Recommended for < 4GB)**
+    Use **G1GC** for better stability on limited memory:
     ```bash
-    --add-opens java.base/java.io=ALL-UNNAMED
-    --add-opens java.base/java.lang=ALL-UNNAMED
-    --add-opens java.base/java.lang.reflect=ALL-UNNAMED
-    --add-opens java.base/java.net=ALL-UNNAMED
-    --add-opens java.base/java.nio=ALL-UNNAMED
-    --add-opens java.base/java.security=ALL-UNNAMED
-    --add-opens java.base/java.text=ALL-UNNAMED
-    --add-opens java.base/java.util=ALL-UNNAMED
-    --add-opens java.base/java.util.concurrent=ALL-UNNAMED
-    --add-opens java.base/java.util.zip=ALL-UNNAMED
-    --add-opens java.base/sun.nio.ch=ALL-UNNAMED
-    --add-opens java.base/sun.security.action=ALL-UNNAMED
-    --add-opens java.base/sun.security.util=ALL-UNNAMED
-    --add-opens java.desktop/java.awt=ALL-UNNAMED
-    --add-opens java.desktop/java.awt.color=ALL-UNNAMED
-    --add-opens java.desktop/java.awt.desktop=ALL-UNNAMED
-    --add-opens java.desktop/java.awt.dnd=ALL-UNNAMED
-    --add-opens java.desktop/java.awt.event=ALL-UNNAMED
-    --add-opens java.desktop/java.awt.font=ALL-UNNAMED
-    --add-opens java.desktop/java.awt.geom=ALL-UNNAMED
-    --add-opens java.desktop/java.awt.im=ALL-UNNAMED
-    --add-opens java.desktop/java.awt.image=ALL-UNNAMED
-    --add-opens java.desktop/java.awt.image.renderable=ALL-UNNAMED
-    --add-opens java.desktop/java.awt.print=ALL-UNNAMED
-    --add-opens java.desktop/sun.awt.image=ALL-UNNAMED
-    --add-opens java.desktop/sun.awt=ALL-UNNAMED
-    --add-opens java.desktop/sun.font=ALL-UNNAMED
-    --add-opens java.desktop/sun.print=ALL-UNNAMED
-    --add-opens java.naming/javax.naming=ALL-UNNAMED
-    --enable-native-access=ALL-UNNAMED
-    -XX:+UseZGC -XX:+UnlockExperimentalVMOptions
+    --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.zip=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/sun.security.action=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.desktop/java.awt=ALL-UNNAMED --add-opens java.desktop/java.awt.color=ALL-UNNAMED --add-opens java.desktop/java.awt.desktop=ALL-UNNAMED --add-opens java.desktop/java.awt.dnd=ALL-UNNAMED --add-opens java.desktop/java.awt.event=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED --add-opens java.desktop/java.awt.geom=ALL-UNNAMED --add-opens java.desktop/java.awt.im=ALL-UNNAMED --add-opens java.desktop/java.awt.image=ALL-UNNAMED --add-opens java.desktop/java.awt.image.renderable=ALL-UNNAMED --add-opens java.desktop/java.awt.print=ALL-UNNAMED --add-opens java.desktop/sun.awt.image=ALL-UNNAMED --add-opens java.desktop/sun.awt=ALL-UNNAMED --add-opens java.desktop/sun.font=ALL-UNNAMED --add-opens java.desktop/sun.print=ALL-UNNAMED --add-opens java.naming/javax.naming=ALL-UNNAMED --enable-native-access=ALL-UNNAMED -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=50 -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
+    ```
+
+    #### **Option B: High-RAM Setup (Recommended for 4GB+)**
+    Use **ZGC** for ultra-low latency if you have headroom:
+    ```bash
+    --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.zip=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/sun.security.action=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.desktop/java.awt=ALL-UNNAMED --add-opens java.desktop/java.awt.color=ALL-UNNAMED --add-opens java.desktop/java.awt.desktop=ALL-UNNAMED --add-opens java.desktop/java.awt.dnd=ALL-UNNAMED --add-opens java.desktop/java.awt.event=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED --add-opens java.desktop/java.awt.geom=ALL-UNNAMED --add-opens java.desktop/java.awt.im=ALL-UNNAMED --add-opens java.desktop/java.awt.image=ALL-UNNAMED --add-opens java.desktop/java.awt.image.renderable=ALL-UNNAMED --add-opens java.desktop/java.awt.print=ALL-UNNAMED --add-opens java.desktop/sun.awt.image=ALL-UNNAMED --add-opens java.desktop/sun.awt=ALL-UNNAMED --add-opens java.desktop/sun.font=ALL-UNNAMED --add-opens java.desktop/sun.print=ALL-UNNAMED --add-opens java.naming/javax.naming=ALL-UNNAMED --enable-native-access=ALL-UNNAMED -XX:+UseZGC -XX:+UnlockExperimentalVMOptions
     ```
 
 ### 4. Running
