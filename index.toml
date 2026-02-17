@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "8d57df87104f0b30b5fccf8857b5c411cbceb1a7257e8470958d86834e82f7d7"
+hash = "21ad2623f92b07b41894785abfe95178231bc981880b99234cbd7a63277b309c"
 
 [[files]]
 file = "README.md"
-hash = "e0e35c1a5e5cd96d64507923a95dbdb2eb6d0b13524ba5819a5fd738a9bc1eb5"
+hash = "2236423117d047dab99d76588ba8f891fb185234ce931db4b7b10f5e935b2f92"
 
 [[files]]
 file = "build_server.sh"
@@ -1999,6 +1999,10 @@ hash = "96782a623db6d0f4ce0ff835c3387d6388994da949ff451ff5ee1657267f6534"
 [[files]]
 file = "java9args.txt"
 hash = "f01ca2d909da79cb6dcb7647abb1208d645f86901915c465632c579dd96fc6a8"
+
+[[files]]
+file = "logo.png"
+hash = "c664ccb9db18e4678e22716444d9548b71d06251fd3e7a1699e86367ae6c6d9e"
 
 [[files]]
 file = "mods/angelica.pw.toml"
