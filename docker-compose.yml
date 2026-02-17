@@ -1,20 +1,38 @@
 services:
-  mc:
-    image: itzg/minecraft-server:latest
-    container_name: gt6-server
+  gt6-modernized:
+    image: itzg/minecraft-server:java25
+    tty: true
+    stdin_open: true
     ports:
       - "25565:25565"
     environment:
+      TZ: "Europe/Amsterdam"
       EULA: "TRUE"
-      TYPE: "CUSTOM"
+      TYPE: CUSTOM
       VERSION: "1.7.10"
       
-      # The entry point jar for lwjgl3ify
-      CUSTOM_SERVER: "lwjgl3ify-forgePatches.jar"
+      # Automatic extraction of the server bundle
+      GENERIC_PACKS: gt6-modernized-server
+      GENERIC_PACKS_SUFFIX: .zip
+      GENERIC_PACKS_PREFIX: /modpacks/
       
-      # Load all mandatory module access and GC flags from the included file
-      JVM_OPTS: "@java9args.txt -Xmx6G -Xms6G"
+      # Modern Java entry point for 1.7.10
+      CUSTOM_SERVER: "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar"
       
+      # Mandatory module access and performance flags
+      JVM_OPTS: "-Dfml.readTimeout=600 @java9args.txt"
+      
+      MEMORY: "2200M"
+      MOTD: "GT6: Modernized"
+      DIFFICULTY: "normal"
+      ENABLE_COMMAND_BLOCK: "true"
+      SPAWN_PROTECTION: 1
+      VIEW_DISTANCE: 6
+      MODE: 0
+      ONLINE_MODE: "false"
+      ALLOW_FLIGHT: "TRUE"
+      SEED: "-7950192977334047853"
     volumes:
-      - ./data:/data
+      - ./data/gt6-modernized:/data
+      - ./modpacks:/modpacks
     restart: unless-stopped

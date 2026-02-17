@@ -110,12 +110,14 @@ Because `TYPE=CUSTOM` requires actual JAR files (not just metadata), use the pro
     - `java9args.txt` and startup patches.
 
 ### 2. Deploying with Docker
-1.  Extract `gt6-modernized-server.zip` into your mapped volume folder (e.g., `./data`).
-2.  **Mandatory**: You must also place the base `forge-1.7.10-10.13.4.1614-universal.jar` and the Minecraft 1.7.10 server JAR in the root of the volume.
-3.  Use the provided `docker-compose.yml` which is configured with:
-    - `TYPE: "CUSTOM"`
-    - `CUSTOM_SERVER: "lwjgl3ify-forgePatches.jar"`
-    - `JVM_OPTS: "@java9args.txt ..."` which loads all mandatory module access and Generational ZGC flags from the included file.
+The pack is designed to work with the `itzg/minecraft-server` image using the `GENERIC_PACKS` feature for automatic extraction.
+1.  Ensure a `./modpacks` directory exists in your Docker project root.
+2.  Run `./build_server.sh`. This automatically places `gt6-modernized-server.zip` into the `./modpacks` folder.
+3.  Use the provided `docker-compose.yml`, which is pre-configured to:
+    - Automatically extract the modpack from `/modpacks/`.
+    - Use the correct `CUSTOM_SERVER` patch for Java 25.
+    - Load the mandatory JVM flags from `@java9args.txt`.
+4.  Run `docker compose up -d`.
 
 ## Server-Side Setup (Java 17-25)
 

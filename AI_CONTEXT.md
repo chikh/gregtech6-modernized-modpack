@@ -53,10 +53,10 @@ For full Java 25 compatibility on 1.7.10, the following setup is mandatory:
 4. **Mods**: Ensure `lwjgl3ify.jar`, `archaicfix.jar`, `hodgepodge.jar`, `angelica.jar`, and `unimixins.jar` are present in `mods/`.
 
 ## Mandatory Server Setup (Docker/Custom)
-1. **Build Artifact**: Run `./build_server.sh` inside the modpack folder to create a `gt6-modernized-server.zip` (located in the parent directory) containing all actual mod JARs and `java9args.txt`.
-2. **Docker TYPE**: Use `TYPE=CUSTOM` in `itzg/minecraft-server`.
-3. **Launch Entry**: Set `CUSTOM_SERVER=lwjgl3ify-forgePatches.jar`.
-4. **Java Args**: Load all mandatory flags (module access + ZGC) via `JVM_OPTS: "@java9args.txt ..."`.
+1. **Build Artifact**: Run `./build_server.sh` to create `gt6-modernized-server.zip`. If a `../modpacks` directory exists, it will be placed there automatically.
+2. **Docker Config**: Use `TYPE=CUSTOM` with `GENERIC_PACKS` pointing to the zip for automatic extraction into the `/data` volume.
+3. **Launch Entry**: Set `CUSTOM_SERVER` to the `lwjgl3ify-forgePatches.jar` URL (as configured in `docker-compose.yml`).
+4. **Java Args**: Load all mandatory flags (module access + ZGC) via `JVM_OPTS: "... @java9args.txt"`.
 
 ## Developer Notes
 - GregTech 6 is hosted externally; updates must be checked manually at `https://gregtech.overminddl1.com/1.7.10/`.
