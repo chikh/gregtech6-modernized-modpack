@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "AI_CONTEXT.md"
-hash = "30be2f9625a26927c48bd429a622f0e7f7be9cc43ee1b5b93fcb3400f54fb3a2"
+hash = "1b09a8602c63db96c1c6c2e2ddcfbf65216a2c01e816dbdaf215049f37a9d18a"
 
 [[files]]
 file = "README.md"
-hash = "a6b14d9c3212447610a41a52cd44147c1d20fc6a49b5d1c866807c5b5a563b41"
+hash = "afbf8c3b58298cdd81295b67334a0ff5622ce340e44447b7966bf991847d50b2"
 
 [[files]]
 file = "build_server.sh"
@@ -2148,6 +2148,11 @@ hash = "5cd824f1d1a4bfd2a90504eeed416bdb68fd55bbcd93e137ff1c651794d95943"
 metafile = true
 
 [[files]]
+file = "mods/serverutilities.pw.toml"
+hash = "598780acb52e34e87528f6b2ed72d270d4b113112c81e2f1bdaa13f168ee4033"
+metafile = true
+
+[[files]]
 file = "mods/unimixins.pw.toml"
 hash = "cb026f337dbf7777e573233edca713a96eca54f3b7bab0d3207368b524ff6d2f"
 metafile = true
@@ -2160,11 +2165,6 @@ metafile = true
 [[files]]
 file = "mods/waila.pw.toml"
 hash = "e92e390abfdf767e57b53223991680019fd279c64467b70e5a1dd40f41644e1c"
-metafile = true
-
-[[files]]
-file = "mods/worldborder-forge.pw.toml"
-hash = "335dac55e43365c53fa36468ce2323fa295b129743ed9064a6ee48e709df80fc"
 metafile = true
 
 [[files]]
