@@ -42,6 +42,19 @@ if [ -f "$SOURCE_DIR/questbook.cfg" ]; then
     cp "$SOURCE_DIR/questbook.cfg" "$TARGET_DIR/questbook.cfg"
 fi
 
+echo "Ensuring correct directory structure for BetterQuesting (GTNH)..."
+LINES_DIR="$TARGET_DIR/DefaultQuests/QuestLines"
+if [ -d "$LINES_DIR" ]; then
+    # Find all JSON files that are not already named QuestLine.json
+    find "$LINES_DIR" -maxdepth 1 -name "*.json" ! -name "QuestLine.json" | while read -r json_file; do
+        filename=$(basename "$json_file")
+        dirname="${filename%.json}"
+        mkdir -p "$LINES_DIR/$dirname"
+        mv "$json_file" "$LINES_DIR/$dirname/QuestLine.json"
+        echo "Converted $filename -> $dirname/QuestLine.json"
+    done
+fi
+
 echo "Cleaning up..."
 rm -rf "$TEMP_DIR"
 
