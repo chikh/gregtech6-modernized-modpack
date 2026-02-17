@@ -2195,7 +2195,7 @@ metafile = true
 
 [[files]]
 file = "serverutilities/serverutilities.cfg"
-hash = "9276f7a3848c8757d3b5adb20b7e1aae3861efd8f97c5d51edb5ea804edb3e32"
+hash = "fe39deacaf718026aa8b43dfed16d89b7f4c57302ac1b24ab7f8157f2725784f"
 
 [[files]]
 file = "start.bat"
