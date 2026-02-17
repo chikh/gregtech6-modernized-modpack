@@ -11,15 +11,14 @@ services:
       TYPE: CUSTOM
       VERSION: "1.7.10"
       
-      # Automatic extraction of the server bundle
       GENERIC_PACKS: gt6-modernized-server
       GENERIC_PACKS_SUFFIX: .zip
       GENERIC_PACKS_PREFIX: /modpacks/
       
-      # Modern Java entry point for 1.7.10
       CUSTOM_SERVER: "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar"
       
-      # Mandatory module access and performance flags
+      # Using G1GC by default for low-RAM (2.2GB) compatibility. 
+      # ZGC requires more headroom and is recommended for 4GB+.
       JVM_OPTS: "-Dfml.readTimeout=600 @java9args.txt"
       
       MEMORY: "2200M"
