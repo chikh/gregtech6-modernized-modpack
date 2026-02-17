@@ -2008,11 +2008,6 @@ hash = "c57697806ba7ff5d4b88011e20cabdbb476a58a1b544cb759032292be4992cba"
 metafile = true
 
 [[files]]
-file = "mods/bdlib.pw.toml"
-hash = "728e0250bd2342f1bfb3d80fd9bf72b889e7fdc613634fc5166eae5658ad852e"
-metafile = true
-
-[[files]]
 file = "mods/better-questing-standard-expansion.pw.toml"
 hash = "c77b2be2fc09d5bc2739d14144e89a2b9deeb813c6a3ac00d5aa462b050cd2f2"
 metafile = true
