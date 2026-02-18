@@ -1,13 +1,13 @@
 name = "Hodgepodge"
-filename = "hodgepodge-2.7.70.jar"
+filename = "hodgepodge-2.7.72.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/6QQe8Ldy/versions/1m8turNd/hodgepodge-2.7.70.jar"
+url = "https://cdn.modrinth.com/data/6QQe8Ldy/versions/kYkymvCg/hodgepodge-2.7.72.jar"
 hash-format = "sha512"
-hash = "50cdb23e72a8f3f2d82059d448db812266f48b7ca1e3c3c3e373b5e51fd33dd7c25024db0e63324399dc8e9cf681fdb778688a8d071b7bf6be6b714af7befc9a"
+hash = "f9e007aaa04b80f7d4cd1f49f0bc7a392dd3e69a7fbe0bf9f72f5d7497257aa98280c8be9ca65eee5241c752504dd46fb7b273977e81dc1bc19552e60bb7e4a0"
 
 [update]
 [update.modrinth]
 mod-id = "6QQe8Ldy"
-version = "1m8turNd"
+version = "kYkymvCg"

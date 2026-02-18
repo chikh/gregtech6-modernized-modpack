@@ -2123,12 +2123,12 @@ metafile = true
 
 [[files]]
 file = "mods/gtnhlib.pw.toml"
-hash = "a9c82a62c3b80a00b631b415f90e18d73c5c77b8047eff96c10842ff99707ee0"
+hash = "6e312f1eb5004f0f41b7aa27e802a9e0ec364e26711ffee0505fa2fc6388bb35"
 metafile = true
 
 [[files]]
 file = "mods/hodgepodge.pw.toml"
-hash = "16cc60432c508a915069653acf7160a3d83848bbf0df30aedd30b4f5792e6abb"
+hash = "2fc6d673c300bdf3483e86c02c655728ca312e8e6452e313b839adaea4309212"
 metafile = true
 
 [[files]]
@@ -2168,7 +2168,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughitems-gtnh.pw.toml"
-hash = "e60e11843042294eb79968d180fd92ee0e178471cffd50d6f5c189310988bd33"
+hash = "20d331857300ecec97f0ae7d68f8d720ef07fcaa0fb6ca0d5e0038805c02644b"
 metafile = true
 
 [[files]]
