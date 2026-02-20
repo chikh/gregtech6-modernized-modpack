@@ -1,38 +1,52 @@
 # AI Context: GT6: Modernized
 
+## Project Identity
+- **Official Name**: GT6: Modernized
+- **Root Directory**: `gt6-modernized`
+- **Source Directory**: `gt6-modpack`
+- **Branding**: `meta/logo.png` (High-res), `gt6-modpack/overrides/icon.png` (Launcher icon).
+- **Logo Prompt**: "A high-resolution, minimalist 2D logo for a Minecraft modpack named 'GT6: Modernized'. The logo features a sleek, metallic silver wrench silhouette. Centered inside the wrench is a glowing bronze rectangular ingot with sharp edges. The background is a dark navy blue blueprint style with thin, glowing cyan digital circuit lines. Industrial, technical, clean, professional."
+
 ## Design Philosophy (Core Pillars)
-Any AI assisting with this project MUST adhere to these principles when suggesting mods or changes:
-1.  **Gregified Vanilla**: The pack should feel like "Vanilla + GT6". Suggest mods that enhance the physical, industrial feel of GT6 (like Better Storage). Avoid mods that add "magic" blocks, teleportation, or sci-fi UI elements that clash with GT6's gritty, realistic progression.
-2.  **Low-End Hardware & Runtime Optimization**: Every mod added must be analyzed for its performance impact. Prioritize performance mods (like Angelica) and avoid mods known for heavy RAM usage or tick-lag. Maintain and suggest the most efficient runtime settings (Java 17-25, LWJGL 3, and pre-configured JVM flags).
-3.  **Bear's Den Inspiration**: Inspired by the **Bear's Den GT6 Survival Season 3**. Aim for a realistic industry vibe prioritized for modern Java and ease of maintenance.
+Any AI assisting with this project MUST adhere to these principles:
+1.  **Gregified Vanilla**: Feel like "Vanilla + GT6". Suggest mods enhancing physical/industrial feel (e.g., Better Storage). Avoid "magic" blocks or teleportation.
+2.  **Runtime Optimization**: Prioritize performance (Angelica, ArchaicFix). Maintain support for modern Java (17-25) and LWJGL 3.
+3.  **Bear's Den Inspiration**: Realistic industry vibe prioritized for modern performance.
 
 ## Project Workspace Structure
-- **`/gt6-modpack/`**: The "Source Code". Contains everything `packwiz` tracks.
-    - `overrides/`: Root-level files (e.g., `icon.png`, `java9args.txt`) that `packwiz` places in the Minecraft root.
+- **`/gt6-modpack/`**: The "Source Code". (Managed by `packwiz`).
+    - `overrides/`: Root-level Minecraft files (e.g., `icon.png`, `java9args.txt`).
     - `mods/`: Mod metadata files (`.pw.toml`).
     - `config/`: Mod configurations.
 - **`/scripts/`**: Automation tools (`build_server.sh`, `update_quests.sh`).
-- **`/meta/`**: Project metadata, branding (`logo.png`), and this `AI_CONTEXT.md`.
-- **`/bin-cache/`**: (Ignored) Binary downloads (Forge installer, packwiz bootstrap).
-- **`/builds/`**: (Ignored) Exported artifacts for client and server.
+- **`/meta/`**: Metadata, branding, and this `AI_CONTEXT.md`.
+- **`/bin-cache/`**: (Ignored) Binary downloads (Forge, packwiz bootstrap).
+- **`/builds/`**: (Ignored) Exported artifacts.
 - **`/docker/`**: Deployment configurations.
 
 ## Maintenance Procedures
-- **Mandatory Reindexing**: After ANY file changes in `gt6-modpack/`, run `packwiz refresh` inside that directory.
+- **Mandatory Reindexing**: After ANY file changes in `gt6-modpack/`, run `~/.aur/packwiz-git/packwiz refresh` inside that directory.
 - **Adding Mods**: Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
-- **Updating Quest Book**: Run `./scripts/update_quests.sh` from the project root.
-- **Building Server**: Run `./scripts/build_server.sh` from the project root. Use `--update-quests` flag to sync quests before bundling.
+- **Updating Modpack**: Run `packwiz update --all` inside `gt6-modpack/`.
+- **Updating Quest Book**: Run `./scripts/update_quests.sh` from the root.
+- **Building Server**: Run `./scripts/build_server.sh` from the root.
+
+## Mod List & Critical Sources
+- **GregTech 6**: URL: `https://gregtech.overminddl1.com/1.7.10/6.17.06/gregtech_1.7.10-6.17.06.jar`
+- **BetterQuesting (GTNH)**: URL: `https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.28-GTNH/BetterQuesting-3.8.28-GTNH.jar`
+- **Performance/Fixes**: Angelica, ArchaicFix, LWJGL3ify, Hodgepodge, FastCraft, BetterFps, FalsePatternLib, GTNH Lib, UniMixins.
+
+## Hardware Compatibility (SIGILL Fix)
+- **Problem**: Old CPUs (pre-2012) crash in `liblwjgl_spng.so`.
+- **Fix**: In `config/lwjgl3ify.cfg`, set `B:stbiTextureLoading=false` and `B:stbiTextureStitching=false`.
 
 ## Recommended JVM Flags (Java 17-25)
-Required for module access and optimal GC (ZGC recommended for 4GB+ RAM):
+Required for module access and optimal GC:
 ```bash
 --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.zip=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --enable-native-access=ALL-UNNAMED -XX:+UseZGC -XX:+UnlockExperimentalVMOptions
 ```
 
-## Mandatory Server Setup
-1. **Build**: Run `./scripts/build_server.sh`. Artifact is placed in `builds/server/`.
-2. **Launch**: The server ZIP includes `lwjgl3ify-forgePatches.jar`. Launch using this JAR as the main entry point with the `@java9args.txt` flag.
-
-## Developer Notes
-- **Git Hygiene**: Only `gt6-modpack/`, `scripts/`, `meta/`, and `docker/` should be tracked. `bin-cache/` and `builds/` must be ignored.
-- **Logo/Icon**: `meta/logo.png` is for branding; `gt6-modpack/overrides/icon.png` is for the game launcher.
+## Git & AI Maintenance Rules
+1.  **Commits**: Create atomic, descriptive git commits after significant changes.
+2.  **Tracking**: Only track `gt6-modpack/`, `scripts/`, `meta/`, and `docker/`. NEVER track `bin-cache/` or `builds/`.
+3.  **Self-Update**: Update this `AI_CONTEXT.md` whenever new mods are added, core versions change, or project structure evolves.
