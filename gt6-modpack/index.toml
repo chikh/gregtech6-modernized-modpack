@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "1326d219c64aa9ea02536e585cbb9e72fe34226b4ec38d396806cd7f3c2d603a"
+
+[[files]]
 file = "config/ActuallyAdditions.cfg"
 hash = "f8a0710eb720f399e0241283b9642fccd9bdc6f3668b3c44da446760597de4be"
 

@@ -12,6 +12,7 @@ libraries/
 versions/
 assets/
 saves/
+resourcepacks/
 logs/
 options.txt
 usercache.json
