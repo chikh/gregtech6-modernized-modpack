@@ -1,189 +1,26 @@
 # GT6: Modernized
 
-![Modpack Logo](logo.png)
+A GregTech 6 modpack focused on "Gregified Vanilla" gameplay, optimized for modern Java (17-25) and high performance.
 
-This is an easily maintainable GregTech 6 modpack for Minecraft 1.7.10, managed using `packwiz`.
+## Project Structure
 
-## Design Philosophy
-1.  **The "Gregified Vanilla" Experience**: This pack provides a game experience close to vanilla Minecraft, but entirely centered around **GregTech 6**. We prioritize physical systems, manual progression, and an industrial aesthetic. We avoid "magic" solutions and technical bloat.
-2.  **Legacy-Accessible Performance & Runtime Optimization**: Engineered to run smoothly on low-end and old hardware. This includes both mod-level optimization (Angelica/Sodium) and runtime-level tuning (Java 25, LWJGL 3, and pre-configured ZGC flags). We provide a "batteries-included" experience where the best performance settings are set by default.
-3.  **Bear's Den Inspired**: This modpack is heavily inspired by the **Bear's Den GT6 Survival Season 3** modpack, specifically aiming to provide a modernized and maintainable alternative to its technical and progression-focused gameplay.
+- **`gt6-modpack/`**: The core source files (mods, configs, and overrides). Managed via `packwiz`.
+- **`scripts/`**: Automation scripts for building the server and updating quest data.
+- **`docker/`**: Deployment configurations for running a dedicated server.
+- **`meta/`**: Branding assets and AI development context.
+- **`builds/`**: (Ignored) Output directory for generated client and server ZIPs.
+- **`bin-cache/`**: (Ignored) Cache for external binaries like Forge and Packwiz installers.
 
-## Contents
-- **GregTech 6**: The core mod (6.17.06).
-- **IndustrialCraft 2 Experimental**: Required dependency.
-- **Performance & Modern Java**:
-    - **Angelica**: Backport of Sodium/Iris (HUGE performance boost, works best on Java 17+).
-    - **ArchaicFix**: Essential fixes for modern Java and 1.7.10 stability.
-    - **Hodgepodge**: Required compatibility patches for various mods on Java 17+.
-    - **LWJGL3ify**: Replaces the ancient LWJGL2 with LWJGL3, enabling support for **Java 17, 21, and 25**.
-    - **FalsePatternLib**: Required library for modern performance patches.
-    - **FastCraft & BetterFps**: Legacy performance optimizations.
-- **NEI (GTNH Fork)**: Recipe and item browser with JEI-style tabs and modern features.
-- **Waila & Waila Harvestability**: Tooltips and block information.
-- **JourneyMap**: Full-featured map and minimap.
-- **GraveStone Mod**: Essential mod that creates a grave on death to safely store your items.
-- **Better Storage (GTNH Edition)**: Adds immersive, wearable backpacks, reinforced chests, and lockers.
-- **Default Config Pack (GT6)**: Pre-configured settings from the mod author to ensure correct worldgen and mod compatibility.
-- **GT6 Ore Helper**: Essential tool for tracking and visualizing GregTech 6 ore veins.
-- **Better Questing + Bear's Den Configs**: Fully configured questbook for GT6 progression.
-- **Cooking for Blockheads**: Modular kitchen system for managing Pam's Harvestcraft food.
-- **Pam's HarvestCraft**: Adds hundreds of new crops, foods, and the "Gardens" that spawn naturally in the world.
-- **Chisel & Carpenter's Blocks**: The gold standard for 1.7.10 decoration and aesthetics.
-- **ChunkPregenerator**: Efficient pregeneration of world chunks (configured for server-side only) to reduce lag during exploration.
-- **Morpheus**: Server-side mod that allows skipping the night when a percentage of players sleep (configured for one player).
-- **QoL Mods**: Inventory Tweaks, Mouse Tweaks, Controlling, AppleCore, NEI Addons, ServerUtilities (Both sides).
+## Quick Start (Development)
 
-## Installation & Setup (Prism Launcher + Java 25)
+1.  **Requirement**: `packwiz` must be installed.
+2.  **Mod Management**: All mod changes should happen in `gt6-modpack/`.
+3.  **Building**: Run `./scripts/build_server.sh` to generate a fresh server bundle in `builds/server/`.
+4.  **Updates**: Run `./scripts/update_quests.sh` to sync the latest quest book from Bear's Den.
 
-To get the best performance and compatibility with modern Java:
+## Branding
+- **Logo**: Found in `meta/logo.png`.
+- **Launcher Icon**: Managed via `gt6-modpack/overrides/icon.png`.
 
-### 1. Requirements
-- **Prism Launcher**: A modern, open-source Minecraft launcher.
-- **Java 25**: Download and install a recent build of OpenJDK 25.
-- **Modpack Files**: The `pack.toml` and associated files from this repository.
-
-### 2. Creating the Instance
-1.  **Export the pack**: Run `packwiz curseforge export` in the project directory to create a `.zip` file.
-2.  **Import to Prism**: Drag and drop the generated `.zip` into Prism Launcher or use **Add Instance** -> **Import from zip**.
-3.  **LWJGL 3 Patch (Mandatory)**: 
-    - Download [lwjgl3ify-3.0.11-multimc.zip](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-multimc.zip) or use curl:
-      ```bash
-      curl -L https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-multimc.zip -o lwjgl3ify-multimc.zip
-      ```
-    - Right-click the instance in Prism and select **Folder**.
-    - Extract the contents of the zip into this folder (where `mmc-pack.json` is located).
-    - **Overwrite** the existing `mmc-pack.json` when prompted. This correctly configures the instance to use LWJGL 3 and the modern Java wrapper.
-
-### 3. Configuring Java 25 & LWJGL 3
-1.  **Select Instance**: Right-click the instance and select **Edit**.
-2.  **Version**: In the **Version** tab, ensure you see **LWJGL 3** (manually add it via **Add** -> **LWJGL 3** if it's still showing LWJGL 2, though LWJGL3ify 3.0+ attempts to handle this).
-3.  **Settings**: Go to **Settings** -> **Java**.
-3.  **Java Runtime**: Enable the checkbox for **Java Runtime** and click **Auto-detect** (or manually browse) to select your **Java 25** binary.
-4.  **JVM Arguments**: Add the following mandatory flags to **JVM Arguments** based on your allocated RAM:
-
-    #### **Option A: Low-RAM Setup (Recommended for < 4GB)**
-    Use **G1GC** for better stability on limited memory:
-    ```bash
-    --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.zip=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/sun.security.action=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.desktop/java.awt=ALL-UNNAMED --add-opens java.desktop/java.awt.color=ALL-UNNAMED --add-opens java.desktop/java.awt.desktop=ALL-UNNAMED --add-opens java.desktop/java.awt.dnd=ALL-UNNAMED --add-opens java.desktop/java.awt.event=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED --add-opens java.desktop/java.awt.geom=ALL-UNNAMED --add-opens java.desktop/java.awt.im=ALL-UNNAMED --add-opens java.desktop/java.awt.image=ALL-UNNAMED --add-opens java.desktop/java.awt.image.renderable=ALL-UNNAMED --add-opens java.desktop/java.awt.print=ALL-UNNAMED --add-opens java.desktop/sun.awt.image=ALL-UNNAMED --add-opens java.desktop/sun.awt=ALL-UNNAMED --add-opens java.desktop/sun.font=ALL-UNNAMED --add-opens java.desktop/sun.print=ALL-UNNAMED --add-opens java.naming/javax.naming=ALL-UNNAMED --enable-native-access=ALL-UNNAMED -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=50 -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
-    ```
-
-    #### **Option B: High-RAM Setup (Recommended for 4GB+)**
-    Use **ZGC** for ultra-low latency if you have headroom:
-    ```bash
-    --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.zip=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/sun.security.action=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED --add-opens java.desktop/java.awt=ALL-UNNAMED --add-opens java.desktop/java.awt.color=ALL-UNNAMED --add-opens java.desktop/java.awt.desktop=ALL-UNNAMED --add-opens java.desktop/java.awt.dnd=ALL-UNNAMED --add-opens java.desktop/java.awt.event=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED --add-opens java.desktop/java.awt.geom=ALL-UNNAMED --add-opens java.desktop/java.awt.im=ALL-UNNAMED --add-opens java.desktop/java.awt.image=ALL-UNNAMED --add-opens java.desktop/java.awt.image.renderable=ALL-UNNAMED --add-opens java.desktop/java.awt.print=ALL-UNNAMED --add-opens java.desktop/sun.awt.image=ALL-UNNAMED --add-opens java.desktop/sun.awt=ALL-UNNAMED --add-opens java.desktop/sun.font=ALL-UNNAMED --add-opens java.desktop/sun.print=ALL-UNNAMED --add-opens java.naming/javax.naming=ALL-UNNAMED --enable-native-access=ALL-UNNAMED -XX:+UseZGC -XX:+UnlockExperimentalVMOptions
-    ```
-
-### 4. Running
-- The instance will automatically include **LWJGL3ify** and **ArchaicFix**, which are pre-configured to handle the 1.7.10 compatibility on Java 25.
-- If you encounter rendering issues, ensure **Angelica** is enabled in the mods list.
-
-## Troubleshooting
-
-### Crash on Startup (SIGILL / liblwjgl_spng.so)
-If the game crashes immediately during the loading screen with a `SIGILL` error (Illegal Instruction), it is because your CPU is older than 2012 and does not support the modern instructions used by the optimized PNG loader.
-- **Fix (Legacy Hardware Mode)**: 
-  1. Open `config/lwjgl3ify.cfg`.
-  2. Set `B:stbiTextureLoading=false`.
-  3. Set `B:stbiTextureStitching=false`.
-  *Note: This will significantly increase loading times but allows the game to run on ancient hardware.*
-
-## Docker Setup (itzg/minecraft-server)
-
-To host the server using the `itzg/minecraft-server` image with `TYPE=CUSTOM`, you must provide a full bundle containing all mod JARs and the patched launcher.
-
-### 1. Building the Server Bundle
-Because `TYPE=CUSTOM` requires actual JAR files (not just metadata), use the provided `build_server.sh` script to assemble the pack:
-1.  Run the build script from the modpack directory:
-    ```bash
-    ./build_server.sh
-    ```
-2.  This will create a `gt6-modernized-server.zip` containing:
-    - All server-side mod JARs.
-    - Configuration files.
-    - `java9args.txt` and startup patches.
-
-### 2. Deploying with Docker
-The pack is designed to work with the `itzg/minecraft-server` image using the `GENERIC_PACKS` feature for automatic extraction.
-1.  Ensure a `./modpacks` directory exists in your Docker project root.
-2.  Run `./build_server.sh`. This automatically places `gt6-modernized-server.zip` into the `./modpacks` folder.
-3.  Use the provided `docker-compose.yml`, which is pre-configured to:
-    - Automatically extract the modpack from `/modpacks/`.
-    - Use the correct `CUSTOM_SERVER` patch for Java 25.
-    - Load the mandatory JVM flags from `@java9args.txt`.
-4.  Run `docker compose up -d`.
-
-## Server-Side Setup (Java 17-25)
-
-To run a GregTech 6 server on modern Java, follow these mandatory steps:
-
-### 1. Requirements
-- **Forge 1.7.10 Server**: Install a standard Forge 10.13.4.1614 server.
-- **Java 17, 21, or 25**: Ensure your server environment uses a modern JDK.
-
-### 2. Artifact Preparation & Startup
-1.  **Export the server mods**:
-    ```bash
-    packwiz curseforge export --side server -o gt6-modernized-server.zip
-    ```
-2.  **Setup Server Folder**:
-    - Extract `gt6-modernized-server.zip` into your server's root directory.
-    - **Note**: The `java9args.txt`, `start.sh`, and `start.bat` are already included in the root.
-3.  **Download Forge Patches**: 
-    Download [lwjgl3ify-3.0.11-forgePatches.jar](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar) and place it in the same folder.
-    - **Rename it** to `lwjgl3ify-forgePatches.jar`.
-
-### 3. Launching the Server
-Simply run the included script for your platform:
-- **Linux/macOS**: `./start.sh`
-- **Windows**: `start.bat`
-
-(You can adjust RAM allocation by editing these files).
-
-## Server-Side Optimization & Tools
-This mod is included to prevent lag during exploration by generating world chunks in advance. Use the following commands (4.4.x syntax) to match the configured world borders:
-
-- **Pregenerate Overworld** (5000x5000):
-  ```bash
-  /pregen start gen radius Overworld SQUARE 0 0 157 0 FAST_CHECK_GEN
-  ```
-- **Pregenerate Nether** (624x624):
-  ```bash
-  /pregen start gen radius Nether SQUARE 0 0 20 -1 FAST_CHECK_GEN
-  ```
-- **Control Tasks**: `/pregen stop`, `/pregen pause`, `/pregen resume`, or `/pregen clear`
-- **Monitor Progress**: `/pregen info listen`
-- **Help**: `/pregen help`
-
-### 3. Managing World Borders (Elsewhere Border)
-For stable world border management on 1.7.10, this pack includes **Elsewhere Border** (server-side only). Note that this mod is **configuration-only** and does not have in-game commands.
-
-- **To set the border**:
-  1. Open `config/elsewhereborder.cfg` in your server folder.
-  2. Locate the `S:Borders` section.
-  3. Add your dimension and radius in the format `[DimensionID]:[Radius]`.
-     - *Example for a 2000x2000 area in the overworld*: `0:1000`
-  4. Restart the server to apply changes.
-
-### 4. Admin Tools (ServerUtilities)
-ServerUtilities (GTNH Fork) provides `/back`, `/home`, `/backup`, and chunk claiming. It does not handle world borders.
-
-## Maintenance
-
-### 1. Updating Quest Book
-To update the quest book content from the Bear's Den repository:
-1.  Navigate to the `gt6-modpack/` directory.
-2.  Run the update script:
-    ```bash
-    ./update_quests.sh
-    ```
-3.  Commit the changes to Git.
-
-### 2. Adding/Updating Mods
-- Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
-- Run `packwiz refresh` to update the index.
-
-## Installation (Client)
-1. Install Minecraft 1.7.10 with Forge 10.13.4.1614.
-2. Use a packwiz-compatible launcher or the `packwiz-installer` bootstrap to download the mods.
-3. Alternatively, export to a zip and import into your launcher.
+---
+*Inspired by Bear's Den Season 3.*
