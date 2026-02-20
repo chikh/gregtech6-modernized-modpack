@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "AI_CONTEXT.md"
-hash = "72dc8b0131f0f65b0f953096ecf1b8d5e14056cafe01665e1c0d8592e2b9b94b"
-
-[[files]]
-file = "README.md"
-hash = "5994572a6d2b77d45d886580512fbd55a39fb0a4116a483d6c279457ad6b437b"
-
-[[files]]
-file = "build_server.sh"
-hash = "630df406a753bbe62746bed6356505a172ee96e40c54e61b18694d266beb3974"
-
-[[files]]
 file = "config/ActuallyAdditions.cfg"
 hash = "f8a0710eb720f399e0241283b9642fccd9bdc6f3668b3c44da446760597de4be"
 
@@ -2001,22 +1989,6 @@ file = "config/soulforest/soulmain.cfg"
 hash = "c480560fcb47fd7b984e516d7e88f70945b38a91a0a20198a5be9d69934b0dd2"
 
 [[files]]
-file = "docker-compose.yml"
-hash = "c3133947f97a1d4ea8a2a11b1fac14faae5dd5ad9cf007d93c7826d500207a33"
-
-[[files]]
-file = "icon.png"
-hash = "96e50a03608a6979ec9f6fb3c2c2623727ef82438dfdf7d5e20845c3688be6e3"
-
-[[files]]
-file = "java9args.txt"
-hash = "49c1c6604cf208193fbc1b861acaf8049367180ab28e72a47ee7f515dbff702b"
-
-[[files]]
-file = "logo.png"
-hash = "c664ccb9db18e4678e22716444d9548b71d06251fd3e7a1699e86367ae6c6d9e"
-
-[[files]]
 file = "mods/angelica.pw.toml"
 hash = "d1e02ec961d4d77fb5ce6459fe771887d8b5a09fcc0d5f7c1f2b10315831ab15"
 metafile = true
@@ -2197,17 +2169,13 @@ hash = "e92e390abfdf767e57b53223991680019fd279c64467b70e5a1dd40f41644e1c"
 metafile = true
 
 [[files]]
+file = "overrides/icon.png"
+hash = "96e50a03608a6979ec9f6fb3c2c2623727ef82438dfdf7d5e20845c3688be6e3"
+
+[[files]]
+file = "overrides/java9args.txt"
+hash = "49c1c6604cf208193fbc1b861acaf8049367180ab28e72a47ee7f515dbff702b"
+
+[[files]]
 file = "serverutilities/serverutilities.cfg"
 hash = "266d7acff8a4ec2f442337fc0c191e13e25c4215a5ecb404027f41a7f9d64f40"
-
-[[files]]
-file = "start.bat"
-hash = "6672077e2622a6b2a6ef13b8792f00b831c4f4d5380b27a67eda5efbced18d8f"
-
-[[files]]
-file = "start.sh"
-hash = "664957344a433e0c980aeaf9818877233d902931e9684fe2f01889ca0e88e466"
-
-[[files]]
-file = "update_quests.sh"
-hash = "18b3c0b461010ca3237d608436dcbc74b9a8b81070f996081dd0fffa1ae6082d"

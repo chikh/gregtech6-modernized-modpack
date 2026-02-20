@@ -1,19 +1,18 @@
-# Mod artifacts
+# Builds & Artifacts
+builds/
+bin-cache/
+server-dist/
+modpacks/
 *.jar
 *.log
 *.zip
 
-# Build directories
-server-dist/
-modpacks/
-
-# Minecraft runtimes
+# Minecraft Runtime & Data
 libraries/
 versions/
 assets/
 saves/
 logs/
-resourcepacks/
 options.txt
 usercache.json
 usernamecache.json
@@ -23,7 +22,7 @@ banned-players.json
 ops.json
 whitelist.json
 
-# System
+# System & Misc
 .DS_Store
 .DS_Store?
 ._*
@@ -31,3 +30,4 @@ whitelist.json
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.pw.toml.bak

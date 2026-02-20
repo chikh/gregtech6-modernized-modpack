@@ -7,6 +7,10 @@ REPO_URL="https://github.com/BearsDen989-GT/GT6BetterQuesting/archive/refs/heads
 TEMP_DIR=$(mktemp -d)
 ZIP_FILE="$TEMP_DIR/quests.zip"
 
+SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
+PROJECT_ROOT=$(dirname "$SCRIPT_DIR")
+TARGET_DIR="$PROJECT_ROOT/gt6-modpack/config/betterquesting"
+
 echo "Downloading latest quest book content..."
 curl -L "$REPO_URL" -o "$ZIP_FILE"
 
@@ -16,7 +20,6 @@ unzip -q "$ZIP_FILE" -d "$TEMP_DIR"
 # The ZIP contains a top-level directory like GT6BetterQuesting-main
 EXTRACTED_DIR=$(find "$TEMP_DIR" -maxdepth 1 -type d -name "GT6BetterQuesting-*" | head -n 1)
 SOURCE_DIR="$EXTRACTED_DIR/minecraft/config/betterquesting"
-TARGET_DIR="config/betterquesting"
 
 if [ ! -d "$SOURCE_DIR" ]; then
     echo "Error: Could not find expected directory structure in the downloaded ZIP."
@@ -27,7 +30,6 @@ fi
 echo "Updating quest files in $TARGET_DIR..."
 
 # Sync DefaultQuests and resources
-# We use rsync if available, otherwise cp -r
 if command -v rsync >/dev/null 2>&1; then
     rsync -av --delete "$SOURCE_DIR/DefaultQuests/" "$TARGET_DIR/DefaultQuests/"
     rsync -av --delete "$SOURCE_DIR/resources/" "$TARGET_DIR/resources/"
@@ -45,7 +47,6 @@ fi
 echo "Ensuring correct directory structure for BetterQuesting (GTNH)..."
 LINES_DIR="$TARGET_DIR/DefaultQuests/QuestLines"
 if [ -d "$LINES_DIR" ]; then
-    # Find all JSON files that are not already named QuestLine.json
     find "$LINES_DIR" -maxdepth 1 -name "*.json" ! -name "QuestLine.json" | while read -r json_file; do
         filename=$(basename "$json_file")
         dirname="${filename%.json}"
@@ -59,4 +60,3 @@ echo "Cleaning up..."
 rm -rf "$TEMP_DIR"
 
 echo "Quest book updated successfully!"
-echo "Don't forget to commit your changes if you're satisfied."
