@@ -30,6 +30,7 @@ Any AI assisting with this project MUST adhere to these principles:
 - **Updating Modpack**: Run `packwiz update --all` inside `gt6-modpack/`.
 - **Updating Quest Book**: Run `./scripts/update_quests.sh` from the root.
 - **Building Server**: Run `./scripts/build_server.sh` from the root.
+- **Exporting Client**: Run `./scripts/export_client.sh` from the root.
 
 ## Mod List & Critical Sources
 - **GregTech 6**: URL: `https://gregtech.overminddl1.com/1.7.10/6.17.06/gregtech_1.7.10-6.17.06.jar`
