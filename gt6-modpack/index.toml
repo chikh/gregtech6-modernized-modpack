@@ -2079,7 +2079,7 @@ metafile = true
 
 [[files]]
 file = "mods/forge-multi-part.pw.toml"
-hash = "9681e0415a681994c0e6455828160ac82395fb48c1ccec3a1c5ff92af93c1be4"
+hash = "e53f624ece82e7f1caf1649d57e16999c7727458cf4482d2ed0433ce1ce30a64"
 metafile = true
 
 [[files]]
