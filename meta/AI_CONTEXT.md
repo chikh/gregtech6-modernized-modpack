@@ -33,7 +33,7 @@ Any AI assisting with this project MUST adhere to these principles:
 - **Exporting Client**: Run `./scripts/export_client.sh` from the root.
 
 ## Mod List & Critical Sources
-- **GregTech 6**: URL: `https://gregtech.overminddl1.com/1.7.10/6.17.06/gregtech_1.7.10-6.17.06.jar`
+- **GregTech 6**: URL: `https://github.com/chikh/gregtech6/releases/download/v6.17.06-m1/gregtech_1.7.10-6.17.06-m1.jar` (Modernized fork)
 - **IndustrialCraft 2 Experimental**: CurseForge: `industrialcraft-2`
 - **BetterQuesting (GTNH)**: URL: `https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.28-GTNH/BetterQuesting-3.8.28-GTNH.jar`
 - **NEI (GTNH Fork)**: `NotEnoughItems-GTNH` (JEI-style tabs).
