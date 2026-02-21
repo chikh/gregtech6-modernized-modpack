@@ -15,7 +15,8 @@ Any AI assisting with this project MUST adhere to these principles:
 
 ## Project Workspace Structure
 - **`/gt6-modpack/`**: The "Source Code". (Managed by `packwiz`).
-    - `overrides/`: Root-level Minecraft files (e.g., `icon.png`, `java9args.txt`).
+    - `icon.png`: Launcher icon.
+    - `java9args.txt`: JVM arguments for modern Java.
     - `mods/`: Mod metadata files (`.pw.toml`).
     - `config/`: Mod configurations.
 - **`/scripts/`**: Automation tools (`build_server.sh`, `update_quests.sh`).

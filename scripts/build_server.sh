@@ -36,9 +36,8 @@ echo "### Preparing distribution files..."
 # Copy source files to temp dist
 cp -r "$SRC_DIR/." "$DIST_DIR/"
 
-# Remove client-side only overrides if they exist (handled by side: server in packwiz, but good to be clean)
-# We keep overrides/ because that's where java9args.txt and icon.png are.
-# However, packwiz installer will handle moving overrides content to root.
+# Cleanup client-side files handled by packwiz installer (side: server)
+# The java9args.txt and icon.png are now in the root of SRC_DIR.
 
 echo "### Ensuring tools are cached..."
 function fetch_tool() {
