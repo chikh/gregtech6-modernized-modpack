@@ -18,6 +18,7 @@ A GregTech 6 modpack focused on "Gregified Vanilla" gameplay, optimized for mode
 3.  **Building Server**: Run `./scripts/build_server.sh` to generate a fresh server bundle in `builds/server/`.
 4.  **Exporting Client**: Run `./scripts/export_client.sh` to generate a CurseForge-compatible ZIP in `builds/client/`.
 5.  **Updates**: Run `./scripts/update_quests.sh` to sync the latest quest book from Bear's Den.
+6.  **Config Sync**: Run `./scripts/update_configs.sh` to sync with official GregTech 6 default configurations.
 
 ## Branding
 - **Logo**: Found in `meta/logo.png`.

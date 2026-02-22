@@ -30,6 +30,7 @@ Any AI assisting with this project MUST adhere to these principles:
 - **Adding Mods**: Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
 - **Updating Modpack**: Run `packwiz update --all` inside `gt6-modpack/`.
 - **Updating Quest Book**: Run `./scripts/update_quests.sh` from the root.
+- **Updating Default Configs**: Run `./scripts/update_configs.sh` from the root to sync with official GregTech 6 default configurations.
 - **Building Server**: Run `./scripts/build_server.sh` from the root.
 - **Exporting Client**: Run `./scripts/export_client.sh` from the root.
 

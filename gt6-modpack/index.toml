@@ -25,6 +25,10 @@ file = "config/BigReactors/BigReactors.cfg"
 hash = "e918964ba8b3bbaa3a5329f67e760daa958bacbfa2c8f7f71ec31c92b9f89a47"
 
 [[files]]
+file = "config/ClimateControl.cfg"
+hash = "41acfae11f62d038d69b2be0f1e1d6e2d94fbae044bb3de36315800e1da7b982"
+
+[[files]]
 file = "config/CodeChickenCore.cfg"
 hash = "66a82860f9c90ceb509559186df0c1fa19ec8c9870092c5639a0ca73d9cd55ee"
 
@@ -110,7 +114,7 @@ hash = "8d5e48f5a616dbafc8b4a484c088ac02eb5d7a299cfc3a57037cd1e9c635f3da"
 
 [[files]]
 file = "config/UndergroundBiomes.cfg"
-hash = "629efa8fdc14ffbe5c4d5c97da40e04b10316a9672b08fb66c417913fee72374"
+hash = "b9a80a154b0004e5d89d2b6421006a2e82cc18c738c8d66137962cf4cfa0267e"
 
 [[files]]
 file = "config/aroma1997/Aroma1997Core.cfg"
@@ -2051,6 +2055,11 @@ hash = "dfeaee028f8f733fc9143014330d770f1d691125dcdc6dfa557e8a2ac96aedfe"
 metafile = true
 
 [[files]]
+file = "mods/climatecontrol-gtnh.pw.toml"
+hash = "67a85571033461081a33a910c1b32502bffd01e28a3f7f9dda765b291020cddc"
+metafile = true
+
+[[files]]
 file = "mods/codechickencore-unofficial.pw.toml"
 hash = "9fb0370845230010306576f5963d80899c2b46514bcb9b7ec4eed8ecc7924394"
 metafile = true
@@ -2078,6 +2087,11 @@ metafile = true
 [[files]]
 file = "mods/falsepatternlib.pw.toml"
 hash = "7a6ccd80f18cbd674eb72014b8725e651c0961f2e742f5549692e05b311af1eb"
+metafile = true
+
+[[files]]
+file = "mods/farseek.pw.toml"
+hash = "fb336f1365e5d3ef2154848d93194943a3f529a73515d73e507cd1292cb8c8fc"
 metafile = true
 
 [[files]]
@@ -2161,8 +2175,18 @@ hash = "5cd824f1d1a4bfd2a90504eeed416bdb68fd55bbcd93e137ff1c651794d95943"
 metafile = true
 
 [[files]]
+file = "mods/rtg-gtnh.pw.toml"
+hash = "3f48f536464197dc46483b7da7090859f4f5a46c0952a56895c0193c0226fa0f"
+metafile = true
+
+[[files]]
 file = "mods/serverutilities.pw.toml"
 hash = "1425464cd010c336324454dec3e48e4d3093db5758bbc353ea8a464f5afeb7c1"
+metafile = true
+
+[[files]]
+file = "mods/streams.pw.toml"
+hash = "bac002375e036a84c6dfcf35db12d1720cb4a16a2912be7d751316e4dd14597b"
 metafile = true
 
 [[files]]

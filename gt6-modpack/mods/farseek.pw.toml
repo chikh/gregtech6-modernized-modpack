@@ -1,0 +1,13 @@
+name = "Farseek"
+filename = "Farseek-1.7.10-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "615e8b0a93f083a50ac1f6d703d4ddf8bc269446"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2457658
+project-id = 229708

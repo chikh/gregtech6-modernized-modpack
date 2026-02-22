@@ -1,0 +1,8 @@
+name = "RTG-GTNH"
+filename = "RTG-1.1.6-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/Realistic-Terrain-Generation/releases/download/1.1.6-GTNH/RTG-1.1.6-GTNH.jar"
+hash-format = "sha256"
+hash = "f241e2a07baea50e0d2221c3484d48a7c5f6e834dfb75ea38293ddc424cb63aa"
