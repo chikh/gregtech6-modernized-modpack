@@ -15,14 +15,38 @@ CACHE_DIR="$PROJECT_ROOT/bin-cache"
 BUILD_DIR="$PROJECT_ROOT/builds/server"
 TEMP_BUILD_DIR=$(mktemp -d /tmp/gt6-build.XXXXXX)
 DIST_DIR="$TEMP_BUILD_DIR/dist"
+
+# Default configuration
 ZIP_NAME="gt6-modernized-server.zip"
+PREGEN_MODE=false
+UPDATE_QUESTS=false
+
+# Argument handling
+for arg in "$@"; do
+    case $arg in
+        --pregen)
+            PREGEN_MODE=true
+            ZIP_NAME="gt6-modernized-server-pregen.zip"
+            ;;
+        --update-quests)
+            UPDATE_QUESTS=true
+            ;;
+        *)
+            echo "Unknown argument: $arg"
+            exit 1
+            ;;
+    esac
+done
 
 mkdir -p "$CACHE_DIR" "$BUILD_DIR" "$DIST_DIR"
 
 echo "### Starting build for GT6: Modernized Server ###"
+if [ "$PREGEN_MODE" = true ]; then
+    echo "### MODE: Pregeneration (ArchaicFix will be excluded) ###"
+fi
 
 # Optional: Update quests before building
-if [[ "$1" == "--update-quests" ]]; then
+if [ "$UPDATE_QUESTS" = true ]; then
     echo "### Updating quest book..."
     bash "$SCRIPT_DIR/update_quests.sh"
 fi
@@ -36,8 +60,13 @@ echo "### Preparing distribution files..."
 # Copy source files to temp dist
 cp -r "$SRC_DIR/." "$DIST_DIR/"
 
-# Cleanup client-side files handled by packwiz installer (side: server)
-# The java9args.txt and icon.png are now in the root of SRC_DIR.
+# Remove ArchaicFix if in pregen mode
+if [ "$PREGEN_MODE" = true ]; then
+    echo "### Removing ArchaicFix for pregen build..."
+    cd "$DIST_DIR"
+    "$PACKWIZ_BINARY" remove archaicfix
+    cd "$PROJECT_ROOT"
+fi
 
 echo "### Ensuring tools are cached..."
 function fetch_tool() {
