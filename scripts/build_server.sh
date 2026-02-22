@@ -20,6 +20,7 @@ DIST_DIR="$TEMP_BUILD_DIR/dist"
 ZIP_NAME="gt6-modernized-server.zip"
 PREGEN_MODE=false
 UPDATE_QUESTS=false
+JAVA_ARGS_FILE="java9args.txt"
 
 # Argument handling
 for arg in "$@"; do
@@ -30,6 +31,9 @@ for arg in "$@"; do
             ;;
         --update-quests)
             UPDATE_QUESTS=true
+            ;;
+        --java-4g)
+            JAVA_ARGS_FILE="java9args_4G.txt"
             ;;
         *)
             echo "Unknown argument: $arg"
@@ -89,6 +93,14 @@ java -jar "$FORGE_INSTALLER" --installServer > /dev/null
 
 echo "### Running packwiz-installer (Server-side)..."
 java -jar "$BOOTSTRAP_JAR" --side server -no-gui "pack.toml"
+
+# Select and rename java args (MUST happen after packwiz-installer to avoid hash mismatches during install)
+if [ -f "$JAVA_ARGS_FILE" ]; then
+    echo "### Using $JAVA_ARGS_FILE as server java9args.txt..."
+    cp "$JAVA_ARGS_FILE" "java9args.txt"
+    # Clean up both possible source files to avoid confusion in the final zip
+    rm -f "java9args_4G.txt" 2>/dev/null || true
+fi
 
 echo "### Cleaning up metadata..."
 rm pack.toml index.toml

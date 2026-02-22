@@ -22,7 +22,9 @@ To get the best performance and compatibility with modern Java:
     - Download [lwjgl3ify-3.0.11-multimc.zip](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-multimc.zip).
     - Right-click the instance in Prism -> **Folder**.
     - Extract the ZIP into this folder, overwriting `mmc-pack.json`.
-4.  Configure your instance to use **Java 25** and add the recommended JVM flags found in `overrides/java9args.txt`.
+4.  Configure your instance to use **Java 25** and add the recommended JVM flags:
+    - **4G+ RAM**: Use flags from `overrides/java9args_4G.txt` (Optimized for ZGC).
+    - **Low RAM**: Use flags from `overrides/java9args.txt` (Optimized for G1GC).
 
 ## Contents
 - **GregTech 6** (Core)
