@@ -77,7 +77,7 @@ function fetch_tool() {
     local url=$1
     local target="$CACHE_DIR/$(basename "$url")"
     if [ ! -f "$target" ]; then
-        echo "Downloading $(basename "$url")..."
+        echo "Downloading $(basename "$url")..." >&2
         curl -Ls "$url" -o "$target"
     fi
     echo "$target"
@@ -97,9 +97,13 @@ java -jar "$BOOTSTRAP_JAR" --side server -no-gui "pack.toml"
 # Select and rename java args (MUST happen after packwiz-installer to avoid hash mismatches during install)
 if [ -f "$JAVA_ARGS_FILE" ]; then
     echo "### Using $JAVA_ARGS_FILE as server java9args.txt..."
-    cp "$JAVA_ARGS_FILE" "java9args.txt"
-    # Clean up both possible source files to avoid confusion in the final zip
-    rm -f "java9args_4G.txt" 2>/dev/null || true
+    if [ "$JAVA_ARGS_FILE" != "java9args.txt" ]; then
+        cp "$JAVA_ARGS_FILE" "java9args.txt"
+    fi
+    # Clean up the 4G variant if it exists and isn't our primary args file to avoid confusion in the final zip
+    if [ "$JAVA_ARGS_FILE" != "java9args_4G.txt" ]; then
+        rm -f "java9args_4G.txt" 2>/dev/null || true
+    fi
 fi
 
 echo "### Cleaning up metadata..."
