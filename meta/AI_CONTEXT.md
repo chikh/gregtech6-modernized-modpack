@@ -39,6 +39,7 @@ Any AI assisting with this project MUST adhere to these principles:
 - **IndustrialCraft 2 Experimental**: CurseForge: `industrialcraft-2`
 - **BetterQuesting (GTNH)**: URL: `https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.28-GTNH/BetterQuesting-3.8.28-GTNH.jar`
 - **NEI (GTNH Fork)**: `NotEnoughItems-GTNH` (JEI-style tabs).
+- **Wawla**: CurseForge: `wawla` (Enhanced info for Waila).
 - **Performance/Fixes**: Angelica, ArchaicFix, LWJGL3ify, Hodgepodge, FastCraft, BetterFps, FalsePatternLib, GTNH Lib, UniMixins.
 
 ## Hardware Compatibility (SIGILL Fix)

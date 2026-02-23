@@ -2209,5 +2209,10 @@ hash = "e92e390abfdf767e57b53223991680019fd279c64467b70e5a1dd40f41644e1c"
 metafile = true
 
 [[files]]
+file = "mods/wawla.pw.toml"
+hash = "cdfe4cc59c877778dd219c364d9d2111b0a141103546a63215a87feae403139e"
+metafile = true
+
+[[files]]
 file = "serverutilities/serverutilities.cfg"
 hash = "266d7acff8a4ec2f442337fc0c191e13e25c4215a5ecb404027f41a7f9d64f40"
