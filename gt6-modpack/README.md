@@ -45,6 +45,16 @@ Prevent lag during exploration by generating chunks in advance:
 ### World Borders (Elsewhere Border)
 Set borders in `config/elsewhereborder.cfg` using the format `[DimensionID]:[Radius]` (e.g., `0:1000` for a 2000x2000 Overworld area).
 
+## Mod-Specific Configuration Notes
+
+### NEI Tooltip Search (GregTech 6)
+- **Issue**: Searching for materials by their tooltip (e.g., "Fortune") in NEI fails.
+- **Fix**: In `config/archaicfix.cfg`, set `B:hideGT6TooltipDataBehindKey=false`. This ensures GT6 data is visible to NEI's background indexing thread.
+
+### Hardware Compatibility (SIGILL Fix)
+- **Problem**: Old CPUs (pre-2012) crash in `liblwjgl_spng.so`.
+- **Fix**: In `config/lwjgl3ify.cfg`, set `B:stbiTextureLoading=false` and `B:stbiTextureStitching=false`.
+
 ## Maintenance
 - **Reindexing**: Run `packwiz refresh` after any manual changes to `config/` or `mods/`.
 - **Mod Updates**: Use `packwiz update --all`.

@@ -46,6 +46,11 @@ Any AI assisting with this project MUST adhere to these principles:
 - **Problem**: Old CPUs (pre-2012) crash in `liblwjgl_spng.so`.
 - **Fix**: In `config/lwjgl3ify.cfg`, set `B:stbiTextureLoading=false` and `B:stbiTextureStitching=false`.
 
+## Mod Compatibility (NEI Search Fix)
+- **Problem**: NEI tooltip search (e.g., searching for "Fortune") fails to find GregTech 6 materials.
+- **Cause**: ArchaicFix's `hideGT6TooltipDataBehindKey` defaults to `true`, which hides GT6 data from background indexing.
+- **Fix**: In `config/archaicfix.cfg`, set `B:hideGT6TooltipDataBehindKey=false`.
+
 ## Recommended JVM Flags (Java 17-25)
 Required for module access and optimal GC:
 ```bash

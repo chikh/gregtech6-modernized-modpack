@@ -117,6 +117,10 @@ file = "config/UndergroundBiomes.cfg"
 hash = "b9a80a154b0004e5d89d2b6421006a2e82cc18c738c8d66137962cf4cfa0267e"
 
 [[files]]
+file = "config/archaicfix.cfg"
+hash = "8fa96f6bc209bece21731787f30dfc8bf90dd8e5d4f3af59ff5e69c615a226ee"
+
+[[files]]
 file = "config/aroma1997/Aroma1997Core.cfg"
 hash = "2b8b88f44b5b401ef8a3975e8a2ea1c43446404e94cc14ada43900fc3fbe3c6e"
 
