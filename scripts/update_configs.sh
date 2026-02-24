@@ -63,14 +63,6 @@ cp -R "$EXTRACTED_CONFIG_DIR"/* "$CONFIG_DIR/"
 # 6. Manual Overrides / Post-processing
 echo "Applying project-specific overrides..."
 
-# Ensure Underground Biomes is enabled (Project Decision)
-if [ -f "$CONFIG_DIR/UndergroundBiomes.cfg" ]; then
-    # We use a robust sed to ensure it's set to true regardless of current state
-    sed -i 's/B:undergroundBiomesActive=false/B:undergroundBiomesActive=true/g' "$CONFIG_DIR/UndergroundBiomes.cfg"
-    # Also handle cases where it might be missing or commented out if necessary
-    echo "  - Ensured Underground Biomes is ACTIVE in config."
-fi
-
 # 7. Clean up
 cd "$PROJECT_ROOT" || exit
 rm -rf "$TMP_DIR"

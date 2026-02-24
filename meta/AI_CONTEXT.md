@@ -14,6 +14,7 @@ Any AI assisting with this project MUST adhere to these principles:
 3.  **Bear's Den Inspiration**: Realistic industry vibe prioritized for modern performance.
 
 ## Project Workspace Structure
+- **Documentation Scope**: When "documentation" is mentioned, it refers to `meta/AI_CONTEXT.md`, `README.md`, and `gt6-modpack/README.md`.
 - **`/gt6-modpack/`**: The "Source Code". (Managed by `packwiz`).
     - `icon.png`: Launcher icon.
     - `java9args.txt`: JVM arguments for modern Java.
@@ -61,4 +62,7 @@ Required for module access and optimal GC:
 1.  **Commits**: Create atomic, descriptive git commits after significant changes.
 2.  **Tracking**: Only track `gt6-modpack/`, `scripts/`, `meta/`, and `docker/`. NEVER track `bin-cache/` or `builds/`.
 3.  **Self-Update**: Update this `AI_CONTEXT.md` whenever new mods are added, core versions change, or project structure evolves.
-4.  **Mandatory Cross-Check**: Before adding/updating mods, cross-check with the **Official GT6 Requirements Page**: `https://gregtech.overminddl1.com/downloads/gregtech_1.7.10/index.html`.
+4.  **Mandatory Cross-Check**: Before adding/updating mods, cross-check with the following:
+    - **Official GT6 Requirements Page**: `https://gregtech.overminddl1.com/downloads/gregtech_1.7.10/index.html`
+    - **GregTech-6 Modpack and Server Recommendations**: `https://gregtech.mechaenetia.com/1.7.10/modpack/`
+    - **Official Forum Search**: `https://forum.mechaenetia.com/search?q=[query]` (Give priority to posts by user `gregorius`).

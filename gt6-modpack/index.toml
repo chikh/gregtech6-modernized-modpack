@@ -114,7 +114,7 @@ hash = "8d5e48f5a616dbafc8b4a484c088ac02eb5d7a299cfc3a57037cd1e9c635f3da"
 
 [[files]]
 file = "config/UndergroundBiomes.cfg"
-hash = "b9a80a154b0004e5d89d2b6421006a2e82cc18c738c8d66137962cf4cfa0267e"
+hash = "629efa8fdc14ffbe5c4d5c97da40e04b10316a9672b08fb66c417913fee72374"
 
 [[files]]
 file = "config/archaicfix.cfg"
