@@ -61,7 +61,7 @@ Required for module access and optimal GC:
 ## Git & AI Maintenance Rules
 1.  **Commits**: Create atomic, descriptive git commits after significant changes.
 2.  **Tracking**: Only track `gt6-modpack/`, `scripts/`, `meta/`, and `docker/`. NEVER track `bin-cache/` or `builds/`.
-3.  **Self-Update**: Update this `AI_CONTEXT.md` whenever new mods are added, core versions change, or project structure evolves.
+3.  **Self-Update**: Update this `AI_CONTEXT.md` and `MODPACK_ASSESSMENT.md` whenever new mods are added, core versions change, or project structure evolves.
 4.  **Mandatory Cross-Check**: Before adding/updating mods, cross-check with the following:
     - **Official GT6 Requirements Page**: `https://gregtech.overminddl1.com/downloads/gregtech_1.7.10/index.html`
     - **GregTech-6 Modpack and Server Recommendations**: `https://gregtech.mechaenetia.com/1.7.10/modpack/`
