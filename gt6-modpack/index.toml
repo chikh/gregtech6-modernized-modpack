@@ -2198,6 +2198,11 @@ hash = "bac002375e036a84c6dfcf35db12d1720cb4a16a2912be7d751316e4dd14597b"
 metafile = true
 
 [[files]]
+file = "mods/tileentity-reset-fix.pw.toml"
+hash = "9f0a05938af0a86a55f9bf639f4047af595e226be117603f428d409398eae2eb"
+metafile = true
+
+[[files]]
 file = "mods/unimixins.pw.toml"
 hash = "cb026f337dbf7777e573233edca713a96eca54f3b7bab0d3207368b524ff6d2f"
 metafile = true

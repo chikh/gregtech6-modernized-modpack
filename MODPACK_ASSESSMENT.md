@@ -23,6 +23,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **UniMixins** | A compatibility layer for Mixins in 1.7.10. | Essential for modern performance mods and bug fixes. |
 | **Waila / Wawla** | "What Am I Looking At" - provides an on-screen HUD with block/entity info. | Standard QoL. The GTNH forks provide better GT6 integration. |
 | **Hodgepodge** | A collection of bug fixes and optimizations. | Vital for stability in long-term 1.7.10 playthroughs. |
+| **TileEntityResetFix** | Fixes a critical Forge bug that can reset Tile Entities. | Critical safety fix for long-term worlds. |
 
 ---
 
@@ -59,7 +60,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 
 ## Full Mod-by-Mod Assessment
 
-| Mod Name | Pack(s) | Description (GitHub/Forum Prioritized) | Analysis / Relation to GT6: Modernized |
+| Mod Name | Pack(s) | Description (GitHub/Forum) | Analysis / Relation to GT6: Modernized |
 | :--- | :--- | :--- | :--- |
 | **Angelica** | Our Pack | Sodium/Iris backport for 1.7.10. | Key performance mod for our "Modernized" focus. |
 | **AppleCore** | Both | API for food and hunger mods. | Essential library for Pam's HarvestCraft. |
@@ -132,7 +133,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **RTG-GTNH** | Our Pack | Realistic Terrain Generation. | Foundational for our "Realistic World" focus. |
 | **ServerUtilities** | Both | Server management and utilities. | Essential for server admins. |
 | **Streams** | Our Pack | Flowing, realistic rivers. | Foundational for our "Realistic World" focus. |
-| **TileEntityResetFix** | BD S3 | Fixes a Forge bug that resets Tile Entities. | Important safety fix for long-term worlds. |
+| **TileEntityResetFix** | Both | Fixes a Forge bug that resets Tile Entities. | Important safety fix for long-term worlds. |
 | **Twilight Forest** | BD S3 | Exploration-focused dimension. | Significant content, but diverges from the industrial focus. |
 | **UniMixins** | Both | Mixin support for 1.7.10. | Essential for modern performance mods. |
 | **Waila / Wawla** | Both | Block information HUD. | Essential for understanding GT6 blocks. |
@@ -150,4 +151,3 @@ To enhance the "Gregified Vanilla" experience without sacrificing performance or
 - **Railcraft** (Realistic transport)
 - **Immersive Engineering** (Aesthetic tech)
 - **Frain** (Atmospheric immersion)
-- **TileEntityResetFix** (Critical safety)
