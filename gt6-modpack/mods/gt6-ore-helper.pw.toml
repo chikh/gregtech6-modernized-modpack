@@ -1,13 +1,8 @@
 name = "GT6 Ore Helper"
-filename = "GT6OreHelper-1.7.10-0.0.5.jar"
+filename = "GT6OreHelper-1.7.10-0.0.5-p1.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "03969d201c47c6bae33b173ae7ec0b85413a56ab"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 3307351
-project-id = 371656
+url = "https://github.com/chikh/GT6-Ore-Helper/releases/download/1.7.10-0.0.5-p1/GT6OreHelper-1.7.10-0.0.5-p1.jar"
+hash-format = "sha256"
+hash = "a81dfe6e6d181d5da11c62721c297a071d8e1905444aa3a82ab2fb4a526e33f4"

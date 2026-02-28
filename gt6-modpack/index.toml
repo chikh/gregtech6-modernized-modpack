@@ -2124,7 +2124,7 @@ metafile = true
 
 [[files]]
 file = "mods/gt6-ore-helper.pw.toml"
-hash = "89743bb79158f69540f6ab37f632eb249aa785c99f53bc14aaf95a99284f9773"
+hash = "130b875e1b3a22337c16bc5ef663ef8cf2f744042c440020f9551977ea10f60a"
 metafile = true
 
 [[files]]
