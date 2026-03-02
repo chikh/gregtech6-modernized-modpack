@@ -2204,6 +2204,11 @@ hash = "1425464cd010c336324454dec3e48e4d3093db5758bbc353ea8a464f5afeb7c1"
 metafile = true
 
 [[files]]
+file = "mods/spice-of-life-carrot-edition.pw.toml"
+hash = "d2aa73e5b406b17ff69b53e7f4775e824854ccda79809186e5841039a2ea579f"
+metafile = true
+
+[[files]]
 file = "mods/streams.pw.toml"
 hash = "bac002375e036a84c6dfcf35db12d1720cb4a16a2912be7d751316e4dd14597b"
 metafile = true

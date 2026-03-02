@@ -1,0 +1,8 @@
+name = "spice-of-life-carrot-edition"
+filename = "SpiceOfLife-2.2.3-carrot.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.2.3-carrot/SpiceOfLife-2.2.3-carrot.jar"
+hash-format = "sha256"
+hash = "6849b96a32095f82eb13af781bbee9f8de47003201a3c10c23b1145e7fd344e6"

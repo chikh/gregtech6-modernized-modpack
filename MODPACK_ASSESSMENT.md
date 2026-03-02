@@ -24,6 +24,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **Waila / Wawla** | "What Am I Looking At" - provides an on-screen HUD with block/entity info. | Standard QoL. The GTNH forks provide better GT6 integration. |
 | **Hodgepodge** | A collection of bug fixes and optimizations. | Vital for stability in long-term 1.7.10 playthroughs. |
 | **TileEntityResetFix** | Fixes a critical Forge bug that can reset Tile Entities. | Critical safety fix for long-term worlds. |
+| **SpiceOfLife (GTNH)** | Encourages diet variety through rewards (Carrot Edition). | Encourages exploration of Pam's HarvestCraft variety. |
 
 ---
 
