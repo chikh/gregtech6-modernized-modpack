@@ -40,12 +40,27 @@ To get the best performance and compatibility with modern Java:
 ## Server-Side Optimization & Tools
 
 ### World Pregeneration
-Prevent lag during exploration by generating chunks in advance:
-- **Overworld** (5000x5000): `/pregen start gen radius Overworld SQUARE 0 0 157 0 FAST_CHECK_GEN`
-- **Nether** (624x624): `/pregen start gen radius Nether SQUARE 0 0 20 -1 FAST_CHECK_GEN`
+Prevent lag during exploration by generating chunks in advance. The radius is specified in **chunks** (`world_radius / 16`).
+- **Overworld** (6400x6400 area, 3200 radius): `/pregen start gen radius Overworld SQUARE 0 0 200 0 FAST_CHECK_GEN`
+- **Nether** (800x800 area, 400 radius): `/pregen start gen radius Nether SQUARE 0 0 25 -1 FAST_CHECK_GEN`
 
 ### World Borders (Elsewhere Border)
-Set borders in `config/elsewhereborder.cfg` using the format `[DimensionID]:[Radius]` (e.g., `0:1000` for a 2000x2000 Overworld area).
+Set borders in `config/elsewhereborder.cfg` using the format `[DimensionID]:[Radius]` (e.g., `0:3200` for a 6400x6400 Overworld area).
+- **Unlimited Mode**: To remove the border, delete the entries in `elsewhereborder.cfg` or set the radius to `30000000`.
+
+### Random Teleport (RTP)
+To ensure the `/rtp` command doesn't teleport players outside the world border, update `D:rtp_max_distance` in `config/serverutilities/serverutilities.cfg`.
+
+### Climate Control & Latitude-based Banding
+The modpack is configured for realistic climate banding (latitudinal climates), where cold biomes are found at the "poles" and hot biomes near the "equator" (Z=0).
+
+- **Climate Banding Width**: Controlled by `I:bandedClimateWidth` in `config/climatecontrol.cfg`.
+    - 1 unit $\approx$ 3.1k blocks of Z-distance (with `I:"Biome Size"=4`).
+    - The default value of `2` ($\approx$ 6.2k blocks cycle) aligns with the suggested 3200-block radius.
+- **Climate Banding Offset**: Use `I:bandedClimateOffset` to shift the bands if the equator is not centered.
+
+#### Tweak & Preview
+**ForgeAmidst** (for Minecraft 1.7.10) can be used to quickly generate world previews. This is highly recommended for testing different `ClimateControl` configurations and verifying biome distribution before starting a long-term world.
 
 ## Mod-Specific Configuration Notes
 

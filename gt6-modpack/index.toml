@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "582d633f7c77dc3da52af6b1a835bd283fd97e188d89045ab4fc3a924bfa13bc"
+hash = "48d4725ca08d1fe6592b88e211a0a11a1250b69137fa541ef3aa31e608faa82a"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -1894,7 +1894,7 @@ hash = "4244fa6aa55dc7fbbd7e9a53e136dad8e8540de68a4ae4c686f5dec62873054e"
 
 [[files]]
 file = "config/elsewhereborder.cfg"
-hash = "9d92bf53fbe62da7d3e5ebe48bf5a8f73b8de093d0d43c84dd5ddc18de69bf85"
+hash = "a13ccd93fe1764e6a0eb8b410ee180e8c660f8faf56763d5b4f034df5d92e0c1"
 
 [[files]]
 file = "config/enviromine/profiles/Default/Default_Settings.cfg"
@@ -2254,4 +2254,4 @@ metafile = true
 
 [[files]]
 file = "serverutilities/serverutilities.cfg"
-hash = "266d7acff8a4ec2f442337fc0c191e13e25c4215a5ecb404027f41a7f9d64f40"
+hash = "0dd988d00f8590104bbfbd4860a83a224d37127e874ee41ed27797e4b7b95ba9"

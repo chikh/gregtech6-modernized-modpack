@@ -35,6 +35,24 @@ Any AI assisting with this project MUST adhere to these principles:
 - **Building Server**: Run `./scripts/build_server.sh` from the root.
 - **Exporting Client**: Run `./scripts/export_client.sh` from the root.
 
+## World Configuration & Climate Control
+The modpack uses a "Limited World" philosophy by default to ensure realistic biome distribution and performance.
+
+### World Size & Borders
+- **Standard Radius**: 3200 blocks (6400x6400 total area).
+- **Configuration**:
+    - **Elsewhere Border**: Set in `config/elsewhereborder.cfg` (e.g., `0:3200x3200` for Overworld).
+    - **Random Teleport (RTP)**: Set `D:rtp_max_distance=3200.0` in `config/serverutilities/serverutilities.cfg`.
+    - **Pregeneration**: Radius in chunks (`world_radius / 16`). For 3200 radius, use `200` in the 7th parameter of the `/pregen` command.
+- **Unlimited Mode**: To remove the border, delete the entries in `elsewhereborder.cfg` or set the radius to `30000000`. Set `rtp_max_distance` to a high value.
+
+### Climate Banding (Earth-like World)
+Climate Control is configured to generate horizontal climate bands (latitudes).
+- **Banded Climate Width**: Controlled by `I:bandedClimateWidth` in `config/climatecontrol.cfg`.
+    - **Math**: 1 unit $\approx$ 3.1k blocks of Z-distance (with `I:"Biome Size"=4`).
+    - **Current Setting**: `2` ($\approx$ 6.2k blocks for a full Snowy -> Hot -> Snowy cycle). This aligns perfectly with a 3200 radius, placing Snowy biomes at the poles and Hot biomes near the equator (Z=0).
+- **Banded Climate Offset**: `I:bandedClimateOffset` shifts the bands. Adjust this if the equator is not centered at Z=0.
+
 ## Mod List & Critical Sources
 - **GregTech 6**: URL: `https://github.com/chikh/gregtech6/releases/download/v6.17.06-m1/gregtech_1.7.10-6.17.06-m1.jar` (Modernized fork)
 - **IndustrialCraft 2 Experimental**: CurseForge: `industrialcraft-2`
