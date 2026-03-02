@@ -46,6 +46,7 @@ Any AI assisting with this project MUST adhere to these principles:
 - **Backhand**: CurseForge: `backhand` (Backports offhand slot).
 - **Spice of Life (GTNH)**: GitHub: `GTNewHorizons/SpiceOfLife` (Carrot Edition).
 - **Netherlicious**: CurseForge: `netherlicious` (Comprehensive Nether overhaul).
+- **ExtrabiomesXL**: CurseForge: `extrabiomesxl` (Realistic biome diversity and terrain).
 - **Performance/Fixes**: Angelica, ArchaicFix, LWJGL3ify, Hodgepodge, FastCraft, BetterFps, FalsePatternLib, GTNH Lib, UniMixins.
 
 ## Hardware Compatibility (SIGILL Fix)

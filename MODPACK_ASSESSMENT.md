@@ -148,6 +148,27 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 
 ---
 
+## 4. Biome Mod Assessments
+
+To enhance world diversity while maintaining the "Gregified Vanilla" and "Modern Performance" pillars, three major biome mods were assessed for integration with the RTG + Climate Control + GT6 stack.
+
+### A. Biomes O' Plenty (BoP)
+- **Feasibility**: High.
+- **Verdict**: **Conditionally Recommended**.
+- **Analysis**: While diverse, it contains "fantasy" biomes that clash with the realistic industry theme. It is also the most resource-intensive of the three.
+
+### B. Enhanced Biomes (EB)
+- **Feasibility**: High (native GT6 support).
+- **Verdict**: **Highly Recommended**.
+- **Analysis**: Focuses exclusively on realistic biomes. Excellent philosophy fit, but adds a large number of biomes (88) which can be complex to manage.
+
+### C. ExtrabiomesXL (EBXL) - **SELECTED**
+- **Feasibility**: High (Excellent stability).
+- **Verdict**: **Highly Recommended (Best Performance)**.
+- **Analysis**: Provides a focused set of 28 realistic biomes. It is the most lightweight and stable option for 1.7.10, offering striking terrain features with minimal overhead. It integrates automatically with Climate Control's categories.
+
+---
+
 ## Final Comparison Summary
 **GT6: Modernized** prioritizes the technical foundation (Performance, World Gen, Modern Compatibility) to create a "Stable, Modern, Realistic" base. 
 

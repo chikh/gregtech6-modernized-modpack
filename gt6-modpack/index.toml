@@ -2099,6 +2099,11 @@ hash = "79cc505c6f5b21f85fe731736aad7a6ee95fd950d0ad5974a6f559429796347a"
 metafile = true
 
 [[files]]
+file = "mods/extrabiomesxl.pw.toml"
+hash = "04a091e005b4f9e5adfde27370024bed6067bbd9844e3316f9f1d3021ec98430"
+metafile = true
+
+[[files]]
 file = "mods/falsepatternlib.pw.toml"
 hash = "7a6ccd80f18cbd674eb72014b8725e651c0961f2e742f5549692e05b311af1eb"
 metafile = true

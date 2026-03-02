@@ -1,0 +1,13 @@
+name = "ExtrabiomesXL"
+filename = "extrabiomesxl_1.7.10-3.16.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae12fc1826b53a53f4c5d231de2b4c8b1dea18cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2273301
+project-id = 60041

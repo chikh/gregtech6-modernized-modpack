@@ -2,6 +2,16 @@
 
 A GregTech 6 modpack focused on "Gregified Vanilla" gameplay, optimized for modern Java (17-25) and high performance.
 
+## Key Mods & Features
+
+- **GregTech 6 (Modernized)**: Physical, realistic industrial processing.
+- **Better Storage**: Realistic, physicalized item management.
+- **ExtrabiomesXL, RTG & Streams**: 28 realistic biomes and flowing rivers.
+- **Netherlicious**: Complete overhaul of the Nether dimension.
+- **Modern Features**: Et Futurum (1.20 backports), Offhand support, and NEI (GTNH).
+- **Performance**: Angelica (Sodium), ArchaicFix, and LWJGL 3 for maximum FPS.
+- **Survival QoL**: BetterQuesting, Pam's HarvestCraft, and Spice of Life.
+
 ## Project Structure
 
 - **`gt6-modpack/`**: The core source files (mods, configs, and overrides). Managed via `packwiz`.
