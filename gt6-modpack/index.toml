@@ -1837,6 +1837,10 @@ file = "config/chisel.cfg"
 hash = "112ef6343ea0a481ea8f97462428c43e04ff86e03029001be8d3e002551db664"
 
 [[files]]
+file = "config/climatecontrol.cfg"
+hash = "49db94dabea8d1267aedc2bdc693020db730f2db70bd93ece4f29eea900d04f5"
+
+[[files]]
 file = "config/cofh/core/common.cfg"
 hash = "29c1156c60535580f570e020e47571c868117516c9eed0c8b015b4cde6e53cf8"
 
