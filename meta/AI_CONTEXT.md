@@ -50,9 +50,9 @@ Any AI assisting with this project MUST adhere to these principles:
 - **ExtrabiomesXL**: CurseForge: `extrabiomesxl` (Realistic biome diversity and terrain).
 - **Performance/Fixes**: Angelica, ArchaicFix, LWJGL3ify, Hodgepodge, FastCraft, BetterFps, FalsePatternLib, GTNH Lib, UniMixins.
 
-## Hardware Compatibility (SIGILL Fix)
-- **Problem**: Old CPUs (pre-2012) crash in `liblwjgl_spng.so`.
-- **Fix**: In `config/lwjgl3ify.cfg`, set `B:stbiTextureLoading=false` and `B:stbiTextureStitching=false`.
+## Troubleshooting: Hardware Compatibility (SIGILL)
+- **Problem**: Old CPUs (pre-2012, e.g., AMD Phenom II, Intel Core 2 Duo) crash in `liblwjgl_spng.so`.
+- **Manual Fix**: If experiencing this specific crash, the user must manually edit `config/lwjgl3ify.cfg` and set `B:stbiTextureLoading=false` and `B:stbiTextureStitching=false`. **Default to `true` for performance on modern hardware.**
 
 ## Mod Compatibility (NEI Search Fix)
 - **Problem**: NEI tooltip search (e.g., searching for "Fortune") fails to find GregTech 6 materials.

@@ -53,9 +53,9 @@ Set borders in `config/elsewhereborder.cfg` using the format `[DimensionID]:[Rad
 - **Issue**: Searching for materials by their tooltip (e.g., "Fortune") in NEI fails.
 - **Fix**: In `config/archaicfix.cfg`, set `B:hideGT6TooltipDataBehindKey=false`. This ensures GT6 data is visible to NEI's background indexing thread.
 
-### Hardware Compatibility (SIGILL Fix)
-- **Problem**: Old CPUs (pre-2012) crash in `liblwjgl_spng.so`.
-- **Fix**: In `config/lwjgl3ify.cfg`, set `B:stbiTextureLoading=false` and `B:stbiTextureStitching=false`.
+### Troubleshooting: Hardware Compatibility (SIGILL)
+- **Problem**: Old CPUs (pre-2012, e.g., AMD Phenom II, Intel Core 2 Duo) crash in `liblwjgl_spng.so`.
+- **Manual Fix**: If experiencing this specific crash, the user must manually edit `config/lwjgl3ify.cfg` and set `B:stbiTextureLoading=false` and `B:stbiTextureStitching=false`. **Default to `true` for performance on modern hardware.**
 
 ## Maintenance
 - **Reindexing**: Run `packwiz refresh` after any manual changes to `config/` or `mods/`.
