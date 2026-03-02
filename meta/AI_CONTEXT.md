@@ -43,6 +43,7 @@ Any AI assisting with this project MUST adhere to these principles:
 - **Wawla**: CurseForge: `wawla` (Enhanced info for Waila).
 - **GT6 Ore Helper**: URL: `https://github.com/chikh/GT6-Ore-Helper/releases/download/1.7.10-0.0.5-p1/GT6OreHelper-1.7.10-0.0.5-p1.jar` (Custom fork)
 - **Et Futurum Requiem**: Modrinth: `etfuturum` (Backports from modern MC).
+- **Backhand**: CurseForge: `backhand` (Backports offhand slot).
 - **Netherlicious**: CurseForge: `netherlicious` (Comprehensive Nether overhaul).
 - **Performance/Fixes**: Angelica, ArchaicFix, LWJGL3ify, Hodgepodge, FastCraft, BetterFps, FalsePatternLib, GTNH Lib, UniMixins.
 

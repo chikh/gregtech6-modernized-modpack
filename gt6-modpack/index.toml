@@ -2024,6 +2024,11 @@ hash = "c57697806ba7ff5d4b88011e20cabdbb476a58a1b544cb759032292be4992cba"
 metafile = true
 
 [[files]]
+file = "mods/backhand.pw.toml"
+hash = "31e9bfd867eae66d6412089acd0f54d6f8a4025690d9e2d1cb6150f44155c5ea"
+metafile = true
+
+[[files]]
 file = "mods/betterfps.pw.toml"
 hash = "1d7be9acf687897e75921e34c3236d3a78364d140c13b6c9ac4c4293635a6ebc"
 metafile = true

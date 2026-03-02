@@ -1,0 +1,13 @@
+name = "Backhand"
+filename = "backhand-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ec8002e8a0aeacbaa0a0ab7598fd7614f3f91071"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5475047
+project-id = 654404

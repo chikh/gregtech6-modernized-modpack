@@ -39,6 +39,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **ClimateControl-GTNH** | Controls biome distribution and ocean sizes. | Used to ensure a balanced distribution of GT6 ores across climate zones. |
 | **Et Futurum Requiem** | Backports features from modern Minecraft (1.8 - 1.20). | **Unique Advantage**: Provides modern blocks and mechanics without leaving 1.7.10. |
 | **Netherlicious** | Comprehensive overhaul of the Nether with new biomes and blocks. | **Unique Advantage**: Modernizes the Nether dimension significantly. |
+| **Backhand** | Backports the Offhand slot from 1.9+. | **Unique Advantage**: Enhances survival realism and QoL (e.g., dual-wielding torches). |
 
 ---
 
@@ -68,6 +69,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **AppleCore** | Both | API for food and hunger mods. | Essential library for Pam's HarvestCraft. |
 | **Applied Energistics 2** | BD S3 | Matter/Energy management system. | Powerful automation; potentially too high-tech for our core focus. |
 | **ArchaicFix** | Our Pack | Major bug fixes and performance backports. | Essential for modern stability and speed. |
+| **Backhand** | Our Pack | Backports the Offhand slot from 1.9+. | Significant QoL for survival and building. |
 | **Aroma1997Core/Dim World** | BD S3 | Adds a flat mining dimension. | Good for utility, but breaks the "Realistic World" immersion. |
 | **AsieLib** | BD S3 | Library for asie's mods (Computronics). | Dependency only needed if we add Computronics. |
 | **Atum** | BD S3 | Egyptian desert dimension. | Purely exploration/adventure content. |
