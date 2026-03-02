@@ -37,6 +37,8 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **Elsewhere-Border** | A world border utility. | Helps manage world size and exploration in a "Modernized" context. |
 | **Morpheus** | Better sleep voting for servers. | Standard server-side QoL for multiplayer. |
 | **ClimateControl-GTNH** | Controls biome distribution and ocean sizes. | Used to ensure a balanced distribution of GT6 ores across climate zones. |
+| **Et Futurum Requiem** | Backports features from modern Minecraft (1.8 - 1.20). | **Unique Advantage**: Provides modern blocks and mechanics without leaving 1.7.10. |
+| **Netherlicious** | Comprehensive overhaul of the Nether with new biomes and blocks. | **Unique Advantage**: Modernizes the Nether dimension significantly. |
 
 ---
 
@@ -90,6 +92,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **Cooking for Blockheads** | Both | Kitchen system and recipe tracking. | High-quality QoL for survival gameplay. |
 | **CoreTweaks** | BD S3 | Bug fixes and optimizations. | Mostly superseded by ArchaicFix and Hodgepodge. |
 | **Elsewhere-Border** | Our Pack | World border management. | Helps maintain server performance and focus. |
+| **Et Futurum Requiem** | Our Pack | Backports from modern MC (1.8-1.20). | Essential for modernizing the survival experience. |
 | **FalsePatternLib** | Our Pack | Library for modern 1.7.10 mods. | Required for several performance optimizations. |
 | **Farseek** | Our Pack | API for environmental mods (Streams). | Essential for the realistic river systems. |
 | **FastCraft** | Our Pack | Core performance optimization. | Highly recommended for all 1.7.10 packs. |
@@ -119,6 +122,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **Mouse Tweaks** | Our Pack | Enhanced mouse interactions with items. | Standard QoL. |
 | **NEI Addons** | Both | Extends NEI with more mod support. | Essential for seeing all recipes. |
 | **NEI Integration** | BD S3 | Better NEI compatibility for various mods. | Improves the recipe viewing experience. |
+| **Netherlicious** | Our Pack | Nether Overhaul. | Modernizes the Nether dimension significantly. |
 | **NotEnoughIDs** | BD S3 | Increases the ID limit for items/blocks. | Required when adding many large mods. |
 | **NotEnoughItems (GTNH)** | Both | The core recipe viewing mod. | Absolute necessity for GT6 packs. |
 | **NotEnoughResources** | BD S3 | Shows mob drops and dungeon loot in NEI. | Great QoL for finding specific materials. |

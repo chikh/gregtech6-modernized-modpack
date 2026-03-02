@@ -29,6 +29,8 @@ To get the best performance and compatibility with modern Java:
 ## Contents
 - **GregTech 6** (Core)
 - **IndustrialCraft 2 Experimental**
+- **Et Futurum Requiem** (Modern backports)
+- **Netherlicious** (Nether overhaul)
 - **Angelica** (Sodium port)
 - **NEI (GTNH Fork)**
 - **BetterQuesting** (Bear's Den Configs)

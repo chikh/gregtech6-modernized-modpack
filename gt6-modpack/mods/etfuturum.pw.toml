@@ -1,0 +1,13 @@
+name = "Et Futurum Requiem"
+filename = "etfuturum-2.6.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/o56psTwz/versions/u63ixvSd/etfuturum-2.6.2.jar"
+hash-format = "sha512"
+hash = "e877bdbce278c9cbc0d2a93b4b921b28649b6cd8ff9fc4a8a77328793af38cd7a25f2286f4f55c6b67c13f19924c2fa98fdbe6e140de579c5b55a019271bbd03"
+
+[update]
+[update.modrinth]
+mod-id = "o56psTwz"
+version = "u63ixvSd"

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "92db379d5f00b0db894d78e0662f1d8c5a884e81f77acdfea0c5ff8fa58ee55c"
+hash = "8084c85e8bae0afb632aa10f2cf74b4adfdcdda4b24f952db06ea299f37fd91e"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -2089,6 +2089,11 @@ hash = "f5ba9c4f026b2b4c83e1412cd2c78777caf421e6d36fe6056742f33fd6cb92cc"
 metafile = true
 
 [[files]]
+file = "mods/etfuturum.pw.toml"
+hash = "79cc505c6f5b21f85fe731736aad7a6ee95fd950d0ad5974a6f559429796347a"
+metafile = true
+
+[[files]]
 file = "mods/falsepatternlib.pw.toml"
 hash = "7a6ccd80f18cbd674eb72014b8725e651c0961f2e742f5549692e05b311af1eb"
 metafile = true
@@ -2166,6 +2171,11 @@ metafile = true
 [[files]]
 file = "mods/nei-addons.pw.toml"
 hash = "1f1b9809a0e8a144ea2428a67144256fbc9816f4a29a1878b4720558952ad391"
+metafile = true
+
+[[files]]
+file = "mods/netherlicious.pw.toml"
+hash = "94bcabc3b553229355935bdec56e8118f634be43076a5b6522824cdce28df585"
 metafile = true
 
 [[files]]

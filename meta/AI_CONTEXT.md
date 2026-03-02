@@ -42,6 +42,8 @@ Any AI assisting with this project MUST adhere to these principles:
 - **NEI (GTNH Fork)**: `NotEnoughItems-GTNH` (JEI-style tabs).
 - **Wawla**: CurseForge: `wawla` (Enhanced info for Waila).
 - **GT6 Ore Helper**: URL: `https://github.com/chikh/GT6-Ore-Helper/releases/download/1.7.10-0.0.5-p1/GT6OreHelper-1.7.10-0.0.5-p1.jar` (Custom fork)
+- **Et Futurum Requiem**: Modrinth: `etfuturum` (Backports from modern MC).
+- **Netherlicious**: CurseForge: `netherlicious` (Comprehensive Nether overhaul).
 - **Performance/Fixes**: Angelica, ArchaicFix, LWJGL3ify, Hodgepodge, FastCraft, BetterFps, FalsePatternLib, GTNH Lib, UniMixins.
 
 ## Hardware Compatibility (SIGILL Fix)
