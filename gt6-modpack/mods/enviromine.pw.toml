@@ -1,0 +1,13 @@
+name = "EnviroMine"
+filename = "EnviroMine-1.3.124.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db9bd83c194405b894d947f5172cc4b8e5262505"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2269710
+project-id = 230236

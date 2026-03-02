@@ -36,6 +36,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **ArchaicFix** | Comprehensive bug fixes and optimizations, including backporting modern logic. | Enhances stability and performance beyond what older packs could achieve. |
 | **RTG-GTNH / Streams** | Realistic Terrain Generation and flowing, actual rivers. | Provides a more immersive, "realistic" world compared to standard biome gen. |
 | **Elsewhere-Border** | A world border utility. | Helps manage world size and exploration in a "Modernized" context. |
+| **EnviroMine** | Adds environmental realism: hydration, temperature, sanity, and air quality. | **Unique Advantage**: Significantly enhances the "survival" aspect of the modpack. |
 | **Morpheus** | Better sleep voting for servers. | Standard server-side QoL for multiplayer. |
 | **ClimateControl-GTNH** | Controls biome distribution and ocean sizes. | Used to ensure a balanced distribution of GT6 ores across climate zones. |
 | **Et Futurum Requiem** | Backports features from modern Minecraft (1.8 - 1.20). | **Unique Advantage**: Provides modern blocks and mechanics without leaving 1.7.10. |
@@ -95,6 +96,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **Cooking for Blockheads** | Both | Kitchen system and recipe tracking. | High-quality QoL for survival gameplay. |
 | **CoreTweaks** | BD S3 | Bug fixes and optimizations. | Mostly superseded by ArchaicFix and Hodgepodge. |
 | **Elsewhere-Border** | Our Pack | World border management. | Helps maintain server performance and focus. |
+| **EnviroMine** | Our Pack | Environmental realism (temperature, hydration, air quality). | Fits perfectly with the "Gregified Vanilla" pillar's realism focus. |
 | **Et Futurum Requiem** | Our Pack | Backports from modern MC (1.8-1.20). | Essential for modernizing the survival experience. |
 | **FalsePatternLib** | Our Pack | Library for modern 1.7.10 mods. | Required for several performance optimizations. |
 | **Farseek** | Our Pack | API for environmental mods (Streams). | Essential for the realistic river systems. |

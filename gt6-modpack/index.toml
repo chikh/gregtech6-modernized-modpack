@@ -2098,6 +2098,11 @@ hash = "f5ba9c4f026b2b4c83e1412cd2c78777caf421e6d36fe6056742f33fd6cb92cc"
 metafile = true
 
 [[files]]
+file = "mods/enviromine.pw.toml"
+hash = "b6facf790720fe6984219cd1eab915c8955c6b1789f48e9839b2bc494a5ed258"
+metafile = true
+
+[[files]]
 file = "mods/etfuturum.pw.toml"
 hash = "79cc505c6f5b21f85fe731736aad7a6ee95fd950d0ad5974a6f559429796347a"
 metafile = true

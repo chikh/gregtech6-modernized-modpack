@@ -45,6 +45,7 @@ Any AI assisting with this project MUST adhere to these principles:
 - **Et Futurum Requiem**: Modrinth: `etfuturum` (Backports from modern MC).
 - **Backhand**: CurseForge: `backhand` (Backports offhand slot).
 - **Spice of Life (GTNH)**: GitHub: `GTNewHorizons/SpiceOfLife` (Carrot Edition).
+- **EnviroMine**: CurseForge: `enviromine` (Adds survival realism: temperature, hydration, air quality, and sanity).
 - **Netherlicious**: CurseForge: `netherlicious` (Comprehensive Nether overhaul).
 - **ExtrabiomesXL**: CurseForge: `extrabiomesxl` (Realistic biome diversity and terrain).
 - **Performance/Fixes**: Angelica, ArchaicFix, LWJGL3ify, Hodgepodge, FastCraft, BetterFps, FalsePatternLib, GTNH Lib, UniMixins.
