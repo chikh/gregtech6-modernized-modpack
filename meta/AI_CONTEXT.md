@@ -29,7 +29,7 @@ Any AI assisting with this project MUST adhere to these principles:
 ## Maintenance Procedures
 - **Mandatory Reindexing**: After ANY file changes in `gt6-modpack/`, run `~/.aur/packwiz-git/packwiz refresh` inside that directory.
 - **Adding Mods**: Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
-- **Updating Modpack**: Run `packwiz update --all` inside `gt6-modpack/`.
+- **Updating Modpack**: Run `packwiz update --all` for CurseForge/Modrinth mods and `./scripts/update_url_mods.sh` for GitHub-sourced mods.
 - **Updating Quest Book**: Run `./scripts/update_quests.sh` from the root.
 - **Updating Default Configs**: Run `./scripts/update_configs.sh` from the root to sync with official GregTech 6 default configurations.
 - **Building Server**: Run `./scripts/build_server.sh` from the root.
