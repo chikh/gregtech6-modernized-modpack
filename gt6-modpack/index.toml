@@ -25,10 +25,6 @@ file = "config/BigReactors/BigReactors.cfg"
 hash = "e918964ba8b3bbaa3a5329f67e760daa958bacbfa2c8f7f71ec31c92b9f89a47"
 
 [[files]]
-file = "config/ClimateControl.cfg"
-hash = "41acfae11f62d038d69b2be0f1e1d6e2d94fbae044bb3de36315800e1da7b982"
-
-[[files]]
 file = "config/CodeChickenCore.cfg"
 hash = "66a82860f9c90ceb509559186df0c1fa19ec8c9870092c5639a0ca73d9cd55ee"
 
