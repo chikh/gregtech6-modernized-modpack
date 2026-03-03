@@ -8,26 +8,23 @@ services:
     environment:
       TZ: "Europe/Amsterdam"
       EULA: "TRUE"
+
       TYPE: CUSTOM
-      VERSION: "1.7.10"
-      
       GENERIC_PACKS: gt6-modernized-server
       GENERIC_PACKS_SUFFIX: .zip
       GENERIC_PACKS_PREFIX: /modpacks/
-      
       CUSTOM_SERVER: "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-forgePatches.jar"
       
-      # Using G1GC by default for low-RAM (2.2GB) compatibility. 
-      # ZGC requires more headroom and is recommended for 4GB+.
       JVM_OPTS: "-Dfml.readTimeout=600 @java9args.txt"
-      
       MEMORY: "2200M"
+
       MOTD: "GT6: Modernized"
       DIFFICULTY: "normal"
       ENABLE_COMMAND_BLOCK: "true"
       SPAWN_PROTECTION: 1
       VIEW_DISTANCE: 6
-      MODE: 0
+      VERSION: "1.7.10"
+      MODE: 2
       ONLINE_MODE: "false"
       ALLOW_FLIGHT: "TRUE"
       SEED: "-7950192977334047853"
