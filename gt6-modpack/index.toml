@@ -1838,7 +1838,7 @@ hash = "112ef6343ea0a481ea8f97462428c43e04ff86e03029001be8d3e002551db664"
 
 [[files]]
 file = "config/climatecontrol.cfg"
-hash = "49db94dabea8d1267aedc2bdc693020db730f2db70bd93ece4f29eea900d04f5"
+hash = "8df40c196500f2fed99147167f10d41ad2d03ceb950c1e8313f64a0a89d0f02c"
 
 [[files]]
 file = "config/cofh/core/common.cfg"
