@@ -2208,6 +2208,11 @@ hash = "5cd824f1d1a4bfd2a90504eeed416bdb68fd55bbcd93e137ff1c651794d95943"
 metafile = true
 
 [[files]]
+file = "mods/punch-me-not.pw.toml"
+hash = "c037cae17e41ad52862a0eca9a95de175c9c81c3e1afa74483257f73180c9cf1"
+metafile = true
+
+[[files]]
 file = "mods/rtg-gtnh.pw.toml"
 hash = "f59067c7978ca772ef477689c43da162591b074be180df8a8637ed1ff7ccf3c2"
 metafile = true

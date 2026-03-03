@@ -1,0 +1,13 @@
+name = "Punch Me Not"
+filename = "Punch Me Not 1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "07a993b31f7623ca69955f600d373865660ed43d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2610798
+project-id = 301973

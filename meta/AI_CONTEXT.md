@@ -63,6 +63,7 @@ Climate Control is configured to generate horizontal climate bands (latitudes).
 - **Et Futurum Requiem**: Modrinth: `etfuturum` (Backports from modern MC).
 - **Backhand**: CurseForge: `backhand` (Backports offhand slot).
 - **Spice of Life (GTNH)**: GitHub: `GTNewHorizons/SpiceOfLife` (Carrot Edition).
+- **Punch Me Not**: CurseForge: `punch-me-not` (Enforces tool use by damaging players who punch blocks).
 - **EnviroMine**: CurseForge: `enviromine` (Adds survival realism: temperature, hydration, air quality, and sanity).
 - **Netherlicious**: CurseForge: `netherlicious` (Comprehensive Nether overhaul).
 - **ExtrabiomesXL**: CurseForge: `extrabiomesxl` (Realistic biome diversity and terrain).

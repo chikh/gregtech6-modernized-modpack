@@ -42,6 +42,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **Et Futurum Requiem** | Backports features from modern Minecraft (1.8 - 1.20). | **Unique Advantage**: Provides modern blocks and mechanics without leaving 1.7.10. |
 | **Netherlicious** | Comprehensive overhaul of the Nether with new biomes and blocks. | **Unique Advantage**: Modernizes the Nether dimension significantly. |
 | **Backhand** | Backports the Offhand slot from 1.9+. | **Unique Advantage**: Enhances survival realism and QoL (e.g., dual-wielding torches). |
+| **Punch Me Not** | Causes damage when punching blocks without the correct tool. | **Unique Advantage**: Enforces realistic harvesting in Survival mode. |
 
 ---
 

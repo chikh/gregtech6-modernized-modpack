@@ -24,7 +24,7 @@ services:
       SPAWN_PROTECTION: 1
       VIEW_DISTANCE: 6
       VERSION: "1.7.10"
-      MODE: 2
+      MODE: 0
       ONLINE_MODE: "false"
       ALLOW_FLIGHT: "TRUE"
       SEED: "-7950192977334047853"
