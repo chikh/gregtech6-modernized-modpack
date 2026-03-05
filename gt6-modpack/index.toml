@@ -2039,7 +2039,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterquesting-gtnh.pw.toml"
-hash = "614f58b14aab3935a8ce53451d159e6a4cc14806e8c088a169de945d230123da"
+hash = "746aa75fb2169d3735ecd90d5142a831c2870412e6f0bd0b4c0167df05d7f04d"
 metafile = true
 
 [[files]]
@@ -2099,7 +2099,7 @@ metafile = true
 
 [[files]]
 file = "mods/enviromine.pw.toml"
-hash = "b6facf790720fe6984219cd1eab915c8955c6b1789f48e9839b2bc494a5ed258"
+hash = "a6fd2ec2954f2232b7faea46d5da4a08023272f2677f5fa90e8077e3e86b2c53"
 metafile = true
 
 [[files]]
