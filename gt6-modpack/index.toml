@@ -89,6 +89,10 @@ file = "config/ProjectRed.cfg"
 hash = "6eb3bf2e0801b6db648bf6518daab450499c6e6016717d98a83b2c4f3f4c91cd"
 
 [[files]]
+file = "config/RTG/rtg.cfg"
+hash = "d69d2db1b7d64754c00801eb13f5f1e883481f80c8022f6179662618792fa5d4"
+
+[[files]]
 file = "config/Reika/ElectriCraft.cfg"
 hash = "20de309a1b9a1a0b6d50069c11d227dc3fccdf0e5fb56874ecffda1970bf56d2"
 
