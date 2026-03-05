@@ -6,7 +6,7 @@ A GregTech 6 modpack focused on "Gregified Vanilla" gameplay, optimized for mode
 
 - **GregTech 6 (Modernized)**: Physical, realistic industrial processing.
 - **Better Storage**: Realistic, physicalized item management.
-- **ExtrabiomesXL, RTG & Streams**: 28 realistic biomes and flowing rivers.
+- **ExtrabiomesXL & RTG**: 28 realistic biomes.
 - **Netherlicious**: Complete overhaul of the Nether dimension.
 - **Modern Features**: Et Futurum (1.20 backports), Offhand support, and NEI (GTNH).
 - **Performance**: Angelica (Sodium), ArchaicFix, and LWJGL 3 for maximum FPS.

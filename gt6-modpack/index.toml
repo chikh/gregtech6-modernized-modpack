@@ -2118,11 +2118,6 @@ hash = "7a6ccd80f18cbd674eb72014b8725e651c0961f2e742f5549692e05b311af1eb"
 metafile = true
 
 [[files]]
-file = "mods/farseek.pw.toml"
-hash = "fb336f1365e5d3ef2154848d93194943a3f529a73515d73e507cd1292cb8c8fc"
-metafile = true
-
-[[files]]
 file = "mods/fastcraft.pw.toml"
 hash = "422af561be79850d7b301261b133bfc8ddcf7eab4c9d2e3934ded3f6fa72bf58"
 metafile = true
@@ -2225,11 +2220,6 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "55d4a3b8fb7ac5c739dc124e41e59c7c93d7bba2ed986359968674c5553ede4b"
-metafile = true
-
-[[files]]
-file = "mods/streams.pw.toml"
-hash = "bac002375e036a84c6dfcf35db12d1720cb4a16a2912be7d751316e4dd14597b"
 metafile = true
 
 [[files]]

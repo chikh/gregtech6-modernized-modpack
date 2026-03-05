@@ -34,7 +34,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | :--- | :--- | :--- |
 | **Angelica** | A backport of Sodium/Iris to 1.7.10. Massive rendering optimizations and shader support. | **Unique Advantage**: Provides modern FPS and visual quality that BD S3 lacks. |
 | **ArchaicFix** | Comprehensive bug fixes and optimizations, including backporting modern logic. | Enhances stability and performance beyond what older packs could achieve. |
-| **RTG-GTNH / Streams** | Realistic Terrain Generation and flowing, actual rivers. | Provides a more immersive, "realistic" world compared to standard biome gen. |
+| **RTG-GTNH** | Realistic Terrain Generation. | Foundational for our "Realistic World" focus. |
 | **Elsewhere-Border** | A world border utility. | Helps manage world size and exploration in a "Modernized" context. |
 | **EnviroMine** | Adds environmental realism: hydration, temperature, sanity, and air quality. | **Unique Advantage**: Significantly enhances the "survival" aspect of the modpack. |
 | **Morpheus** | Better sleep voting for servers. | Standard server-side QoL for multiplayer. |
@@ -100,7 +100,6 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **EnviroMine** | Our Pack | Environmental realism (temperature, hydration, air quality). | Fits perfectly with the "Gregified Vanilla" pillar's realism focus. |
 | **Et Futurum Requiem** | Our Pack | Backports from modern MC (1.8-1.20). | Essential for modernizing the survival experience. |
 | **FalsePatternLib** | Our Pack | Library for modern 1.7.10 mods. | Required for several performance optimizations. |
-| **Farseek** | Our Pack | API for environmental mods (Streams). | Essential for the realistic river systems. |
 | **FastCraft** | Our Pack | Core performance optimization. | Highly recommended for all 1.7.10 packs. |
 | **Forestry** | BD S3 | Industrial agriculture and bee breeding. | Classic mod, but adds significant bloat if not core to the pack. |
 | **Forge Multipart** | Both | Allows multiple small blocks in one space. | Required for many technical and decorative mods. |
@@ -142,7 +141,6 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **Railcraft** | BD S3 | Realistic rail and steam overhaul. | Highly recommended; fits our core pillars perfectly. |
 | **RTG-GTNH** | Our Pack | Realistic Terrain Generation. | Foundational for our "Realistic World" focus. |
 | **ServerUtilities** | Both | Server management and utilities. | Essential for server admins. |
-| **Streams** | Our Pack | Flowing, realistic rivers. | Foundational for our "Realistic World" focus. |
 | **TileEntityResetFix** | Both | Fixes a Forge bug that resets Tile Entities. | Important safety fix for long-term worlds. |
 | **Twilight Forest** | BD S3 | Exploration-focused dimension. | Significant content, but diverges from the industrial focus. |
 | **UniMixins** | Both | Mixin support for 1.7.10. | Essential for modern performance mods. |
