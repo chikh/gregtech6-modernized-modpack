@@ -19,6 +19,7 @@ DIST_DIR="$TEMP_BUILD_DIR/dist"
 # Default configuration
 ZIP_NAME="gt6-modernized-server.zip"
 PREGEN_MODE=false
+PREGEN_FAST=false
 UPDATE_QUESTS=false
 JAVA_ARGS_FILE="java9args.txt"
 
@@ -26,6 +27,11 @@ JAVA_ARGS_FILE="java9args.txt"
 for arg in "$@"; do
     case $arg in
         --pregen)
+            PREGEN_MODE=true
+            ZIP_NAME="gt6-modernized-server-pregen.zip"
+            ;;
+        --pregen-fast)
+            PREGEN_FAST=true
             PREGEN_MODE=true
             ZIP_NAME="gt6-modernized-server-pregen.zip"
             ;;
@@ -48,6 +54,9 @@ echo "### Starting build for GT6: Modernized Server ###"
 if [ "$PREGEN_MODE" = true ]; then
     echo "### MODE: Pregeneration (ArchaicFix will be excluded) ###"
 fi
+if [ "$PREGEN_FAST" = true ]; then
+    echo "### MODE: Fast Pregeneration enabled ###"
+fi
 
 # Optional: Update quests before building
 if [ "$UPDATE_QUESTS" = true ]; then
@@ -63,6 +72,44 @@ cd "$PROJECT_ROOT"
 echo "### Preparing distribution files..."
 # Copy source files to temp dist
 cp -r "$SRC_DIR/." "$DIST_DIR/"
+
+# Applying pregen-specific config changes
+if [ "$PREGEN_MODE" = true ]; then
+    echo "### Applying Hodgepodge pregen config..."
+    mkdir -p "$DIST_DIR/config"
+    if [ ! -f "$DIST_DIR/config/hodgepodge.cfg" ]; then
+        cat > "$DIST_DIR/config/hodgepodge.cfg" <<EOH
+fixes {
+    B:earlyChunkTileCoordinateCheckDestructive=true
+}
+EOH
+    else
+        if grep -q "earlyChunkTileCoordinateCheckDestructive" "$DIST_DIR/config/hodgepodge.cfg"; then
+            sed -i 's/B:earlyChunkTileCoordinateCheckDestructive[[:space:]]*=[[:space:]]*false/B:earlyChunkTileCoordinateCheckDestructive=true/' "$DIST_DIR/config/hodgepodge.cfg"
+        else
+            if grep -q "fixes {" "$DIST_DIR/config/hodgepodge.cfg"; then
+                sed -i '/fixes {/a \    B:earlyChunkTileCoordinateCheckDestructive=true' "$DIST_DIR/config/hodgepodge.cfg"
+            else
+                cat >> "$DIST_DIR/config/hodgepodge.cfg" <<EOH
+fixes {
+    B:earlyChunkTileCoordinateCheckDestructive=true
+}
+EOH
+            fi
+        fi
+    fi
+fi
+
+if [ "$PREGEN_FAST" = true ]; then
+    echo "### Applying fast pregen config (ChunkPregenerator)..."
+    mkdir -p "$DIST_DIR/config/pregen"
+    # Create or overwrite base.cfg for pregen speedup (CarbonConfig format)
+    cat > "$DIST_DIR/config/pregen/base.cfg" <<EOF2
+[common.generator]
+I:time-per-tick=1000
+E:priority=PREGENERATOR
+EOF2
+fi
 
 # Remove ArchaicFix if in pregen mode
 if [ "$PREGEN_MODE" = true ]; then
