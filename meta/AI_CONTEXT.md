@@ -2,6 +2,7 @@
 
 ## Project Identity
 - **Official Name**: GT6: Modernized
+- **Version**: Minecraft 1.7.10 (Forge 10.13.4.1614)
 - **Root Directory**: `gt6-modernized`
 - **Source Directory**: `gt6-modpack`
 - **Branding**: `meta/logo.png` (High-res), `gt6-modpack/overrides/icon.png` (Launcher icon).
@@ -14,7 +15,11 @@ Any AI assisting with this project MUST adhere to these principles:
 3.  **Bear's Den Inspiration**: Realistic industry vibe prioritized for modern performance.
 
 ## Project Workspace Structure
-- **Documentation Scope**: When "documentation" is mentioned, it refers to `meta/AI_CONTEXT.md`, `README.md`, and `gt6-modpack/README.md`.
+- **Documentation Scope**:
+    - `meta/AI_CONTEXT.md`: This file (Source of Truth).
+    - `README.md` & `gt6-modpack/README.md`: General overview.
+    - `MODPACK_ASSESSMENT.md`: Rationale for mod selection and biome choices.
+    - `gt6-modpack/pack.toml`: Main modpack metadata.
 - **`/gt6-modpack/`**: The "Source Code". (Managed by `packwiz`).
     - `icon.png`: Launcher icon.
     - `java9args.txt`: JVM arguments for modern Java.
@@ -27,13 +32,17 @@ Any AI assisting with this project MUST adhere to these principles:
 - **`/docker/`**: Deployment configurations.
 
 ## Maintenance Procedures
-- **Mandatory Reindexing**: After ANY file changes in `gt6-modpack/`, run `~/.aur/packwiz-git/packwiz refresh` inside that directory.
+- **Mandatory Reindexing**: After ANY file changes in `gt6-modpack/`, run `packwiz refresh` inside that directory.
 - **Adding Mods**: Use `packwiz curseforge add [slug]` or `packwiz url add [name] [url]`.
-- **Updating Modpack**: Run `packwiz update --all` for CurseForge/Modrinth mods and `./scripts/update_url_mods.sh` for GitHub-sourced mods.
-- **Updating Quest Book**: Run `./scripts/update_quests.sh` from the root.
-- **Updating Default Configs**: Run `./scripts/update_configs.sh` from the root to sync with official GregTech 6 default configurations.
-- **Building Server**: Run `./scripts/build_server.sh` from the root.
-- **Exporting Client**: Run `./scripts/export_client.sh` from the root.
+- **Updating Modpack**:
+    - CurseForge/Modrinth: `cd gt6-modpack && packwiz update --all`
+    - URL/GitHub-sourced: `bash scripts/update_url_mods.sh`
+- **Update Quest Book**: `bash scripts/update_quests.sh` (Syncs from Bear's Den).
+- **Update Configs**: `bash scripts/update_configs.sh` (Syncs with GT6 defaults).
+- **Building Server**: `bash scripts/build_server.sh`
+    - `--pregen`: Excludes ArchaicFix for faster initial world generation.
+    - `--java-4g`: Optimizes for 4G+ RAM using ZGC flags.
+- **Exporting Client**: `bash scripts/export_client.sh` (Generates CurseForge-compatible ZIP).
 
 ## World Configuration & Climate Control
 The modpack uses a "Limited World" philosophy by default to ensure realistic biome distribution and performance.
@@ -87,8 +96,11 @@ Required for module access and optimal GC:
 ## Git & AI Maintenance Rules
 1.  **Commits**: Create atomic, descriptive git commits after significant changes.
 2.  **Tracking**: Only track `gt6-modpack/`, `scripts/`, `meta/`, and `docker/`. NEVER track `bin-cache/` or `builds/`.
-3.  **Self-Update**: Update this `AI_CONTEXT.md` and `MODPACK_ASSESSMENT.md` whenever new mods are added, core versions change, or project structure evolves.
-4.  **Mandatory Cross-Check**: Before adding/updating mods, cross-check with the following:
+3.  **Mod Management**: NEVER add `.jar` files directly to `gt6-modpack/mods/`. Use `packwiz` commands.
+4.  **Performance First**: Any new mod MUST be evaluated for its impact on startup time and runtime FPS.
+5.  **Philosophy Adherence**: Ensure all changes align with "Gregified Vanilla". Avoid high-tech/magic mods (e.g., no teleportation pipes, no magic chests).
+6.  **Self-Update**: Update this `AI_CONTEXT.md` and `MODPACK_ASSESSMENT.md` whenever new mods are added, core versions change, or project structure evolves.
+7.  **Mandatory Cross-Check**: Before adding/updating mods, cross-check with the following:
     - **Official GT6 Requirements Page**: `https://gregtech.overminddl1.com/downloads/gregtech_1.7.10/index.html`
     - **GregTech-6 Modpack and Server Recommendations**: `https://gregtech.mechaenetia.com/1.7.10/modpack/`
     - **Official Forum Search**: `https://forum.mechaenetia.com/search?q=[query]` (Give priority to posts by user `gregorius`).
