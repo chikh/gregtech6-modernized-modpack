@@ -2,7 +2,7 @@
 set -e
 
 # --- Configuration ---
-PACKWIZ_BINARY="$HOME/.aur/packwiz-git/packwiz"
+PACKWIZ_BINARY="packwiz"
 
 # Paths
 SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
