@@ -40,7 +40,8 @@ Any AI assisting with this project MUST adhere to these principles:
 - **Update Quest Book**: `bash scripts/update_quests.sh` (Syncs from Bear's Den).
 - **Update Configs**: `bash scripts/update_configs.sh` (Syncs with GT6 defaults).
 - **Building Server**: `bash scripts/build_server.sh`
-    - `--pregen`: Excludes ArchaicFix for faster initial world generation.
+    - `--pregen`: Excludes ArchaicFix and optimizes Hodgepodge for initial world pregeneration.
+    - `--pregen-fast`: All `--pregen` optimizations plus high-speed ChunkPregenerator settings. **Warning**: Server will be unplayable during pregen.
     - `--java-4g`: Optimizes for 4G+ RAM using ZGC flags.
 - **Exporting Client**: `bash scripts/export_client.sh` (Generates CurseForge-compatible ZIP).
 

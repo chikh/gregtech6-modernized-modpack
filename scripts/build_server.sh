@@ -20,8 +20,20 @@ DIST_DIR="$TEMP_BUILD_DIR/dist"
 ZIP_NAME="gt6-modernized-server.zip"
 PREGEN_MODE=false
 PREGEN_FAST=false
-UPDATE_QUESTS=false
 JAVA_ARGS_FILE="java9args.txt"
+
+# Usage function
+usage() {
+    echo "Usage: $0 [options]"
+    echo ""
+    echo "Options:"
+    echo "  --pregen         Exclude ArchaicFix and optimize Hodgepodge for initial world pregeneration."
+    echo "  --pregen-fast    Enable all --pregen optimizations plus high-speed ChunkPregenerator settings (Server will be unplayable during pregen)."
+    echo "  --java-4g        Use java9args_4G.txt (ZGC optimized) as the default server JVM arguments."
+    echo "  -h, --help       Display this help message."
+    echo ""
+    exit 0
+}
 
 # Argument handling
 for arg in "$@"; do
@@ -35,14 +47,15 @@ for arg in "$@"; do
             PREGEN_MODE=true
             ZIP_NAME="gt6-modernized-server-pregen.zip"
             ;;
-        --update-quests)
-            UPDATE_QUESTS=true
-            ;;
         --java-4g)
             JAVA_ARGS_FILE="java9args_4G.txt"
             ;;
+        -h|--help)
+            usage
+            ;;
         *)
             echo "Unknown argument: $arg"
+            echo "Use --help for usage information."
             exit 1
             ;;
     esac
@@ -56,12 +69,6 @@ if [ "$PREGEN_MODE" = true ]; then
 fi
 if [ "$PREGEN_FAST" = true ]; then
     echo "### MODE: Fast Pregeneration enabled ###"
-fi
-
-# Optional: Update quests before building
-if [ "$UPDATE_QUESTS" = true ]; then
-    echo "### Updating quest book..."
-    bash "$SCRIPT_DIR/update_quests.sh"
 fi
 
 echo "### Refreshing packwiz index..."

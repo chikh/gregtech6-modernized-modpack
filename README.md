@@ -28,7 +28,8 @@ A GregTech 6 modpack focused on "Gregified Vanilla" gameplay, optimized for mode
 3.  **Building Server**:
     - `bash scripts/build_server.sh`: Generates a standard server bundle in `builds/server/gt6-modernized-server.zip` (Low RAM, G1GC).
     - `bash scripts/build_server.sh --java-4g`: Generates a server bundle with ZGC flags for 4G+ RAM setups.
-    - `bash scripts/build_server.sh --pregen`: Generates a pregeneration-optimized server bundle (`gt6-modernized-server-pregen.zip`) with **ArchaicFix disabled**. (Use this for initial world generation, as ArchaicFix can significantly slow down pregeneration).
+    - `bash scripts/build_server.sh --pregen`: Generates a pregeneration-optimized server bundle (`gt6-modernized-server-pregen.zip`) with **ArchaicFix disabled** and **Hodgepodge optimizations**.
+    - `bash scripts/build_server.sh --pregen-fast`: All `--pregen` features plus **high-speed ChunkPregenerator settings** (Server will be unplayable during pregen).
 4.  **Exporting Client**: Run `./scripts/export_client.sh` to generate a CurseForge-compatible ZIP in `builds/client/`.
 5.  **Updates**: Run `./scripts/update_quests.sh` to sync the latest quest book from Bear's Den.
 6.  **Config Sync**: Run `./scripts/update_configs.sh` to sync with official GregTech 6 default configurations.
