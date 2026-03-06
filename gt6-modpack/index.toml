@@ -1989,6 +1989,10 @@ file = "config/gregtech/QwerTech.cfg"
 hash = "910d8994ac0b8bd2aab862a2e772e85d634bddd90a2f01f733c669b84930bff1"
 
 [[files]]
+file = "config/gregtech/oreprocessing.cfg"
+hash = "79e2206d4c8e39acdf986b6b4995dd9e300e30b18ae99160e44d8320c4b4532e"
+
+[[files]]
 file = "config/gregtech/qwertech.cfg"
 hash = "910d8994ac0b8bd2aab862a2e772e85d634bddd90a2f01f733c669b84930bff1"
 
