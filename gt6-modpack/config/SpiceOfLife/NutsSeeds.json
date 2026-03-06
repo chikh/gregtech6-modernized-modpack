@@ -1,0 +1,10 @@
+{
+  "food": {
+    "oredict": [
+      "listAllnut",
+      "listAllseed",
+      "foodPeanutbutter"
+    ]
+  },
+  "name": "Nuts and Seeds"
+}

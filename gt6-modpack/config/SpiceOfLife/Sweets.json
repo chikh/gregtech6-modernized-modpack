@@ -1,0 +1,13 @@
+{
+  "food": {
+    "oredict": [
+      "foodCookie",
+      "foodIcecream",
+      "foodChocolate",
+      "foodDonut",
+      "foodCandy",
+      "foodMarshmellow"
+    ]
+  },
+  "name": "Sweets"
+}

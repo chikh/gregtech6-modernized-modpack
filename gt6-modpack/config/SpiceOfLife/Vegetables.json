@@ -1,0 +1,15 @@
+{
+  "food": {
+    "oredict": [
+      "listAllveggie",
+      "cropTomato",
+      "cropCorn",
+      "cropOnion",
+      "cropCabbage",
+      "cropLettuce",
+      "cropPotato",
+      "cropCarrot"
+    ]
+  },
+  "name": "Vegetables"
+}

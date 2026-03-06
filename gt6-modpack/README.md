@@ -37,6 +37,18 @@ To get the best performance and compatibility with modern Java:
 - **JourneyMap**, **Waila**, **GraveStone**, **Better Storage**
 - **QoL**: Inventory Tweaks, Mouse Tweaks, Controlling, ServerUtilities.
 
+## Survival Mechanics
+
+### Balanced Diet & Nutrition (Spice of Life)
+The modpack is configured to reward culinary variety and discourage repetitive eating, aligning with the realism of GregTech 6.
+
+- **Variety History**: The last **32 items** eaten are tracked. Eating the same food repeatedly will drastically reduce its nutritional value (hunger and saturation restoration).
+- **Hardcore Persistence**: Nutrition history **persists through death**. You cannot reset your diet by dying; true survival requires maintaining a diverse food supply.
+- **Categorized Groups**: Related foods are grouped together (e.g., all Canned Meats, all Breads). 
+- **Strategic Rotation (Overlapping Tags)**: Complex foods like Sandwiches may belong to multiple groups (e.g., Meals + Grains + Proteins). Eating a Steak Sandwich will simultaneously diminish the returns for all three categories. 
+    - **Pro-Tip**: Balance "Heavy" multi-category meals with "Light" single-category snacks (like individual Fruits or Dairy) to let your main meal categories recover.
+- **Health Rewards**: Eating unique foods progress you towards permanent **Extra Hearts**. Check your Food Journal to track your milestones.
+
 ## Server-Side Optimization & Tools
 
 ### World Pregeneration

@@ -1,0 +1,15 @@
+{
+  "food": {
+    "oredict": [
+      "foodSandwich",
+      "foodPizza",
+      "foodSalad",
+      "foodSoup",
+      "foodStew",
+      "foodBurger",
+      "foodTaco",
+      "foodPasta"
+    ]
+  },
+  "name": "Meals"
+}

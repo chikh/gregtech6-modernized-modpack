@@ -101,6 +101,42 @@ file = "config/Reika/ReactorCraft.cfg"
 hash = "49d0d12ce938ba360e66949e47ec7b2a1ae92f5f93749a7f44c0a5a78b75a39b"
 
 [[files]]
+file = "config/SpiceOfLife.cfg"
+hash = "bc7650af1aa9ae5c388de5e0474896964a29657ee0173addaf7287927f72f00b"
+
+[[files]]
+file = "config/SpiceOfLife/Dairy.json"
+hash = "b292da1747a854416fc45fb266fe422705d5f74ae51f78f06b754ae863457455"
+
+[[files]]
+file = "config/SpiceOfLife/Fruits.json"
+hash = "7a19f0d948fa108c01bba479c1138bbf3dd4f7c7920e13b30f5c6c4744070a3b"
+
+[[files]]
+file = "config/SpiceOfLife/Grains.json"
+hash = "d6ec29acf266c093bd18d1a45317f72f4dd221e87891e9e2a70424c0ab19e496"
+
+[[files]]
+file = "config/SpiceOfLife/Meals.json"
+hash = "063d6d3661fae5da5f5e2680d7aba5a766b60b3b6a3f6b3a4389b2e613ab91fe"
+
+[[files]]
+file = "config/SpiceOfLife/NutsSeeds.json"
+hash = "546e911035818387c83b2f2faba7ee9cb49b6f6dc7de6def7aad54cf44f82daf"
+
+[[files]]
+file = "config/SpiceOfLife/Proteins.json"
+hash = "b12d1c1015230f01207748d194d09a909454e843a202219b563d9e49d0e9c6d8"
+
+[[files]]
+file = "config/SpiceOfLife/Sweets.json"
+hash = "959f9a52eaf6748e24d8240813a8632e9ce69cf7b93f57e2a1d6b6fbc8f5aedd"
+
+[[files]]
+file = "config/SpiceOfLife/Vegetables.json"
+hash = "be9ab82f2f176d4cce3597df0fc8d537d7770783b3889fd6b471f2489568eec1"
+
+[[files]]
 file = "config/Techguns.cfg"
 hash = "3c07e6bd88c854982b4033062d48eac0395ded4aea82c8ae1ba34b42f9083f18"
 

@@ -1,0 +1,16 @@
+{
+  "food": {
+    "oredict": [
+      "listAllfruit",
+      "cropApple",
+      "cropLemon",
+      "cropOrange",
+      "cropGrape",
+      "cropStrawberry",
+      "cropBerry",
+      "listAlljuice",
+      "listAllsmoothie"
+    ]
+  },
+  "name": "Fruits"
+}

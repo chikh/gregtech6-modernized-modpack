@@ -1,0 +1,15 @@
+{
+  "food": {
+    "oredict": [
+      "listAllmeatraw",
+      "listAllmeatcooked",
+      "listAllfishraw",
+      "listAllfishcooked",
+      "listAllegg",
+      "listAllmeatsubstitute",
+      "foodBaconcooked",
+      "foodJerky"
+    ]
+  },
+  "name": "Proteins"
+}
