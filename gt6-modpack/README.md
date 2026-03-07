@@ -40,14 +40,17 @@ To get the best performance and compatibility with modern Java:
 ## Survival Mechanics
 
 ### Balanced Diet & Nutrition (Spice of Life)
-The modpack is configured to reward culinary variety and discourage repetitive eating, aligning with the realism of GregTech 6.
+The modpack is configured with a nutritional balance system that rewards dietary diversity and encourages the use of GregTech 6 food processing.
 
-- **Variety History**: The last **32 items** eaten are tracked. Eating the same food repeatedly will drastically reduce its nutritional value (hunger and saturation restoration).
-- **Hardcore Persistence**: Nutrition history **persists through death**. You cannot reset your diet by dying; true survival requires maintaining a diverse food supply.
-- **Categorized Groups**: Related foods are grouped together (e.g., all Canned Meats, all Breads). 
-- **Strategic Rotation (Overlapping Tags)**: Complex foods like Sandwiches may belong to multiple groups (e.g., Meals + Grains + Proteins). Eating a Steak Sandwich will simultaneously diminish the returns for all three categories. 
-    - **Pro-Tip**: Balance "Heavy" multi-category meals with "Light" single-category snacks (like individual Fruits or Dairy) to let your main meal categories recover.
-- **Health Rewards**: Eating unique foods progress you towards permanent **Extra Hearts**. Check your Food Journal to track your milestones.
+- **Variety History**: The last **24 items** eaten are tracked.
+- **Grace Period**: You can eat the same food group **5 times** (roughly 2 days of meals) with **zero penalty**. This allows you to eat a "stack" of the same food during a long trip or combat without an immediate penalty.
+- **Variety Reward**: Maintaining **6 different food groups** in your history awards **100% nutrition**. 
+- **Monodiet Penalty**: Eating only **one group** (e.g., nothing but Steak) reduces your base nutrition to **~34%** as your body craves other essential nutrients.
+- **Heavy vs. Light**: Large, filling meals (8+ hunger) are more satisfying but decay faster in your variety history than light snacks (2-4 hunger), which can be eaten more frequently as staple foods.
+- **Strategic Rotation**: Complex GT6 foods (Sandwiches, Pizzas) hit multiple categories at once. This fills your "Variety Target" quickly but also uses up those specific categories faster.
+- **Nutritional Floor**: Food never drops below **25%** of its original value. You will never be unable to eat, but a poor diet will be very inefficient.
+- **Hardcore Persistence**: Nutrition history **persists through death**. You cannot reset your diet by dying.
+- **Health Rewards**: Eating unique foods progresses you towards permanent **Extra Hearts**.
 
 ## Server-Side Optimization & Tools
 

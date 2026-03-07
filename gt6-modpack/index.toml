@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "48d4725ca08d1fe6592b88e211a0a11a1250b69137fa541ef3aa31e608faa82a"
+hash = "c5860b051fb2901435c1bfa21b628e5594058fe016a87df1062482c557dce27e"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -102,7 +102,7 @@ hash = "49d0d12ce938ba360e66949e47ec7b2a1ae92f5f93749a7f44c0a5a78b75a39b"
 
 [[files]]
 file = "config/SpiceOfLife.cfg"
-hash = "bc7650af1aa9ae5c388de5e0474896964a29657ee0173addaf7287927f72f00b"
+hash = "e838173f32176c99c21132e27cbe0e75dd16b6999cfdbc2a8c1c8d53aa25cc73"
 
 [[files]]
 file = "config/SpiceOfLife/Dairy.json"
