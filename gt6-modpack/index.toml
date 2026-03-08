@@ -102,7 +102,7 @@ hash = "49d0d12ce938ba360e66949e47ec7b2a1ae92f5f93749a7f44c0a5a78b75a39b"
 
 [[files]]
 file = "config/SpiceOfLife.cfg"
-hash = "e838173f32176c99c21132e27cbe0e75dd16b6999cfdbc2a8c1c8d53aa25cc73"
+hash = "ebf439b1d7889fdbc01c3e444b24fe753d44be909bdbeeaad296787a6a84ff22"
 
 [[files]]
 file = "config/SpiceOfLife/Dairy.json"
