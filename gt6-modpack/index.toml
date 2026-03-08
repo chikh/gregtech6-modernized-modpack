@@ -145,6 +145,10 @@ file = "config/Thaumcraft.cfg"
 hash = "30edb578bf508b0900c3e7df8aec480a90a439d8906c2a6c8494174b25ab60be"
 
 [[files]]
+file = "config/TooMuchTime.cfg"
+hash = "89f2eef294c1f1bd2a68a9cccfefbf65618bdf1c630563ddbf2b7022ac07ab44"
+
+[[files]]
 file = "config/TwilightForest.cfg"
 hash = "8d5e48f5a616dbafc8b4a484c088ac02eb5d7a299cfc3a57037cd1e9c635f3da"
 
@@ -2265,6 +2269,11 @@ metafile = true
 [[files]]
 file = "mods/tileentity-reset-fix.pw.toml"
 hash = "9f0a05938af0a86a55f9bf639f4047af595e226be117603f428d409398eae2eb"
+metafile = true
+
+[[files]]
+file = "mods/toomuchtime.pw.toml"
+hash = "0df7996191ba165250ec40a680ee51249f1b45308a9d222f9ad7542dd0d93b36"
 metafile = true
 
 [[files]]

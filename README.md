@@ -10,7 +10,7 @@ A GregTech 6 modpack focused on "Gregified Vanilla" gameplay, optimized for mode
 - **Netherlicious**: Complete overhaul of the Nether dimension.
 - **Modern Features**: Et Futurum (1.20 backports), Offhand support, and NEI (GTNH).
 - **Performance**: Angelica (Sodium), ArchaicFix, and LWJGL 3 for maximum FPS.
-- **Survival QoL**: BetterQuesting, Pam's HarvestCraft, and Spice of Life.
+- **Survival QoL**: BetterQuesting, Pam's HarvestCraft, Spice of Life, and **TooMuchTime** (40min day/night cycle).
 
 ## Project Structure
 

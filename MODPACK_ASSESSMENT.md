@@ -43,6 +43,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **Netherlicious** | Comprehensive overhaul of the Nether with new biomes and blocks. | **Unique Advantage**: Modernizes the Nether dimension significantly. |
 | **Backhand** | Backports the Offhand slot from 1.9+. | **Unique Advantage**: Enhances survival realism and QoL (e.g., dual-wielding torches). |
 | **Punch Me Not** | Causes damage when punching blocks without the correct tool. | **Unique Advantage**: Enforces realistic harvesting in Survival mode. |
+| **TooMuchTime** | Extends the day/night cycle (doubled to 40 mins). | **Unique Advantage**: Provides a more relaxed pace suited for GT6 processing. |
 
 ---
 

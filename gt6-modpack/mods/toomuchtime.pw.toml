@@ -1,0 +1,13 @@
+name = "TooMuchTime"
+filename = "TooMuchTime-1.7.10-2.4.0.B3-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f340b478fb23ce4e5ba5c46a62c1b6c87c7ead01"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2228633
+project-id = 222463
