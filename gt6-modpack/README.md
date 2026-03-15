@@ -55,9 +55,13 @@ The modpack is configured with a nutritional balance system that rewards dietary
 ## Server-Side Optimization & Tools
 
 ### World Pregeneration
-Prevent lag during exploration by generating chunks in advance. The radius is specified in **chunks** (`world_radius / 16`).
-- **Overworld** (6400x6400 area, 3200 radius): `/pregen start gen radius Overworld SQUARE 0 0 200 0 FAST_CHECK_GEN`
-- **Nether** (800x800 area, 400 radius): `/pregen start gen radius Nether SQUARE 0 0 25 -1 FAST_CHECK_GEN`
+Prevent lag during exploration by generating chunks in advance. The radius is specified in **chunks** (`(world_radius / 16) + 10`). The +10 chunks buffer accommodates for average view distance.
+
+**CRITICAL WARNING (RTG Compatibility):**
+Speiger's **ChunkPregenerator** is currently **incompatible** with the "Population" (decoration) phase of **RTG** in Minecraft 1.7.10. Using it for an **RTG world type** will result in "naked" terrain (no trees, no RTG boulders). Only use this pregenerator for non-RTG dimensions or world types.
+
+- **Overworld (Non-RTG)**: `/pregen start gen radius Overworld SQUARE 0 0 210 0 FAST_CHECK_GEN`
+- **Nether**: `/pregen start gen radius Nether SQUARE 0 0 35 -1 FAST_CHECK_GEN`
 
 ### World Borders (Elsewhere Border)
 Set borders in `config/elsewhereborder.cfg` using the format `[DimensionID]:[Radius]` (e.g., `0:3200` for a 6400x6400 Overworld area).

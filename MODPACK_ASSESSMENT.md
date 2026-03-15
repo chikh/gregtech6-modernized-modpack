@@ -89,7 +89,7 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **CarbonConfig** | Both | Modern config library. | Necessary for modern mod configurations. |
 | **Carpenter's Blocks** | Both | Block shaping and customization. | Vital for detailed base building. |
 | **Chisel (GTNH)** | Both | Vast library of decorative textures. | Essential for high-quality builds. |
-| **ChunkPregenerator** | Both | Pre-generates world chunks for performance. | Critical for server performance and smooth flight. |
+| **ChunkPregenerator** | Both | Pre-generates world chunks for performance. | Critical for server performance. **Note**: Incompatible with RTG decoration phase in 1.7.10; use only for non-RTG dimensions. |
 | **ClimateControl-GTNH** | Both | World generation control. | Ensures balanced biome and ore distribution. |
 | **CodeChickenCore/Lib** | Both | Foundation library for many mods. | Essential dependency. |
 | **CoFHLib** | BD S3 | Foundation library for Thermal series. | Only needed if adding Thermal Expansion/Foundation. |

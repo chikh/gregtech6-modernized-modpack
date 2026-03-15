@@ -53,7 +53,7 @@ The modpack uses a "Limited World" philosophy by default to ensure realistic bio
 - **Configuration**:
     - **Elsewhere Border**: Set in `config/elsewhereborder.cfg` (e.g., `0:3200x3200` for Overworld).
     - **Random Teleport (RTP)**: Set `D:rtp_max_distance=3200.0` in `config/serverutilities/serverutilities.cfg`.
-    - **Pregeneration**: Radius in chunks (`world_radius / 16`). For 3200 radius, use `200` in the 7th parameter of the `/pregen` command.
+    - **Pregeneration**: Radius in chunks (`world_radius / 16 + 10`). For 3200 radius, use `210` in the 7th parameter of the `/pregen` command. **WARNING**: Incompatible with RTG decoration phase; use only for non-RTG dimensions.
 - **Unlimited Mode**: To remove the border, delete the entries in `elsewhereborder.cfg` or set the radius to `30000000`. Set `rtp_max_distance` to a high value.
 
 ### Climate Banding (Earth-like World)
