@@ -20,6 +20,7 @@ DIST_DIR="$TEMP_BUILD_DIR/dist"
 ZIP_NAME="gt6-modernized-server.zip"
 PREGEN_MODE=false
 PREGEN_FAST=false
+PREGEN_RTG=false
 JAVA_ARGS_FILE="java9args.txt"
 
 # Usage function
@@ -28,7 +29,8 @@ usage() {
     echo ""
     echo "Options:"
     echo "  --pregen         Exclude ArchaicFix and optimize Hodgepodge for initial world pregeneration."
-    echo "  --pregen-fast    Enable all --pregen optimizations plus high-speed ChunkPregenerator settings (Server will be unplayable during pregen)."
+    echo "  --pregen-fast    Enable all --pregen optimizations plus high-speed Chunk-Pregenerator settings (Server will be unplayable during pregen)."
+    echo "  --pregen-rtg     Include Admin Commands Toolbox for RTG-specific pregeneration (ArchaicFix and configs unchanged)."
     echo "  --java-4g        Use java9args_4G.txt (ZGC optimized) as the default server JVM arguments."
     echo "  -h, --help       Display this help message."
     echo ""
@@ -46,6 +48,10 @@ for arg in "$@"; do
             PREGEN_FAST=true
             PREGEN_MODE=true
             ZIP_NAME="gt6-modernized-server-pregen.zip"
+            ;;
+        --pregen-rtg)
+            PREGEN_RTG=true
+            ZIP_NAME="gt6-modernized-server-pregen-rtg.zip"
             ;;
         --java-4g)
             JAVA_ARGS_FILE="java9args_4G.txt"
@@ -68,7 +74,10 @@ if [ "$PREGEN_MODE" = true ]; then
     echo "### MODE: Pregeneration (ArchaicFix will be excluded) ###"
 fi
 if [ "$PREGEN_FAST" = true ]; then
-    echo "### MODE: Fast Pregeneration enabled ###"
+    echo "### MODE: Fast Pregeneration enabled (Chunk-Pregenerator included) ###"
+fi
+if [ "$PREGEN_RTG" = true ]; then
+    echo "### MODE: RTG Pregeneration (Admin-Commands-Toolbox included) ###"
 fi
 
 echo "### Refreshing packwiz index..."
@@ -108,7 +117,7 @@ EOH
 fi
 
 if [ "$PREGEN_FAST" = true ]; then
-    echo "### Applying fast pregen config (ChunkPregenerator)..."
+    echo "### Applying fast pregen config (Chunk-Pregenerator)..."
     mkdir -p "$DIST_DIR/config/pregen"
     # Create or overwrite base.cfg for pregen speedup (CarbonConfig format)
     cat > "$DIST_DIR/config/pregen/base.cfg" <<EOF2
@@ -123,6 +132,22 @@ if [ "$PREGEN_MODE" = true ]; then
     echo "### Removing ArchaicFix for pregen build..."
     cd "$DIST_DIR"
     "$PACKWIZ_BINARY" remove archaicfix
+    cd "$PROJECT_ROOT"
+fi
+
+# Remove Chunk-Pregenerator if not in pregen mode
+if [ "$PREGEN_MODE" = false ]; then
+    echo "### Removing Chunk-Pregenerator for this build..."
+    cd "$DIST_DIR"
+    "$PACKWIZ_BINARY" remove chunkpregenerator
+    cd "$PROJECT_ROOT"
+fi
+
+# Remove Admin-Commands-Toolbox if not in pregen-rtg mode
+if [ "$PREGEN_RTG" = false ]; then
+    echo "### Removing Admin-Commands-Toolbox for this build..."
+    cd "$DIST_DIR"
+    "$PACKWIZ_BINARY" remove admin-commands-toolbox
     cd "$PROJECT_ROOT"
 fi
 

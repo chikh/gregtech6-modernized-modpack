@@ -17,7 +17,8 @@ Any AI assisting with this project MUST adhere to these principles:
 ## Project Workspace Structure
 - **Documentation Scope**:
     - `meta/AI_CONTEXT.md`: This file (Source of Truth).
-    - `README.md` & `gt6-modpack/README.md`: General overview.
+    - `README.md`: High-level modpack overview and repository guide.
+    - `gt6-modpack/README.md`: In-depth user guide (installation, survival mechanics, and detailed pregeneration commands).
     - `MODPACK_ASSESSMENT.md`: Rationale for mod selection and biome choices.
     - `gt6-modpack/pack.toml`: Main modpack metadata.
 - **`/gt6-modpack/`**: The "Source Code". (Managed by `packwiz`).
@@ -40,9 +41,28 @@ Any AI assisting with this project MUST adhere to these principles:
 - **Update Quest Book**: `bash scripts/update_quests.sh` (Syncs from Bear's Den).
 - **Update Configs**: `bash scripts/update_configs.sh` (Syncs with GT6 defaults).
 - **Building Server**: `bash scripts/build_server.sh`
-    - `--pregen`: Excludes ArchaicFix and optimizes Hodgepodge for initial world pregeneration.
-    - `--pregen-fast`: All `--pregen` optimizations plus high-speed ChunkPregenerator settings. **Warning**: Server will be unplayable during pregen.
+    - `--pregen`: Excludes ArchaicFix and optimizes Hodgepodge for initial world pregeneration (includes Chunk-Pregenerator).
+    - `--pregen-fast`: All `--pregen` optimizations plus high-speed Chunk-Pregenerator settings. **Warning**: Server will be unplayable during pregen.
+    - `--pregen-rtg`: Includes Admin Commands Toolbox (ACT) specifically for RTG dimension pregeneration. **Recommended for Overworld**.
     - `--java-4g`: Optimizes for 4G+ RAM using ZGC flags.
+
+### Pregeneration Guide
+Depending on the world type and dimension, use the appropriate pregenerator:
+
+#### 1. Overworld (RTG) - Recommended
+Use the `--pregen-rtg` build to include **Admin Commands Toolbox (ACT)**. 
+- **Why**: ACT is more compatible with RTG's decoration phase, ensuring trees, ores, and villages spawn correctly in the Overworld.
+- **Commands**: 
+    - `/pregenspawn <radius_in_chunks>` (e.g., `/pregenspawn 200` for ~3200 block radius).
+    - `/pregen <dim> <minX> <maxX> <minZ> <maxZ>` (Uses chunk coordinates).
+
+#### 2. Other Dimensions (Nether, etc.)
+Use the `--pregen` or `--pregen-fast` build to include **Chunk-Pregenerator (Speiger)**.
+- **Why**: Much faster and multi-threaded; ideal for dimensions without complex RTG-style decoration.
+- **Commands**:
+    - `/pregen gen startradius square 0 0 <radius_in_chunks>`
+
+**Important**: Always restart the server after a large pregen session to clear memory leaks common in 1.7.10.
 - **Exporting Client**: `bash scripts/export_client.sh` (Generates CurseForge-compatible ZIP).
 
 ## World Configuration & Climate Control

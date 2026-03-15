@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "a4e0643d94d37d274b4b29b5c3fc5e19ea6e6025020254bcf7c5cced5f0cc3d2"
+hash = "6bc0d81d481bb26162a414f6d64e9c57c1efd4e76981d5004ce91233b2a32218"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -2055,6 +2055,11 @@ hash = "49c1c6604cf208193fbc1b861acaf8049367180ab28e72a47ee7f515dbff702b"
 [[files]]
 file = "java9args_4G.txt"
 hash = "2bfa7120d6b48196b1e9245122c15ca174ff1a78694c488b72b3311c5f15954d"
+
+[[files]]
+file = "mods/admin-commands-toolbox.pw.toml"
+hash = "1c16b4bbe9bb7233c027a1bcc3b905becde30c23060fbda4709d93e6f774ea35"
+metafile = true
 
 [[files]]
 file = "mods/angelica.pw.toml"
