@@ -79,7 +79,6 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **Atum** | BD S3 | Egyptian desert dimension. | Purely exploration/adventure content. |
 | **bdlib (GTNH)** | BD S3 | Library for bdew's mods (Gendustry). | Dependency for Gendustry. |
 | **BearCore** | BD S3 | Custom utility mod for BD S3. | Not needed; replaced by standard modern utilities. |
-| **BetterFps** | Our Pack | Performance improvements. | Standard optimization for all users. |
 | **BetterQuesting (GTNH)** | Both | Progression and quest system. | Essential for player guidance in GT6. |
 | **BetterStorage** | Both | Realistic chests, crates, and backpacks. | Fits the "Gregified Vanilla" pillar perfectly. |
 | **BiblioCraft** | BD S3 | Decorative furniture and organizational blocks. | Excellent for building; fits the industrial/modern aesthetic well. |
@@ -101,7 +100,6 @@ This document compares the mods in the **GT6: Modernized** modpack with those us
 | **EnviroMine** | Our Pack | Environmental realism (temperature, hydration, air quality). | Fits perfectly with the "Gregified Vanilla" pillar's realism focus. |
 | **Et Futurum Requiem** | Our Pack | Backports from modern MC (1.8-1.20). | Essential for modernizing the survival experience. |
 | **FalsePatternLib** | Our Pack | Library for modern 1.7.10 mods. | Required for several performance optimizations. |
-| **FastCraft** | Our Pack | Core performance optimization. | Highly recommended for all 1.7.10 packs. |
 | **Forestry** | BD S3 | Industrial agriculture and bee breeding. | Classic mod, but adds significant bloat if not core to the pack. |
 | **Forge Multipart** | Both | Allows multiple small blocks in one space. | Required for many technical and decorative mods. |
 | **Frain (Better Rain)** | BD S3 | Atmospheric rain improvements. | Excellent for immersion; fits "Gregified Vanilla". |
