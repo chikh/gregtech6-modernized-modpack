@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "6bc0d81d481bb26162a414f6d64e9c57c1efd4e76981d5004ce91233b2a32218"
+hash = "98139f6331efd1b2cebc755ca8b0a09428e1e7fbb1087708c71f96605fc43230"
 
 [[files]]
 file = "config/ActuallyAdditions.cfg"
@@ -2063,7 +2063,7 @@ metafile = true
 
 [[files]]
 file = "mods/angelica.pw.toml"
-hash = "d1e02ec961d4d77fb5ce6459fe771887d8b5a09fcc0d5f7c1f2b10315831ab15"
+hash = "c0628c9e6fc85985ba912cb65cca73f13d0a72d0eea52ef22d609bea6036c2e0"
 metafile = true
 
 [[files]]
@@ -2073,7 +2073,7 @@ metafile = true
 
 [[files]]
 file = "mods/archaicfix.pw.toml"
-hash = "c57697806ba7ff5d4b88011e20cabdbb476a58a1b544cb759032292be4992cba"
+hash = "19d12d89c9df19da9a45988b247cd0ba8a7ade8f4d098feabb3ce8b0a119a3d3"
 metafile = true
 
 [[files]]
@@ -2083,7 +2083,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterquesting-gtnh.pw.toml"
-hash = "746aa75fb2169d3735ecd90d5142a831c2870412e6f0bd0b4c0167df05d7f04d"
+hash = "1bcc1d476ed069c3326adfd83af738cac46cff4be31361487cf1f303bbb44805"
 metafile = true
 
 [[files]]
@@ -2118,7 +2118,7 @@ metafile = true
 
 [[files]]
 file = "mods/codechickencore-unofficial.pw.toml"
-hash = "9fb0370845230010306576f5963d80899c2b46514bcb9b7ec4eed8ecc7924394"
+hash = "8c400824e9a308fe87e5f61445c19b85bd7f8a5fd9bda2dbd2fa7324579e0164"
 metafile = true
 
 [[files]]
@@ -2188,12 +2188,12 @@ metafile = true
 
 [[files]]
 file = "mods/gtnhlib.pw.toml"
-hash = "6e312f1eb5004f0f41b7aa27e802a9e0ec364e26711ffee0505fa2fc6388bb35"
+hash = "29aec41073f969562e63564868d9c679ec7fa7b0d4ce66a02e8c7e139bcb29dc"
 metafile = true
 
 [[files]]
 file = "mods/hodgepodge.pw.toml"
-hash = "2fc6d673c300bdf3483e86c02c655728ca312e8e6452e313b839adaea4309212"
+hash = "444f28578fc26d03368bf4dd2e7a3781c0cfdfa9026359d4016f5ffeb70470f0"
 metafile = true
 
 [[files]]
@@ -2213,7 +2213,7 @@ metafile = true
 
 [[files]]
 file = "mods/lwjgl3ify.pw.toml"
-hash = "64d7b169e27f2c3da333d60a1afc96cae9cc4fc821aca9248016f8c0a6904166"
+hash = "ad52e9b73a53855f8a7ed6f6416436aeb2ee4d7f00055a0bcd80819ccec00d54"
 metafile = true
 
 [[files]]
@@ -2238,7 +2238,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughitems-gtnh.pw.toml"
-hash = "20d331857300ecec97f0ae7d68f8d720ef07fcaa0fb6ca0d5e0038805c02644b"
+hash = "a24f3f0ffb8a6c04cae1c46e83e10b436d18c384fab4ac40a75e394bd2ae5442"
 metafile = true
 
 [[files]]

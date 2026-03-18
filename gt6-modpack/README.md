@@ -19,7 +19,7 @@ To get the best performance and compatibility with modern Java:
 1.  Export the pack using `packwiz curseforge export` (from this directory).
 2.  Import the resulting ZIP into your launcher.
 3.  **LWJGL 3 Patch (Mandatory)**: 
-    - Download [lwjgl3ify-3.0.11-multimc.zip](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.11/lwjgl3ify-3.0.11-multimc.zip).
+    - Download [lwjgl3ify-3.0.15-multimc.zip](https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.15/lwjgl3ify-3.0.15-multimc.zip).
     - Right-click the instance in Prism -> **Folder**.
     - Extract the ZIP into this folder, overwriting `mmc-pack.json`.
 4.  Configure your instance to use **Java 25** and add the recommended JVM flags:

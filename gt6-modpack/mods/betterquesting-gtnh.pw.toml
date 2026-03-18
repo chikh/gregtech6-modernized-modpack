@@ -1,8 +1,8 @@
 name = "BetterQuesting-GTNH"
-filename = "BetterQuesting-3.8.31-GTNH.jar"
+filename = "BetterQuesting-3.8.32-GTNH.jar"
 side = "both"
 
 [download]
-url = "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.31-GTNH/BetterQuesting-3.8.31-GTNH.jar"
+url = "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.32-GTNH/BetterQuesting-3.8.32-GTNH.jar"
 hash-format = "sha256"
-hash = "8e1ae4c08ae93caa317bd1c4f7fe5396f6a76fa53a6ca7115627217e29797e24"
+hash = "380d587459f3c9bff526eff8efcfd1607c9c13ec6ab05b1ab2c2ed6a922d57d7"

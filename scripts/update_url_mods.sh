@@ -2,7 +2,7 @@
 
 # Configuration
 MODS_DIR="gt6-modpack/mods"
-PACKWIZ_BIN="$HOME/.aur/packwiz-git/packwiz"
+PACKWIZ_BIN="packwiz"
 
 echo "Checking for URL-sourced mod updates (GitHub only)..."
 
