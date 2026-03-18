@@ -1,0 +1,8 @@
+name = "findit"
+filename = "findit-1.4.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/FindIt/releases/download/1.4.2/findit-1.4.2.jar"
+hash-format = "sha256"
+hash = "e90deab1de7eb5f34086bdd1830a2e12d0c8d592d83eb8fecc1026b795a6a533"

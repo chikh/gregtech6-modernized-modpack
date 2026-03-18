@@ -2172,6 +2172,11 @@ hash = "422af561be79850d7b301261b133bfc8ddcf7eab4c9d2e3934ded3f6fa72bf58"
 metafile = true
 
 [[files]]
+file = "mods/findit.pw.toml"
+hash = "908981503ca092ac88cbf5c638252d8337b6657048562ee31927c488350d4605"
+metafile = true
+
+[[files]]
 file = "mods/forge-multi-part.pw.toml"
 hash = "e53f624ece82e7f1caf1649d57e16999c7727458cf4482d2ed0433ce1ce30a64"
 metafile = true
