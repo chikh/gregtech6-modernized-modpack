@@ -61,6 +61,10 @@ file = "config/ImmersiveEngineering.cfg"
 hash = "f6cf1744d64406b7eb17ad29f1ece8c4afa73814243c1df5506c50009c5350ad"
 
 [[files]]
+file = "config/InvTweaks.cfg"
+hash = "85358cc5381eac98b496ee926d02b0fd6fd53d8a5d758181f83f948da9a82a55"
+
+[[files]]
 file = "config/Magneticraft.cfg"
 hash = "46d6542a7bf1e9d9bdc4079d9f4ae4391a842cbb49be5e55fd76323d6d1fcea3"
 
