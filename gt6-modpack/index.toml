@@ -2136,6 +2136,11 @@ hash = "3631e5c2a6d8d2444b42ab529527c0abe7d2dc44ed68a955ced6760b76402e2e"
 metafile = true
 
 [[files]]
+file = "mods/coretweaks.pw.toml"
+hash = "51b767a6dec7a6d5395bb9598a5fa94543264e4e73b7b7311b313273593eb281"
+metafile = true
+
+[[files]]
 file = "mods/elsewhere-border.pw.toml"
 hash = "f5ba9c4f026b2b4c83e1412cd2c78777caf421e6d36fe6056742f33fd6cb92cc"
 metafile = true
