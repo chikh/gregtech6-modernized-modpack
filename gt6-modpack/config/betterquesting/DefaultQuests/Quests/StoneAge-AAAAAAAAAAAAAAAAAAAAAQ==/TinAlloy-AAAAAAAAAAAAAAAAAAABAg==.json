@@ -15,10 +15,10 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "Railcraft:part.plate",
         "Count:3": 1,
-        "Damage:2": 2,
-        "OreDict:8": ""
+        "Damage:2": 8667,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.meta.plate"
       },
       "snd_update:8": "minecraft:entity.player.levelup",
       "repeatTime:3": -1,
@@ -42,10 +42,10 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "Railcraft:part.plate",
           "Count:3": 2,
-          "Damage:2": 2,
-          "OreDict:8": ""
+          "Damage:2": 8667,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.plate"
         }
       },
       "taskID:8": "bq_standard:retrieval"
