@@ -2141,6 +2141,11 @@ hash = "51b767a6dec7a6d5395bb9598a5fa94543264e4e73b7b7311b313273593eb281"
 metafile = true
 
 [[files]]
+file = "mods/crafttweaker.pw.toml"
+hash = "4bad6bf24cf82034702cd36b6884bf8da8c279eb4a70d66dc69773bae344a33b"
+metafile = true
+
+[[files]]
 file = "mods/elsewhere-border.pw.toml"
 hash = "f5ba9c4f026b2b4c83e1412cd2c78777caf421e6d36fe6056742f33fd6cb92cc"
 metafile = true
@@ -2299,6 +2304,10 @@ metafile = true
 file = "mods/wawla.pw.toml"
 hash = "cdfe4cc59c877778dd219c364d9d2111b0a141103546a63215a87feae403139e"
 metafile = true
+
+[[files]]
+file = "scripts/enviromine-gt6.zs"
+hash = "0cb40bd8e0ee0cbc0e6af71de51a3a98178acbfd4f03799a0fe0796c8fcbf4f8"
 
 [[files]]
 file = "serverutilities/serverutilities.cfg"
